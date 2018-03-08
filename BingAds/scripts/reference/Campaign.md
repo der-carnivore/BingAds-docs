@@ -14,7 +14,7 @@ Represents a campaign. For more informatin, see [Campaign](/bingads/guides/entit
 [isPaused](#ispaused)|boolean|Returns a boolean value that determines if this campaign is paused.
 [isRemoved](#isremoved)|boolean|Returns a boolean value that determines if this campaign is removed.
 [pause](#pause)|void|Pauses this campaign.<br />
-[remove](#remove)|void|Remove this campaign.<br />
+[remove](#remove)|void|Removes this campaign.
 [setName(String name)](#setname~string-name~)|void|Sets the name of this campaign.<br />
 [urls](#urls)|[CampaignUrls](./CampaignUrls)|Returns the URL fields of this campaign.<br />
 
@@ -111,8 +111,7 @@ Pauses this campaign.
 void|Returns nothing.
 
 ## <a name="remove"></a>remove
-Remove this campaign.
-
+Removes this campaign.
 ### Returns:
 |Type|Description|
 |-|-
