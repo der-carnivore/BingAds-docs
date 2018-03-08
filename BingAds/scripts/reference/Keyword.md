@@ -1,5 +1,6 @@
 # Keyword
-Represents a keyword.
+Represents a keyword. For more information, see [Keyword](/bingads/guides/entity-hierarchy-limits#keyword).
+
 See also:
 
 - [KeywordSelector](./KeywordSelector)
