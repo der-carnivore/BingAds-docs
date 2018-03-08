@@ -3,9 +3,11 @@ Provides methods to iterate through a list of campaigns.
 
 Example usage:
 ```javascript
- while (campaignIterator.hasNext()) {
-   var campaign = campaignIterator.next();
- }
+var campaignSelector = BingAdsApp.campaigns();
+var campaignIterator = campaignSelector.get();
+while (campaignIterator.hasNext()) {
+  var campaign = campaignIterator.next();
+}
 ```
 
 See also:

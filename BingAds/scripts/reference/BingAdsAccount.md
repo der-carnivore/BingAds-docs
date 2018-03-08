@@ -5,7 +5,7 @@ Represents an account in Bing Ads.
 |Method Name|Return Type|Description|
 |-|-|-
 [getCustomerId](#getcustomerid)|String|Returns the customer ID of this account.<br />
-[getEntityType](#getentitytype)|String|Returns the type of this account as a String, which is, Account.
+[getEntityType](#getentitytype)|String|Returns the type of this account.
 [getName](#getname)|String|Returns the name of this account.<br />
 
 ## <a name="getcustomerid"></a>getCustomerId
@@ -17,7 +17,7 @@ Returns the customer ID of this account.
 String|Customer ID of this account.
 
 ## <a name="getentitytype"></a>getEntityType
-Returns the type of this account as a String, which is, Account.
+Returns the type of this account.
 ### Returns:
 |Type|Description|
 |-|-

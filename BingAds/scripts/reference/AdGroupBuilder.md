@@ -3,12 +3,18 @@ Provides methods which can be used to define and build an ad group.
 
 Example usage:
 ```javascript
- var adGroupBuilder = campaign.newAdGroupBuilder();
- var adGroupOperation = adGroupBuilder
-    .withName("ad group name")
-    .withStatus("PAUSED")
-    .build();
- var adGroup = adGroupOperation.getResult();
+var campaignSelector = BingAdsApp.campaigns();
+var campaignIterator = campaignSelector.get();
+while(campaignIterator.hasNext()) {
+    var campaign = campaignIterator.next();
+    var adGroupBuilder = campaign.newAdGroupBuilder();
+    var adGroupOperation = adGroupBuilder
+        .withName("<AD_GROUP_NAME_GOES_HERE>")
+        .withStatus("PAUSED")
+        .build();
+    
+    var adGroup = adGroupOperation.getResult();
+}
 ```
 
 # Methods
