@@ -1,6 +1,6 @@
 # Scripting Concepts
 
-[!INCLUDE[preview-note](./includes/preview-note.md)]
+[!INCLUDE[preview-note](../includes/preview-note.md)]
 
 Learn about common patterns and conventions used by Bing Ads Scripts.
 
