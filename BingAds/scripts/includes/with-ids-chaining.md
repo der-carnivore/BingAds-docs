@@ -6,4 +6,4 @@ BingAdsApp.adGroups()
     .withIds([33333, 44444, 55555])
 ```
 
-The maximum number of IDs that you may specify is 1,000. If you specify more than 1,000 IDs, calling the get method will fail.
+The maximum number of IDs that you may specify is 1,000. 

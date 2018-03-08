@@ -6,7 +6,9 @@
   href: /bingads/scripts/concepts/
   items:
     - name: Authorization
-      href: /bingads/scripts/authorization
+      href: /bingads/scripts/concepts/authorization
+    - name: Preview Mode
+      href: /bingads/scripts/concepts/preview-mode
     - name: Builders
       href: /bingads/scripts/concepts/builders
     - name: Selectors
