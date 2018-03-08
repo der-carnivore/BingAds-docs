@@ -13,6 +13,7 @@ Represents an ad group.  For more information, see [Ad Group](/bingads/guides/en
 [setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.<br />
 [urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns this ad group's urls.
 [newKeywordBuilder](#newkeywordbuilder)|[KeywordBuilder](./KeywordBuilder)|Returns a new keyword builder associated with this ad group that is used to construct a new keyword.<br />
+[newAd](#newad)|[AdBuilderSpace](./AdBuilderSpace)|Returns a new ad builder space associated with this ad group, which can be used to construct the new ad.<br />
 
 ## <a name="enable"></a>enable
 Enables this ad group.
@@ -94,4 +95,12 @@ Returns a new keyword builder associated with this ad group that is used to cons
 |Type|Description|
 |-|-
 [KeywordBuilder](./KeywordBuilder)|New keyword builder associated with this ad group that is used to construct a new keyword.
+
+## <a name="newad"></a>newAd
+Returns a new ad builder space associated with this ad group, which can be used to construct the new ad.
+
+### Returns:
+|Type|Description|
+|-|-
+[AdBuilderSpace](./AdBuilderSpace)|A new ad builder space associated with this ad group.
 
