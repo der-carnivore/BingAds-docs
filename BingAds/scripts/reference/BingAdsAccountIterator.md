@@ -1,5 +1,5 @@
 # BingAdsAccountIterator
-Provides methods to iterate through Bing Ads accounts.
+Provides methods to iterate through a list of accounts.
 
 # Methods
 |Method Name|Return Type|Description|

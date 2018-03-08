@@ -1,5 +1,5 @@
 # CampaignIterator
-Provides methods to iterate through campaigns.
+Provides methods to iterate through a list of campaigns.
 
 Example usage:
 ```javascript

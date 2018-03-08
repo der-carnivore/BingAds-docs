@@ -1,5 +1,5 @@
 # KeywordIterator
-Provides methods to iterate through keywords.
+Provides methods to iterate through a list of keywords.
 
 Example usage:
 ```javascript
