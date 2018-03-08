@@ -1,6 +1,5 @@
 # CampaignSelector
-Provides methods to select campaigns by using filtering and sorting.
-
+Provides methods for selecting campaigns.
 Example usage:
 ```javascript
  var campaignSelector = BingAdsApp

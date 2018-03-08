@@ -1,6 +1,5 @@
 # AdGroupSelector
-Provides methods for selecting ad groups from the account.
-
+Provides methods for selecting ad groups.
 Example usage:
 ```javascript
 var adGroupSelector = BingAdsApp

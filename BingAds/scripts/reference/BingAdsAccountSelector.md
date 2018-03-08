@@ -1,6 +1,5 @@
 # BingAdsAccountSelector
-Provides methods to select Bing Ads accounts by using filtering and sorting.
-
+Provides methods for selecting accounts.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
