@@ -3,6 +3,8 @@ Provides methods to iterate through a list of keywords.
 
 Example usage:
 ```javascript
+ var keywordSelector = BingAdsApp.keywords();
+ var keywordIterator = keywordSelector.get();
  while (keywordIterator.hasNext()) {
    var keyword = keywordIterator.next();
  }
