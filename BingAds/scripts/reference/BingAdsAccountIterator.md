@@ -30,7 +30,7 @@ Advances to the next Bing Ads account in this iterator and returns it.
 ## <a name="totalnumentities"></a>totalNumEntities
 Returns the total number of bing ads accounts indexed by this iterator.
 
-hasNext will start to return false and next will start to throw exceptions when the limit for entity reads has been reached, even if the selector matched more entities.
+
 ### Returns:
 |Type|Description|
 |-|-
