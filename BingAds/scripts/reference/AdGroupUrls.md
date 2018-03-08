@@ -4,12 +4,11 @@ Provides access to the URLs for this ad group. See [URL Tracking with Upgraded U
 Example usage:
 ```javascript
 var adGroupSelector = BingAdsApp.adGroups();
-
  var adGroupIterator = adGroupSelector.get();
  while (adGroupIterator.hasNext()) {
    var adGroup = adGroupIterator.next();
+
    var adGroupUrls = adGroup.urls();
-   adGroupUrls.getCustomParameters();
  }
 ```
 
