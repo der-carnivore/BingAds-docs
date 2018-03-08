@@ -1,11 +1,6 @@
 # ExpandedTextAd
 Represents an expanded text ad in Bing Ads. For more information, see [Ad Extensions](/bingads/guides/entity-hierarchy-limits#adextensions).
 
-Example usage:
-```javascript
- var stats = ad.getStatsFor("THIS_MONTH");
-```
-
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
