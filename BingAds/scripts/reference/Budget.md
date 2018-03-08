@@ -1,10 +1,5 @@
 # Budget
-Represents a budget.
-Example usage:
-```javascript
- var stats = budget.getStatsFor("THIS_MONTH");
-```
-
+Represents a budget. For more information, see [Budget](/bingads/guides/entity-hierarchy-limits#budget).
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
