@@ -3,6 +3,7 @@ Provides methods to define an expanded text ad.
 
 Example usage:
 ```javascript
+ var adGroup = BingAdsApp.adGroups().get().next();
  var adOperation = adGroup.newAd().expandedTextAdBuilder()
     .withHeadlinePart1("First headline of ad")
     .withHeadlinePart2("Second headline of ad")
