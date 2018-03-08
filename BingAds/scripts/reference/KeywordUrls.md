@@ -1,6 +1,5 @@
 # KeywordUrls
-Provides access to the URLs for this keyword.
-
+Provides access to the URLs for this keyword. See [URL Tracking with Upgraded URLs](/bingads/guides/url-tracking-upgraded-urls) for more information.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
