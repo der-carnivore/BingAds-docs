@@ -4,9 +4,9 @@ Represents a campaign. For more informatin, see [Campaign](/bingads/guides/entit
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[addNegativeKeywordList(NegativeKeywordList negativeKeywordList)](#addnegativekeywordlist~negativekeywordlist-negativekeywordlist~)|void|Adds a negative keyword list to the campaign.
+[addNegativeKeywordList(NegativeKeywordList negativeKeywordList)](#addnegativekeywordlist~negativekeywordlist-negativekeywordlist~)|void|Adds a negative keyword list to this campaign.
 [enable](#enable)|void|Enables this campaign.<br />
-[getBiddingStrategyType](#getbiddingstrategytype)|String|Returns the type of the campaign's bidding strategy.<br />
+[getBiddingStrategyType](#getbiddingstrategytype)|String|Returns the type of this campaign's bidding strategy.<br />
 [getBudget](#getbudget)|[Budget](./Budget)|Returns the budget for this campaign.<br />
 [getEntityType](#getentitytype)|String|Returns the entity type of this campaign, which is "Campaign".<br />
 [getId](#getid)|long|Returns the ID of this campaign.<br />
@@ -14,12 +14,12 @@ Represents a campaign. For more informatin, see [Campaign](/bingads/guides/entit
 [isPaused](#ispaused)|boolean|Returns a boolean value that determines if this campaign is paused.
 [isRemoved](#isremoved)|boolean|Returns a boolean value that determines if this campaign is removed.
 [pause](#pause)|void|Pauses this campaign.<br />
-[remove](#remove)|void|Remove the campaign.<br />
+[remove](#remove)|void|Remove this campaign.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this campaign.<br />
 [urls](#urls)|[CampaignUrls](./CampaignUrls)|Returns the URL fields of this campaign.<br />
 
 ## <a name="addnegativekeywordlist~negativekeywordlist-negativekeywordlist~"></a>addNegativeKeywordList(NegativeKeywordList negativeKeywordList)
-Adds a negative keyword list to the campaign.
+Adds a negative keyword list to this campaign.
 
 
 ### Arguments:
@@ -40,7 +40,7 @@ Enables this campaign.
 void|Returns nothing.
 
 ## <a name="getbiddingstrategytype"></a>getBiddingStrategyType
-Returns the type of the campaign's bidding strategy.
+Returns the type of this campaign's bidding strategy.
 
 
 Possible return values are:
@@ -111,7 +111,7 @@ Pauses this campaign.
 void|Returns nothing.
 
 ## <a name="remove"></a>remove
-Remove the campaign.
+Remove this campaign.
 
 ### Returns:
 |Type|Description|
