@@ -1,6 +1,10 @@
 # BingAdsAccountIterator
 Provides methods to iterate through a list of accounts.
 
+See also:
+- [BingAdsAccountSelector.get()](./BingAdsAccountSelector#get)
+- [BingAdsAccount](./BingAdsAccount)
+
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-

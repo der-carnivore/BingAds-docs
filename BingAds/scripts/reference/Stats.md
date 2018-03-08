@@ -3,6 +3,8 @@ Provides statistics related to the different entity types.
 
 Example usage:
 ```javascript
+ 
+ var campaign = BingAdsApp.campaigns().get().next();
  var stats = campaign.getStatsFor("LAST_MONTH");
  var impressions = stats.getImpressions();
  var clicks = stats.getClicks();
