@@ -1,12 +1,12 @@
 - name: Overview
   href: /bingads/scripts/
-- name: Authorization
-  href: /bingads/scripts/authorization
 - name: Get Started
   href: /bingads/scripts/get-started
 - name: Concepts
   href: /bingads/scripts/concepts/
   items:
+    - name: Authorization
+      href: /bingads/scripts/authorization
     - name: Builders
       href: /bingads/scripts/concepts/builders
     - name: Selectors
