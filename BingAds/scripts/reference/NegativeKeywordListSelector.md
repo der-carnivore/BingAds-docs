@@ -1,5 +1,6 @@
 # NegativeKeywordListSelector
 Provides methods for selecting negative keyword lists.
+
 Example usage:
 ```javascript
 while (negativeKeywordListIterator.hasNext()) {
