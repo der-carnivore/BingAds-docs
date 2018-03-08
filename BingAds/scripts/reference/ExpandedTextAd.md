@@ -17,7 +17,7 @@ Represents an expanded text ad in Bing Ads. For more information, see [Ad Extens
 [getId](#getid)|long|Returns the ID of this ad. In order to specify a unique ID for an ad, both its ad group ID and this ID need to be specified. <br />
 [getPath1](#getpath1)|String|Returns the first path that appears with this ad's display URL.<br />
 [getPath2](#getpath2)|String|Returns the second path that appears with this ad's display URL.<br />
-[getStatsFor(Object dateFrom, Object dateTo)](#getstatsfor~object-datefrom_-object-dateto~)|[Stats](./Stats)|Returns a [Stats](./Stats) object for this expanded text ad for the specified date range.
+[getStatsFor(Object dateFrom, Object dateTo)](#getstatsfor~object-datefrom_-object-dateto~)|[Stats](./Stats)|Returns an object which provides statistics for the specified date range.
 [getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides statistics for the specified predefined date range.
 [getType](#gettype)|String|Returns the type of this ad.<br />
 [isEnabled](#isenabled)|boolean|Returns a boolean value that determines if this ad is enabled.
@@ -135,7 +135,7 @@ Returns the second path that appears with this ad's display URL.
 String|Second path that appears with the ad's displayed URL.
 
 ## <a name="getstatsfor~object-datefrom_-object-dateto~"></a>getStatsFor(Object dateFrom, Object dateTo)
-Returns a [Stats](./Stats) object for this expanded text ad for the specified date range.
+Returns an object which provides statistics for the specified date range.
 
 You may specify the date parameters using strings or objects. To use strings, specify the date in the form, YYYYMMDD. If you use objects, create a JSON object with the following fields:  
 
