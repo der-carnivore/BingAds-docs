@@ -165,38 +165,7 @@ Returns the URL fields of this keyword.
 ## <a name="getstatsfor~string-daterange~"></a>getStatsFor(String dateRange)
 Returns an object which provides statistics for the specified predefined date range.
 
-Supported date range values:
-
-
-
-- TODAY
-- YESTERDAY
-
-- LAST_7_DAYS
-
-- THIS_WEEK_SUN_TODAY
-
-- LAST_14_DAYS
-- LAST_30_DAYS
-
-- LAST_WEEK_SUN_SAT
-
-- THIS_MONTH
-- LAST_MONTH
-- ALL_TIME
-
-
-
-Example:
-
-```
-
-keyword.getStatsFor("THIS_MONTH");
-```
-
-
-
-Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
+[!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
 
 ### Arguments:
 |Name|Type|Description|

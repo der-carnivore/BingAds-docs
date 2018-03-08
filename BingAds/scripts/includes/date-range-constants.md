@@ -11,9 +11,4 @@ Supported date range values:
 - LAST_MONTH
 - ALL_TIME
 
-Example:
-```javascript
-selector.forDateRange("LAST_7_DAYS");
-```
-
 If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  Only the last date range specified will be used.
