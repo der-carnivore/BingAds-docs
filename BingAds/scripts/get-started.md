@@ -6,8 +6,8 @@
 > The Scripts API, and documentation are subject to change.
 
 1. Sign in to [Bing Ads](https://secure.bingads.microsoft.com/).
-2. Expand <strong>Bulk Operations</strong> (see the left navigation panel).
-3. Click <strong>Scripts</strong>.
+2. Expand **Bulk Operations** (see the left navigation panel).
+3. Click **Scripts**.
 4. Copy and paste the following code into the code editor.
 ```javascript
 function main() {
@@ -26,4 +26,4 @@ function main() {
 }
 main();
 ```
-5. To execute the script in preview mode, click <strong>Preview</strong>.
+5. To execute the script in preview mode, click **Preview**.
