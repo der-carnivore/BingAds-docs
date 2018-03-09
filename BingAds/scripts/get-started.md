@@ -27,4 +27,4 @@ function main() {
 }
 main();
 ```
-5. To execute the script in preview mode, click [Preview](./concepts/preview-mode).
+5. To execute the script in [preview mode](./concepts/preview-mode), click **Preview**.
