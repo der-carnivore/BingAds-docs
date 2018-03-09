@@ -4,11 +4,15 @@ Provides methods to write text to the logging console.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[log(data)](#log~data~)|void|Write the provided string to the logger's console.<br />
+[log(String data)](#log~string-data~)|void|Write the provided string to the logger's console.<br />
 
-## <a name="log~data~"></a>log(data)
+## <a name="log~string-data~"></a>log(String data)
 Write the provided string to the logger's console.
 
+### Arguments:
+|Name|Type|Description|
+|-|-|-
+data|String|Data to log.
 ### Returns:
 |Type|Description|
 |-|-
