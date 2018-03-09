@@ -8,6 +8,7 @@ This is the root object of the Bing Ads Scripts API. It provides methods to acce
 [keywords](#keywords)|[KeywordSelector](./KeywordSelector)|Returns a selector of all keywords in this account.<br />
 [negativeKeywordList](#negativekeywordlist)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector of all negative keyword lists in this account.
 [newNegativeKeywordListBuilder](#newnegativekeywordlistbuilder)|[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|Returns a new negative keyword list builder for this account. <br />
+[getExecutionInfo](#getexecutioninfo)|[ExecutionInfo](./ExecutionInfo)|Returns information about the environment in which the script is currently executing.<br />
 
 ## <a name="adgroups"></a>adGroups
 Returns a selector of all ad groups in this account.
@@ -55,4 +56,12 @@ The new negative keyword list is created when builder.build() is called.
 |Type|Description|
 |-|-
 [NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|New negative keyword list builder for the current account.
+
+## <a name="getexecutioninfo"></a>getExecutionInfo
+Returns information about the environment in which the script is currently executing.
+
+### Returns:
+|Type|Description|
+|-|-
+[ExecutionInfo](./ExecutionInfo)|Information about the environment in which the script is currently executing.
 

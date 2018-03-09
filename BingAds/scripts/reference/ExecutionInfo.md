@@ -1,6 +1,16 @@
 # ExecutionInfo
 Provides information about the environment in which the current script is executing.
 
+Example usage:
+```javascript
+var executionInfo = BingAdsApp.getExecutionInfo();
+if(executionInfo.isPreview()) {
+    Logger.log("script is running in preview mode.");
+} else {
+    SpreadsheetApp.create("report");
+}
+```
+
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
