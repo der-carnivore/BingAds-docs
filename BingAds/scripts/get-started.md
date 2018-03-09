@@ -8,7 +8,8 @@
 1. Sign in to [Bing Ads](https://secure.bingads.microsoft.com/).
 2. Expand **Bulk Operations** (see the left navigation panel).
 3. Click **Scripts**.
-4. Copy and paste the following code into the code editor.
+4. Click **Create script**.
+5. Copy and paste the following code into the code editor. This script will find 10 keywords with most impressions yesterday, but won't make any changes to your campaigns.
 ```javascript
 function main() {
     var keywords = BingAdsApp.keywords()
@@ -26,4 +27,4 @@ function main() {
 }
 main();
 ```
-5. To execute the script in preview mode, click **Preview**.
+5. To execute the script in preview mode, click [Preview](./concepts/preview-mode).
