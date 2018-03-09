@@ -5,7 +5,7 @@
 >
 > The Scripts API, and documentation are subject to change.
 
-1. Sign in to [Bing Ads](https://secure.bingads.microsoft.com/).
+1. Sign in to [Bing Ads](https://secure.bingads.microsoft.com/) or [Bing Ads Sandbox](https://sandbox.bingads.microsoft.com/).
 2. Expand **Bulk Operations** (see the left navigation panel).
 3. Click **Scripts**.
 4. Click **Create script**.
