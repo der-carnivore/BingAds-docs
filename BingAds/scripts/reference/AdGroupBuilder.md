@@ -37,14 +37,12 @@ Returns an ad group operation which represents the ad group to create.
 [AdGroupOperation](./AdGroupOperation)|Ad group operation which represents the ad group to create.
 
 ## <a name="withbiddingstrategy~string-biddingstrategy~"></a>withBiddingStrategy(String biddingStrategy)
-Sets the ad group's bidding strategy. For more information, see [Bid Strategy Types](/bingads/guides/budget-bid-strategies#bidstrategytypes).
-
-
+Sets the ad group's bidding strategy. 
 
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-biddingStrategy|String|Bidding strategy of the ad group. Possible values are: MANUAL_CPC
+biddingStrategy|String|Bidding strategy of the ad group. For more information, see [Bid Strategy Types](/bingads/guides/budget-bid-strategies#bidstrategytypes).<br />
 ### Returns:
 |Type|Description|
 |-|-
@@ -68,7 +66,8 @@ Sets the custom parameters for the new ad group. [!INCLUDE[custom-parameters](..
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|Custom parameters of the ad group as a map of the following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|Custom parameters of the ad group in the form: <br />
+<code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
