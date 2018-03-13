@@ -1,6 +1,5 @@
 # KeywordIterator
-Provides methods to iterate through a list of keywords.
-
+Provides methods to iterate through a list of keywords. For more information about Iterators, see [Iterators](../concepts/iterators).
 Example usage:
 ```javascript
  var keywordSelector = BingAdsApp.keywords();

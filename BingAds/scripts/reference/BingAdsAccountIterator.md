@@ -1,6 +1,5 @@
 # BingAdsAccountIterator
-Provides methods to iterate through a list of accounts.
-
+Provides methods to iterate through a list of accounts. For more information about Iterators, see [Iterators](../concepts/iterators).
 See also:
 - [BingAdsAccountSelector.get()](./BingAdsAccountSelector#get)
 - [BingAdsAccount](./BingAdsAccount)

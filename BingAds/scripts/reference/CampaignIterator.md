@@ -1,6 +1,5 @@
 # CampaignIterator
-Provides methods to iterate through a list of campaigns.
-
+Provides methods to iterate through a list of campaigns. For more information about Iterators, see [Iterators](../concepts/iterators).
 Example usage:
 ```javascript
 var campaignSelector = BingAdsApp.campaigns();

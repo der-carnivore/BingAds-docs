@@ -1,6 +1,5 @@
 # AdGroupIterator
-Provides methods to iterate through a list of ad groups.
-
+Provides methods to iterate through a list of ad groups. For more information about Iterators, see [Iterators](../concepts/iterators).
 Example usage:
 ```javascript
 var adGroupSelector = BingAdsApp.adGroups();
