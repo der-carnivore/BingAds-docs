@@ -1,5 +1,5 @@
 # BingAdsApp
-This is the root object of the Bing Ads Scripts API. It provides methods to access different entities such as campaigns and keywords for a single Bing Ads account.
+This is the root object of Bing Ads Scripts API. It provides methods to access different entities such as campaigns and keywords for a single Bing Ads account.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
@@ -28,7 +28,7 @@ Returns a selector of all campaigns in this account.
 ### Returns:
 |Type|Description|
 |-|-
-[CampaignSelector](./CampaignSelector)|Selector of all campaigns that share this budget.
+[CampaignSelector](./CampaignSelector)|Selector of all campaigns in this account.
 
 ## <a name="keywords"></a>keywords
 Returns a selector of all keywords in this account.
