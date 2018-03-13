@@ -30,6 +30,8 @@
     - name: Single Account  
       href: ./reference/BingAdsApp
       items:
+        - name: AdBuilderSpace
+          href: ./reference/AdBuilderSpace
         - name: AdGroup
           href: ./reference/AdGroup
         - name: AdGroupBuilder
