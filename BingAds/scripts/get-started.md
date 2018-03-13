@@ -1,9 +1,6 @@
 # Get Started With Bing Ads Scripts
 
-> [!NOTE]
-> This preview release of Bing Ads Scripts is available to select participants only. For information about participating in the preview release program, please contact your account manager.
->
-> The Scripts API, and documentation are subject to change.
+[!INCLUDE[preview-note](./includes/preview-note.md)]
 
 1. Sign in to [Bing Ads](https://secure.bingads.microsoft.com/) or [Bing Ads Sandbox](https://sandbox.bingads.microsoft.com/).
 2. Expand **Bulk Operations** (see the left navigation panel).
