@@ -66,8 +66,7 @@ Sets the custom parameters for the new ad group. [!INCLUDE[custom-parameters](..
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|Custom parameters of the ad group in the form: <br />
-<code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|Custom parameters of the ad group in the form:<br /><br /><code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
