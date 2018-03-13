@@ -56,7 +56,7 @@ Sets the maximum CPC bid to use for this new ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-cpc|double|Max CPC bid of the ad group. If no CPC is specified, the default of 0.30 is used.
+cpc|double|Max CPC bid of the ad group. If no CPC is specified, the default of 0.30 (USD) is used.
 ### Returns:
 |Type|Description|
 |-|-
