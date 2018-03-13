@@ -15,19 +15,17 @@ var adGroupSelector = BingAdsApp.adGroups();
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[clearTrackingTemplate](#cleartrackingtemplate)|void|Clears the tracking template of this ad group.<br />
+[clearTrackingTemplate](#cleartrackingtemplate)|void|Clears the tracking template of this ad group.
 [getCustomParameters](#getcustomparameters)|Object|Returns the custom parameters of this ad group.
-[getTrackingTemplate](#gettrackingtemplate)|String|Returns the tracking template of this ad group.<br />
-[setCustomParameters(Object customParameters)](#setcustomparameters~object-customparameters~)|void|Sets the custom parameters of this ad group.<br />
-[setTrackingTemplate(String trackingTemplate)](#settrackingtemplate~string-trackingtemplate~)|void|Sets the tracking template of this ad group.<br />
+[getTrackingTemplate](#gettrackingtemplate)|String|Returns the tracking template of this ad group.
+[setCustomParameters(Object customParameters)](#setcustomparameters~object-customparameters~)|void|Sets the custom parameters of this ad group.
+[setTrackingTemplate(String trackingTemplate)](#settrackingtemplate~string-trackingtemplate~)|void|Sets the tracking template of this ad group.
 
 ## <a name="cleartrackingtemplate"></a>clearTrackingTemplate
-Clears the tracking template of this ad group.
-
-
-[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
+Clears the tracking template of this ad group. [!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 
 Calling this method removes the tracking template from this ad group. Because tracking templates are inheritable from the parent entity, if the ad group's parent campaign specifies a tracking template, the template also applies to this ad group and its children. If your goal is to not apply the ad group's template to its children (keywords and ads), you must also remove the template from the ad group's parent campaign.
+
 
 ### Returns:
 |Type|Description|
@@ -35,33 +33,28 @@ Calling this method removes the tracking template from this ad group. Because tr
 void|Returns nothing.
 
 ## <a name="getcustomparameters"></a>getCustomParameters
-Returns the custom parameters of this ad group.
+Returns the custom parameters of this ad group. [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 
-[!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 ### Returns:
 |Type|Description|
 |-|-
 Object|Custom parameters of the ad group as a map of the form: `{key1: 'value1', key2: 'value2', key3: 'value3'}`.
 
 ## <a name="gettrackingtemplate"></a>getTrackingTemplate
-Returns the tracking template of this ad group.
+Returns the tracking template of this ad group. [!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 
-
-[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Returns:
 |Type|Description|
 |-|-
 String|Tracking template of the ad group.
 
 ## <a name="setcustomparameters~object-customparameters~"></a>setCustomParameters(Object customParameters)
-Sets the custom parameters of this ad group.
-
-
-[!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
+Sets the custom parameters of this ad group. [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 
 This method replaces any existing custom parameters.
 
 To clear the custom parameters of the ad group pass an empty object, for example `setCustomParameters({})`.  
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -72,10 +65,8 @@ customParameters|Object|Custom parameters of the ad group as a map of the follow
 void|Returns nothing.
 
 ## <a name="settrackingtemplate~string-trackingtemplate~"></a>setTrackingTemplate(String trackingTemplate)
-Sets the tracking template of this ad group.
+Sets the tracking template of this ad group. [!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 
-
-[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-

@@ -13,12 +13,12 @@ Example usage:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[getAverageCpc](#getaveragecpc)|double|Returns the average cost per click of the associated entity.<br />
-[getAveragePosition](#getaverageposition)|double|Returns the average position of the associated entity.<br />
-[getClicks](#getclicks)|long|Returns the number of clicks of the associated entity.<br />
-[getCost](#getcost)|double|Returns the cost (spend) of the associated entity in the currency of the current account.<br />
-[getCtr](#getctr)|double|Returns the calick through rate of the associated entity within the 0..1 range. <br />
-[getImpressions](#getimpressions)|long|Returns the number of impressions of the associated entity.<br />
+[getAverageCpc](#getaveragecpc)|double|Returns the average cost per click of the associated entity.
+[getAveragePosition](#getaverageposition)|double|Returns the average position of the associated entity.
+[getClicks](#getclicks)|long|Returns the number of clicks of the associated entity.
+[getCost](#getcost)|double|Returns the cost (spend) of the associated entity in the currency of the current account.
+[getCtr](#getctr)|double|Returns the calick through rate of the associated entity within the 0..1 range.
+[getImpressions](#getimpressions)|long|Returns the number of impressions of the associated entity.
 
 ## <a name="getaveragecpc"></a>getAverageCpc
 Returns the average cost per click of the associated entity.
@@ -53,7 +53,7 @@ Returns the cost (spend) of the associated entity in the currency of the current
 double|Cost in the default currency of the account.
 
 ## <a name="getctr"></a>getCtr
-Returns the calick through rate of the associated entity within the 0..1 range. 
+Returns the calick through rate of the associated entity within the 0..1 range.
 
 ### Returns:
 |Type|Description|

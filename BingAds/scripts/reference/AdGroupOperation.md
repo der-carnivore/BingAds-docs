@@ -4,8 +4,8 @@ Represents the definition of an ad group constructed via [AdGroupBuilder](./AdGr
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[getErrors](#geterrors)|String[]|Returns an empty array if the ad group was successfully created, otherwise returns the errors encountered during the execution of this operation.<br />
-[getResult](#getresult)|[AdGroup](./AdGroup)|Returns the newly created ad group, otherwise returns null if this operation failed to execute.<br />
+[getErrors](#geterrors)|String[]|Returns an empty array if the ad group was successfully created, otherwise returns the errors encountered during the execution of this operation.
+[getResult](#getresult)|[AdGroup](./AdGroup)|Returns the newly created ad group, otherwise returns null if this operation failed to execute.
 [isSuccessful](#issuccessful)|Boolean|Returns a Boolean value that determines if this operation was successful.
 
 ## <a name="geterrors"></a>getErrors
@@ -26,6 +26,7 @@ Returns the newly created ad group, otherwise returns null if this operation fai
 
 ## <a name="issuccessful"></a>isSuccessful
 Returns a Boolean value that determines if this operation was successful.
+
 ### Returns:
 |Type|Description|
 |-|-

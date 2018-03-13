@@ -3,8 +3,8 @@ Represents the definition of a keyword constructed via [NegativeKeywordListBuild
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[getErrors](#geterrors)|String[]|Returns an empty array if the keyword was successfully created, otherwise returns the errors encountered during the execution of this operation.<br />
-[getResult](#getresult)|[NegativeKeywordList](./NegativeKeywordList)|Returns the newly created NegativeKeywordList, otherwise returns null if the operation failed.<br />
+[getErrors](#geterrors)|String[]|Returns an empty array if the keyword was successfully created, otherwise returns the errors encountered during the execution of this operation.
+[getResult](#getresult)|[NegativeKeywordList](./NegativeKeywordList)|Returns the newly created NegativeKeywordList, otherwise returns null if the operation failed.
 [isSuccessful](#issuccessful)|Boolean|Returns a Boolean value that determines if this operation was successful.
 
 ## <a name="geterrors"></a>getErrors
@@ -25,6 +25,7 @@ Returns the newly created NegativeKeywordList, otherwise returns null if the ope
 
 ## <a name="issuccessful"></a>isSuccessful
 Returns a Boolean value that determines if this operation was successful.
+
 ### Returns:
 |Type|Description|
 |-|-

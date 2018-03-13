@@ -4,7 +4,7 @@ Provides methods to write text to the logging console.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[log(String data)](#log~string-data~)|void|Write the provided string to the logger's console.<br />
+[log(String data)](#log~string-data~)|void|Write the provided string to the logger's console.
 
 ## <a name="log~string-data~"></a>log(String data)
 Write the provided string to the logger's console.

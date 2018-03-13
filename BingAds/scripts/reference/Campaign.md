@@ -5,22 +5,21 @@ Represents a campaign. For more informatin, see [Campaign](/bingads/guides/entit
 |Method Name|Return Type|Description|
 |-|-|-
 [addNegativeKeywordList(NegativeKeywordList negativeKeywordList)](#addnegativekeywordlist~negativekeywordlist-negativekeywordlist~)|void|Adds a negative keyword list to this campaign.
-[enable](#enable)|void|Enables this campaign.<br />
-[getBiddingStrategyType](#getbiddingstrategytype)|String|Returns the type of this campaign's bidding strategy.<br />
-[getBudget](#getbudget)|[Budget](./Budget)|Returns the budget for this campaign.<br />
+[enable](#enable)|void|Enables this campaign.
+[getBiddingStrategyType](#getbiddingstrategytype)|String|Returns the type of this campaign's bidding strategy.
+[getBudget](#getbudget)|[Budget](./Budget)|Returns the budget for this campaign.
 [getEntityType](#getentitytype)|String|Returns the entity type of this campaign.
-[getId](#getid)|long|Returns the ID of this campaign.<br />
-[getName](#getname)|String|Returns the name of this campaign.<br />
+[getId](#getid)|long|Returns the ID of this campaign.
+[getName](#getname)|String|Returns the name of this campaign.
 [isPaused](#ispaused)|Boolean|Returns a Boolean value that determines if this campaign is paused.
 [isRemoved](#isremoved)|Boolean|Returns a Boolean value that determines if this campaign is removed.
-[pause](#pause)|void|Pauses this campaign.<br />
+[pause](#pause)|void|Pauses this campaign.
 [remove](#remove)|void|Removes this campaign.
-[setName(String name)](#setname~string-name~)|void|Sets the name of this campaign.<br />
-[urls](#urls)|[CampaignUrls](./CampaignUrls)|Returns the URL fields of this campaign.<br />
+[setName(String name)](#setname~string-name~)|void|Sets the name of this campaign.
+[urls](#urls)|[CampaignUrls](./CampaignUrls)|Returns the URL fields of this campaign.
 
 ## <a name="addnegativekeywordlist~negativekeywordlist-negativekeywordlist~"></a>addNegativeKeywordList(NegativeKeywordList negativeKeywordList)
-Adds a negative keyword list to this campaign.
-
+Adds a negative keyword list to this campaign. 
 
 ### Arguments:
 |Name|Type|Description|
@@ -40,16 +39,14 @@ Enables this campaign.
 void|Returns nothing.
 
 ## <a name="getbiddingstrategytype"></a>getBiddingStrategyType
-Returns the type of this campaign's bidding strategy.
-
-
-Possible return values are:
+Returns the type of this campaign's bidding strategy. Possible return values are:
 
 - MANUAL_CPC
 - MANUAL_CPM
 - BUDGET_OPTIMIZER
 - CONVERSION_OPTIMIZER
 - PERCENT_CPA
+
 
 ### Returns:
 |Type|Description|
@@ -66,6 +63,7 @@ Returns the budget for this campaign.
 
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this campaign.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -89,6 +87,7 @@ String|Name of this campaign.
 
 ## <a name="ispaused"></a>isPaused
 Returns a Boolean value that determines if this campaign is paused.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -96,6 +95,7 @@ Boolean|Boolean value that determines if this campaign is paused.
 
 ## <a name="isremoved"></a>isRemoved
 Returns a Boolean value that determines if this campaign is removed.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -111,6 +111,7 @@ void|Returns nothing.
 
 ## <a name="remove"></a>remove
 Removes this campaign.
+
 ### Returns:
 |Type|Description|
 |-|-

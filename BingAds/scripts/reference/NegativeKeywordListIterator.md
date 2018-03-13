@@ -16,11 +16,12 @@ See also:
 |Method Name|Return Type|Description|
 |-|-|-
 [hasNext](#hasnext)|Boolean|Returns a Boolean value that determines if this iterator has more elements.
-[next](#next)|[AdGroup](./AdGroup)|Advances to the next ad group in this iterator and returns it.<br />
+[next](#next)|[AdGroup](./AdGroup)|Advances to the next ad group in this iterator and returns it.
 [totalNumEntities](#totalnumentities)|int|Returns the total number of ad groups indexed by this iterator.
 
 ## <a name="hasnext"></a>hasNext
 Returns a Boolean value that determines if this iterator has more elements.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -35,10 +36,9 @@ Advances to the next ad group in this iterator and returns it.
 [AdGroup](./AdGroup)|Next ad group in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the total number of ad groups indexed by this iterator.
-
-
+Returns the total number of ad groups indexed by this iterator. 
 hasNext will start to return false and next will start to throw exceptions when the limit for entity reads has been reached, even if the selector matched more entities.
+
 ### Returns:
 |Type|Description|
 |-|-

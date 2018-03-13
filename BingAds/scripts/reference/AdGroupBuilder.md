@@ -20,13 +20,13 @@ while(campaignIterator.hasNext()) {
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[build](#build)|[AdGroupOperation](./AdGroupOperation)|Returns an ad group operation which represents the ad group to create.<br />
-[withBiddingStrategy(String biddingStrategy)](#withbiddingstrategy~string-biddingstrategy~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the ad group's bidding strategy.<br />
-[withCpc(double cpc)](#withcpc~double-cpc~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the maximum CPC bid to use for this new ad group.<br />
+[build](#build)|[AdGroupOperation](./AdGroupOperation)|Returns an ad group operation which represents the ad group to create.
+[withBiddingStrategy(String biddingStrategy)](#withbiddingstrategy~string-biddingstrategy~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the ad group's bidding strategy.
+[withCpc(double cpc)](#withcpc~double-cpc~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the maximum CPC bid to use for this new ad group.
 [withCustomParameters(Object customParams)](#withcustomparameters~object-customparams~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the custom parameters for the new ad group.
-[withName(String name)](#withname~string-name~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the name of this ad group. <br />
-[withStatus(String status)](#withstatus~string-status~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the status of this ad group.<br />
-[withTrackingTemplate(String trackingTemplate)](#withtrackingtemplate~string-trackingtemplate~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the tracking template of this ad group.<br />
+[withName(String name)](#withname~string-name~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the name of this ad group.
+[withStatus(String status)](#withstatus~string-status~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the status of this ad group.
+[withTrackingTemplate(String trackingTemplate)](#withtrackingtemplate~string-trackingtemplate~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the tracking template of this ad group.
 
 ## <a name="build"></a>build
 Returns an ad group operation which represents the ad group to create.
@@ -37,9 +37,7 @@ Returns an ad group operation which represents the ad group to create.
 [AdGroupOperation](./AdGroupOperation)|Ad group operation which represents the ad group to create.
 
 ## <a name="withbiddingstrategy~string-biddingstrategy~"></a>withBiddingStrategy(String biddingStrategy)
-Sets the ad group's bidding strategy.
-
-
+Sets the ad group's bidding strategy. For more information, see [Bid Strategy Types](/bingads/guides/budget-bid-strategies#bidstrategytypes).
 
 
 
@@ -53,9 +51,7 @@ biddingStrategy|String|Bidding strategy of the ad group. Possible values are: MA
 [AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the bidding strategy applied.
 
 ## <a name="withcpc~double-cpc~"></a>withCpc(double cpc)
-Sets the maximum CPC bid to use for this new ad group.
-
-
+Sets the maximum CPC bid to use for this new ad group. 
 
 ### Arguments:
 |Name|Type|Description|
@@ -67,9 +63,8 @@ cpc|double|Max CPC bid of the ad group. If no CPC is specified, the default of 0
 [AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the specified max CPC.
 
 ## <a name="withcustomparameters~object-customparams~"></a>withCustomParameters(Object customParams)
-Sets the custom parameters for the new ad group.
+Sets the custom parameters for the new ad group. [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 
-[!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -80,7 +75,7 @@ customParameters|Object|Custom parameters of the ad group as a map of the follow
 [AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the customer parameters applied.
 
 ## <a name="withname~string-name~"></a>withName(String name)
-Sets the name of this ad group. 
+Sets the name of this ad group.
 
 ### Arguments:
 |Name|Type|Description|
@@ -92,9 +87,7 @@ name|String|Ad group's name. The string can contain a maximum of 256 characters,
 [AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the name applied.
 
 ## <a name="withstatus~string-status~"></a>withStatus(String status)
-Sets the status of this ad group.
-
-
+Sets the status of this ad group. 
 
 ### Arguments:
 |Name|Type|Description|
@@ -106,10 +99,8 @@ status|String|Ad group's status. If not specified, status defaults to ENABLED.  
 [AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the status applied.
 
 ## <a name="withtrackingtemplate~string-trackingtemplate~"></a>withTrackingTemplate(String trackingTemplate)
-Sets the tracking template of this ad group.
+Sets the tracking template of this ad group. [!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 
-
-[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-

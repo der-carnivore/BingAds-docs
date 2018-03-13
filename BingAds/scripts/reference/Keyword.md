@@ -10,27 +10,25 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[bidding](#bidding)|[KeywordBidding](./KeywordBidding)|Provides methods to access information about the keywords bidding.<br />
-[clearDestinationUrl](#cleardestinationurl)|void|Clears the destination URL of this keyword. <br />
-[enable](#enable)|void|Enables this keyword.<br />
-[getAdGroup](#getadgroup)|[AdGroup](AdGroup)|Returns the parent ad group of this keyword.<br />
-[getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this keyword.<br />
+[bidding](#bidding)|[KeywordBidding](./KeywordBidding)|Provides methods to access information about the keywords bidding.
+[clearDestinationUrl](#cleardestinationurl)|void|Clears the destination URL of this keyword.
+[enable](#enable)|void|Enables this keyword.
+[getAdGroup](#getadgroup)|[AdGroup](AdGroup)|Returns the parent ad group of this keyword.
+[getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this keyword.
 [getEntityType](#getentitytype)|String|Returns the entity type of this keyword.
-[getId](#getid)|long|Returns the ID of this keyword.<br />
-[getMatchType](#getmatchtype)|String|Returns the match type of this keyword.<br />
+[getId](#getid)|long|Returns the ID of this keyword.
+[getMatchType](#getmatchtype)|String|Returns the match type of this keyword.
 [getStats](#getstats)|[Stats](./Stats)|Returns statistics for this keyword.
-[getText](#gettext)|String|Returns the text of this keyword.<br />
+[getText](#gettext)|String|Returns the text of this keyword.
 [isEnabled](#isenabled)|Boolean|Returns a Boolean value that determines if this keyword is enabled.
 [isPaused](#ispaused)|Boolean|Returns a Boolean value that determines if this keyword is paused.
-[pause](#pause)|void|Pauses this keyword.<br />
-[remove](#remove)|void|Removes this keyword.<br />
-[urls](#urls)|[KeywordUrls](./KeywordUrls)|Returns the URL fields of this keyword.<br />
+[pause](#pause)|void|Pauses this keyword.
+[remove](#remove)|void|Removes this keyword.
+[urls](#urls)|[KeywordUrls](./KeywordUrls)|Returns the URL fields of this keyword.
 [getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides statistics for the specified predefined date range.
 
 ## <a name="bidding"></a>bidding
-Provides methods to access information about the keywords bidding.
-
-
+Provides methods to access information about the keywords bidding. 
 
 ### Returns:
 |Type|Description|
@@ -38,7 +36,7 @@ Provides methods to access information about the keywords bidding.
 [KeywordBidding](./KeywordBidding)|Methods to access information about the keywords bidding.
 
 ## <a name="cleardestinationurl"></a>clearDestinationUrl
-Clears the destination URL of this keyword. 
+Clears the destination URL of this keyword.
 
 ### Returns:
 |Type|Description|
@@ -71,6 +69,7 @@ Returns the parent campaign of this keyword.
 
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this keyword.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -85,14 +84,12 @@ Returns the ID of this keyword.
 long|ID of this keyword.
 
 ## <a name="getmatchtype"></a>getMatchType
-Returns the match type of this keyword.
-
-
-Possible return values are:
+Returns the match type of this keyword. Possible return values are:
 
 - BROAD
 - PHRASE
 - EXACT
+
 
 ### Returns:
 |Type|Description|
@@ -100,8 +97,7 @@ Possible return values are:
 String|Match type of this keyword.
 
 ## <a name="getstats"></a>getStats
-Returns statistics for this keyword.
-
+Returns statistics for this keyword. 
 
 ### Returns:
 |Type|Description|
@@ -109,14 +105,12 @@ Returns statistics for this keyword.
 [Stats](./Stats)|Statistics for the keyword.
 
 ## <a name="gettext"></a>getText
-Returns the text of this keyword.
-
-
-The text will be returned in one of the following formats based on the match type:
+Returns the text of this keyword. The text will be returned in one of the following formats based on the match type:
 
 - `books` - broad match
 - `"books"` - phrase match
 - `[hardcover books]` - exact match
+
 
 ### Returns:
 |Type|Description|
@@ -125,6 +119,7 @@ String|Text of this keyword.
 
 ## <a name="isenabled"></a>isEnabled
 Returns a Boolean value that determines if this keyword is enabled.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -132,6 +127,7 @@ Boolean|Boolean value that determines if this keyword is enabled.
 
 ## <a name="ispaused"></a>isPaused
 Returns a Boolean value that determines if this keyword is paused.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -162,9 +158,8 @@ Returns the URL fields of this keyword.
 [KeywordUrls](./KeywordUrls)|URL fields of this keyword.
 
 ## <a name="getstatsfor~string-daterange~"></a>getStatsFor(String dateRange)
-Returns an object which provides statistics for the specified predefined date range.
+Returns an object which provides statistics for the specified predefined date range. [!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
 
-[!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
 
 ### Arguments:
 |Name|Type|Description|

@@ -4,11 +4,11 @@ This class represents a spreadsheet.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[getId](#getid)|String|Returns the unique ID for this spreadsheet.<br />
-[getName](#getname)|String|Returns the name of this spreadsheet.<br />
+[getId](#getid)|String|Returns the unique ID for this spreadsheet.
+[getName](#getname)|String|Returns the name of this spreadsheet.
 [getSheetByName(String name)](#getsheetbyname~string-name~)|[Sheet](./Sheet)|Returns the sheet with the specified name.
-[getSheets](#getsheets)|[Sheet[]](./Sheet)|Returns all the sheets in this spreadsheet.<br />
-[insertSheet](#insertsheet)|[Sheet](./Sheet)|Inserts a new sheet in this spreadsheet using the default name and makes it the active sheet.<br />
+[getSheets](#getsheets)|[Sheet[]](./Sheet)|Returns all the sheets in this spreadsheet.
+[insertSheet](#insertsheet)|[Sheet](./Sheet)|Inserts a new sheet in this spreadsheet using the default name and makes it the active sheet.
 
 ## <a name="getid"></a>getId
 Returns the unique ID for this spreadsheet.
@@ -28,6 +28,7 @@ String|Name of this spreadsheet.
 
 ## <a name="getsheetbyname~string-name~"></a>getSheetByName(String name)
 Returns the sheet with the specified name.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-

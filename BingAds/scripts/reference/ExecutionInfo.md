@@ -18,6 +18,7 @@ if(executionInfo.isPreview()) {
 
 ## <a name="ispreview"></a>isPreview
 Returns a Boolean value that determines if this script is executing in preview mode.
+
 ### Returns:
 |Type|Description|
 |-|-

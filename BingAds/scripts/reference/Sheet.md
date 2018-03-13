@@ -4,24 +4,22 @@ This class represents a worksheet within a spreadsheet.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[deleteColumns(long columnPosition, long numColumns)](#deletecolumns~long-columnposition_-long-numcolumns~)|void|Deletes the specified number of columns starting at the specified column position.<br />
-[deleteRows(long rowPosition, long numRows)](#deleterows~long-rowposition_-long-numrows~)|void|Deletes the specified number of rows in this sheet starting from the provided row index.<br />
-[getColumnWidth(long columnPosition)](#getcolumnwidth~long-columnposition~)|long|Returns the width of the specified column in pixels.<br />
-[getName](#getname)|String|Returns the name of the sheet.<br />
+[deleteColumns(long columnPosition, long numColumns)](#deletecolumns~long-columnposition_-long-numcolumns~)|void|Deletes the specified number of columns starting at the specified column position.
+[deleteRows(long rowPosition, long numRows)](#deleterows~long-rowposition_-long-numrows~)|void|Deletes the specified number of rows in this sheet starting from the provided row index.
+[getColumnWidth(long columnPosition)](#getcolumnwidth~long-columnposition~)|long|Returns the width of the specified column in pixels.
+[getName](#getname)|String|Returns the name of the sheet.
 [getRange(String a1Notation)](#getrange~string-a1notation~)|[Range](./Range)|Returns a range from this sheet specified in A1 or R1C1 notation.
-[getRowHeight(long rowPosition)](#getrowheight~long-rowposition~)|int|Gets the height of the specified row in pixels.<br />
-[insertColumn(long columnIndex)](#insertcolumn~long-columnindex~)|[Sheet](./Sheet)|Insert a column at the specified column index.<br />
+[getRowHeight(long rowPosition)](#getrowheight~long-rowposition~)|int|Gets the height of the specified row in pixels.
+[insertColumn(long columnIndex)](#insertcolumn~long-columnindex~)|[Sheet](./Sheet)|Insert a column at the specified column index.
 [insertColumnsAfter(long columnIndex, long numColumns)](#insertcolumnsafter~long-columnindex_-long-numcolumns~)|[Sheet](./Sheet)|Inserts the specified number of new columns after the specified column index.
-[insertRow(long rowIndex)](#insertrow~long-rowindex~)|long|Insert a row at the specified index.<br />
+[insertRow(long rowIndex)](#insertrow~long-rowindex~)|long|Insert a row at the specified index.
 [insertRowsAfter(long rowIndex, long numRows)](#insertrowsafter~long-rowindex_-long-numrows~)|[Sheet](./Sheet)|Inserts the specified number of new rows after the specified row index.
 [setColumnWidth(long columnPosition, long width)](#setcolumnwidth~long-columnposition_-long-width~)|[Sheet](./Sheet)|Sets the width in pixels of the column at the specified position.
-[setName(String name)](#setname~string-name~)|[Sheet](./Sheet)|Sets the name of this sheet.<br />
+[setName(String name)](#setname~string-name~)|[Sheet](./Sheet)|Sets the name of this sheet.
 [setRowHeight(long rowPosition, long height)](#setrowheight~long-rowposition_-long-height~)|[Sheet](./Sheet)|Sets the height in pixels of the row at the specified position.
 
 ## <a name="deletecolumns~long-columnposition_-long-numcolumns~"></a>deleteColumns(long columnPosition, long numColumns)
-Deletes the specified number of columns starting at the specified column position.
-
-
+Deletes the specified number of columns starting at the specified column position. 
 
 ### Arguments:
 |Name|Type|Description|
@@ -59,9 +57,7 @@ columnPosition|long|Position of the column to examine.
 long|Width of the specified column in pixels.
 
 ## <a name="getname"></a>getName
-Returns the name of the sheet.
-
-
+Returns the name of the sheet. 
 
 ### Returns:
 |Type|Description|
@@ -69,9 +65,7 @@ Returns the name of the sheet.
 String|Name of the sheet.
 
 ## <a name="getrange~string-a1notation~"></a>getRange(String a1Notation)
-Returns a range from this sheet specified in A1 or R1C1 notation.
-
-```javascript
+Returns a range from this sheet specified in A1 or R1C1 notation. ```javascript
  // Get a range A1:D4 on sheet titled "Invoices"
  var ss = SpreadsheetApp.getActiveSpreadsheet();
  var range = ss.getRange("Invoices!A1:D4");
@@ -80,6 +74,7 @@ Returns a range from this sheet specified in A1 or R1C1 notation.
  var sheet = ss.getSheets()[0];
  var cell = sheet.getRange("A1");
 ```
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -90,9 +85,7 @@ a1Notation|[Range](./Range)|Returns the range as specified in A1 notation.<br />
 [Range](./Range)|Specified range.
 
 ## <a name="getrowheight~long-rowposition~"></a>getRowHeight(long rowPosition)
-Gets the height of the specified row in pixels.
-
-
+Gets the height of the specified row in pixels. 
 
 ### Arguments:
 |Name|Type|Description|
@@ -104,9 +97,7 @@ rowPosition|int|Position of the row to examine.
 int|Row height in pixels.
 
 ## <a name="insertcolumn~long-columnindex~"></a>insertColumn(long columnIndex)
-Insert a column at the specified column index.
-
-
+Insert a column at the specified column index. 
 
 ### Arguments:
 |Name|Type|Description|
@@ -119,6 +110,7 @@ columnIndex|long|Position where the new column should be added.
 
 ## <a name="insertcolumnsafter~long-columnindex_-long-numcolumns~"></a>insertColumnsAfter(long columnIndex, long numColumns)
 Inserts the specified number of new columns after the specified column index.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -130,9 +122,7 @@ numColumns|long|Number of columns to add.
 [Sheet](./Sheet)|Sheet, enables method chaining.
 
 ## <a name="insertrow~long-rowindex~"></a>insertRow(long rowIndex)
-Insert a row at the specified index.
-
-
+Insert a row at the specified index. 
 
 ### Arguments:
 |Name|Type|Description|
@@ -145,6 +135,7 @@ long|Sheet, enables method chaining.
 
 ## <a name="insertrowsafter~long-rowindex_-long-numrows~"></a>insertRowsAfter(long rowIndex, long numRows)
 Inserts the specified number of new rows after the specified row index.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -157,6 +148,7 @@ numRows|long|Number of rows to insert.
 
 ## <a name="setcolumnwidth~long-columnposition_-long-width~"></a>setColumnWidth(long columnPosition, long width)
 Sets the width in pixels of the column at the specified position.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -181,6 +173,7 @@ name|String|New name for the sheet.
 
 ## <a name="setrowheight~long-rowposition_-long-height~"></a>setRowHeight(long rowPosition, long height)
 Sets the height in pixels of the row at the specified position.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-

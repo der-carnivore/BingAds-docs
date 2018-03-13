@@ -3,10 +3,10 @@ Represents a budget. For more information, see [Budget](/bingads/guides/entity-h
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[getAmount](#getamount)|double|Returns the amount of this budget, in the currency of the current account.<br />
+[getAmount](#getamount)|double|Returns the amount of this budget, in the currency of the current account.
 [getDeliveryMethod](#getdeliverymethod)|String|Returns the delivery method for this budget.
-[setAmount(double amount)](#setamount~double-amount~)|void|Sets the amount of this budget to the specified value, in the currency of the current account.<br />
-[setDeliveryMethod(String method)](#setdeliverymethod~string-method~)|void|Set the delivery method for this budget.<br />
+[setAmount(double amount)](#setamount~double-amount~)|void|Sets the amount of this budget to the specified value, in the currency of the current account.
+[setDeliveryMethod(String method)](#setdeliverymethod~string-method~)|void|Set the delivery method for this budget.
 
 ## <a name="getamount"></a>getAmount
 Returns the amount of this budget, in the currency of the current account.
@@ -17,12 +17,11 @@ Returns the amount of this budget, in the currency of the current account.
 double|Amount of the budget.
 
 ## <a name="getdeliverymethod"></a>getDeliveryMethod
-Returns the delivery method for this budget. 
-
-Possible return values are:
+Returns the delivery method for this budget.  Possible return values are:
 
 - STANDARD
 - ACCELERATED
+
 
 ### Returns:
 |Type|Description|
@@ -42,9 +41,7 @@ amount|double|Amount of the budget.
 void|Returns nothing.
 
 ## <a name="setdeliverymethod~string-method~"></a>setDeliveryMethod(String method)
-Set the delivery method for this budget.
-
-
+Set the delivery method for this budget. 
 
 ### Arguments:
 |Name|Type|Description|

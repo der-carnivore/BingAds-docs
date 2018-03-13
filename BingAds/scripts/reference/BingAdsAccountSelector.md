@@ -4,8 +4,8 @@ Provides methods for selecting accounts.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[executeInParallel(String functionName, String optionalCallbackFunctionName)](#executeinparallel~string-functionname_-string-optionalcallbackfunctionname~)|void|Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. <br />
-[executeInParallel(String functionName, String optionalCallbackFunctionName, String optionalInput)](#executeinparallel~string-functionname_-string-optionalcallbackfunctionname_-string-optionalinput~)|void|Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. The optional optionalInput argument will be used in the parallel function execution, if specified. <br />
+[executeInParallel(String functionName, String optionalCallbackFunctionName)](#executeinparallel~string-functionname_-string-optionalcallbackfunctionname~)|void|Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName.
+[executeInParallel(String functionName, String optionalCallbackFunctionName, String optionalInput)](#executeinparallel~string-functionname_-string-optionalcallbackfunctionname_-string-optionalinput~)|void|Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. The optional optionalInput argument will be used in the parallel function execution, if specified.
 [get](#get)|[BingAdsAccountIterator](./BingAdsAccountIterator)|Returns an iterator that you use to get the accounts based on the selector's selection criteria.
 [withAccountNumbers(String[] accountNumbers)](#withaccountnumbers~string-accountnumbers~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only bing ads accounts with the specified account numbers.
 [withCondition(String condition)](#withcondition~string-condition~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that limits the accounts it returns to those that match the filter criteria.
@@ -13,7 +13,7 @@ Provides methods for selecting accounts.
 [withLimit(int limit)](#withlimit~int-limit~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that limits the number of accounts it returns to the top n accounts that match the selection criteria.
 
 ## <a name="executeinparallel~string-functionname_-string-optionalcallbackfunctionname~"></a>executeInParallel(String functionName, String optionalCallbackFunctionName)
-Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. 
+Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName.
 
 ### Returns:
 |Type|Description|
@@ -21,7 +21,7 @@ Executes the function indicated by functionName on each BingAdsAccount matched b
 void|Returns nothing.
 
 ## <a name="executeinparallel~string-functionname_-string-optionalcallbackfunctionname_-string-optionalinput~"></a>executeInParallel(String functionName, String optionalCallbackFunctionName, String optionalInput)
-Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. The optional optionalInput argument will be used in the parallel function execution, if specified. 
+Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. The optional optionalInput argument will be used in the parallel function execution, if specified.
 
 ### Returns:
 |Type|Description|
@@ -30,15 +30,14 @@ void|Returns nothing.
 
 ## <a name="get"></a>get
 Returns an iterator that you use to get the accounts based on the selector's selection criteria.
+
 ### Returns:
 |Type|Description|
 |-|-
 [BingAdsAccountIterator](./BingAdsAccountIterator)|Iterator used to traverse Bing Ads accounts selected by this selector.
 
 ## <a name="withaccountnumbers~string-accountnumbers~"></a>withAccountNumbers(String[] accountNumbers)
-Returns a selector that will return only bing ads accounts with the specified account numbers.
-
-
+Returns a selector that will return only bing ads accounts with the specified account numbers. 
 The resulting selector can be further filtered by applying additional conditions to it.  All conditions will be 'AND' concatenated including any other ID based conditions.  For example:
 
 ```javascript
@@ -50,6 +49,7 @@ BingAdsApp.campaigns()
 will only get the campaign with account number 33333 because it would be the only one satisfying both conditions.
 
 The maximum number of account numbers that you may specify is 1,000. If you specify more than 1,000 account numbers, calling the get method will fail.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -60,9 +60,7 @@ accountNumbers|String[]|Array of account numbers.<br />
 [BingAdsAccountSelector](./BingAdsAccountSelector)|Selector restricted to the specified account numbers.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
-Returns a selector that limits the accounts it returns to those that match the filter criteria.
-
-Multiple conditions may be chained together:
+Returns a selector that limits the accounts it returns to those that match the filter criteria. Multiple conditions may be chained together:
 
 ```javascript
 selector = selector
@@ -122,15 +120,14 @@ Name|String|`withCondition("Name = 'Contoso'")`. The name used by the manager to
 &nbsp;|&nbsp;|&nbsp;|
 
 If a stats column is used in the condition, date range must also be specified using forDateRange.
+
 ### Returns:
 |Type|Description|
 |-|-
 [BingAdsAccountSelector](./BingAdsAccountSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that returns only accounts with the specified IDs.
-
-
+Returns a selector that returns only accounts with the specified IDs. 
 The resulting selector can be further filtered by applying additional conditions to it.  All conditions will be 'AND' concatenated including any other ID based conditions.  For example:
 
 ```javascript
@@ -142,6 +139,7 @@ BingAdsApp.campaigns()
 will only get the campaign with ID 33333 because it would be the only one satisfying both conditions.
 
 The maximum number of IDs that you may specify is 1,000. If you specify more than 1,000 IDs, calling the get method will fail.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -153,6 +151,7 @@ ids|long[]|Array of customer IDs.<br />
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that limits the number of accounts it returns to the top n accounts that match the selection criteria.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-

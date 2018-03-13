@@ -3,17 +3,17 @@ Represents an ad group.  For more information, see [Ad Group](/bingads/guides/en
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[enable](#enable)|void|Enables this ad group.<br />
+[enable](#enable)|void|Enables this ad group.
 [getEntityType](#getentitytype)|String|Returns the entity type of this ad group.
-[getId](#getid)|long|Returns the ID of this ad group.<br />
-[getName](#getname)|String|Returns the name of this ad group.<br />
+[getId](#getid)|long|Returns the ID of this ad group.
+[getName](#getname)|String|Returns the name of this ad group.
 [isEnabled](#isenabled)|Boolean|Returns a Boolean value that determines if this ad group is enabled.
 [isPaused](#ispaused)|Boolean|Returns a Boolean value that determines if this ad group is paused.
-[pause](#pause)|void|Pauses this ad group.<br />
-[setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.<br />
+[pause](#pause)|void|Pauses this ad group.
+[setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.
 [urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns this ad group's URLs.
-[newKeywordBuilder](#newkeywordbuilder)|[KeywordBuilder](./KeywordBuilder)|Returns a new keyword builder associated with this ad group that is used to construct a new keyword.<br />
-[newAd](#newad)|[AdBuilderSpace](./AdBuilderSpace)|Returns a new ad builder space associated with this ad group, which is used to construct a new ad.<br />
+[newKeywordBuilder](#newkeywordbuilder)|[KeywordBuilder](./KeywordBuilder)|Returns a new keyword builder associated with this ad group that is used to construct a new keyword.
+[newAd](#newad)|[AdBuilderSpace](./AdBuilderSpace)|Returns a new ad builder space associated with this ad group, which is used to construct a new ad.
 
 ## <a name="enable"></a>enable
 Enables this ad group.
@@ -25,6 +25,7 @@ void|Returns nothing.
 
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this ad group.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -48,6 +49,7 @@ String|Name of the ad group.
 
 ## <a name="isenabled"></a>isEnabled
 Returns a Boolean value that determines if this ad group is enabled.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -55,6 +57,7 @@ Boolean|Boolean value that determines if this ad group is enabled.
 
 ## <a name="ispaused"></a>isPaused
 Returns a Boolean value that determines if this ad group is paused.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -82,6 +85,7 @@ void|Returns nothing.
 
 ## <a name="urls"></a>urls
 Returns this ad group's URLs.
+
 ### Returns:
 |Type|Description|
 |-|-

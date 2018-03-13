@@ -19,9 +19,8 @@ See also:
 [withLimit(int limit)](#withlimit~int-limit~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the number of keywords it returns to the top n keywords that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
-Returns a selector with the specified start and end dates.
+Returns a selector with the specified start and end dates. [!INCLUDE[date-range-objects](../includes/date-range-objects.md)]
 
-[!INCLUDE[date-range-objects](../includes/date-range-objects.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -33,9 +32,8 @@ dateTo|Object|End date of the date range.
 [KeywordSelector](./KeywordSelector)|Selector with date range applied.
 
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
-Returns a selector using the specified predefined date range.
+Returns a selector using the specified predefined date range. [!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
 
-[!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -47,15 +45,14 @@ dateRange|String|Date range to set onto the selector.
 
 ## <a name="get"></a>get
 Returns an iterator that you use to get the keywords based on the selector's selection criteria.
+
 ### Returns:
 |Type|Description|
 |-|-
 [KeywordIterator](./KeywordIterator)|Iterator of the requested keywords.
 
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
-Returns a selector with the specified ordering applied.
-
-Specify the orderBy parameter in the form, "columnName orderDirection" where:
+Returns a selector with the specified ordering applied. Specify the orderBy parameter in the form, "columnName orderDirection" where:
 
 - columnName is a supported column, see [Supported Columns](#supported-keyword-columns).
 - orderDirection is the direction to order the results in. Set to ASC to order the results in ascending order or DESC to order the results in descending order. The default is ASC.
@@ -65,6 +62,7 @@ For example, the following call returns results in ascending order by MaxCpc.
 <code>agSelector = agSelector.orderBy("MaxCpc");</code>
 
 Only one orderBy column is supported.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -75,9 +73,7 @@ orderBy|String|Ordering to apply.
 [KeywordSelector](./KeywordSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
-Returns a selector that limits the keywords it returns to those that match the filter criteria.
-
-Specify the condition parameter in the form, "columnName operator value" where: 
+Returns a selector that limits the keywords it returns to those that match the filter criteria. Specify the condition parameter in the form, "columnName operator value" where: 
 
 - columnName is a supported column, see [Supported Columns](#supported-keyword-columns).  If you set columName to a performance metric column name, you must also specify a date range using [forDateRange(String dateRange)](#fordaterange~string-daterange~) or [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~).
 - operator is one of the supported [operators](#operators).
@@ -114,6 +110,7 @@ FirstPageCpc|double|`withCondition("FirstPageCpc > 6.00"). The value specified i
 TopOfPageCpc|double|`withCondition("TopOfPageCpc > 8.00"). The value specified is in the currency of the current account.`|Est. mainline bid
 &nbsp;|&nbsp;|&nbsp;|&nbsp;
 
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -124,9 +121,8 @@ condition|String|Condition to add to the selector.
 [KeywordSelector](./KeywordSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that returns only keywords with the specified IDs.
+Returns a selector that returns only keywords with the specified IDs. [!INCLUDE[with-ids-chaining](../includes/with-ids-chaining.md)]
 
-[!INCLUDE[with-ids-chaining](../includes/with-ids-chaining.md)]
 
 ### Arguments:
 |Name|Type|Description|
@@ -139,6 +135,7 @@ ids|long[][]|Array of keyword IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that limits the number of keywords it returns to the top n keywords that match the selection criteria.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
