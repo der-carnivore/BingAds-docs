@@ -1,6 +1,5 @@
 # ExpandedTextAdBuilder
-Provides methods to define an expanded text ad.
-
+Provides methods which are used to define and build an expanded text ad. For more information about Builders, see [Builders](../concepts/builders).
 
 Example usage:
 ```javascript

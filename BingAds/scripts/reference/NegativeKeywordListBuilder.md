@@ -1,6 +1,5 @@
 # NegativeKeywordListBuilder
-Provides methods for defining and building a negative keyword list.
-
+Provides methods which are used to define and build a negative keyword list. For more information about Builders, see [Builders](../concepts/builders).
 
 Example usage:
 ```javascript
