@@ -34,7 +34,7 @@ Returns an ad group operation which represents the ad group to create.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupOperation](./AdGroupOperation)|Associated ad group operation.
+[AdGroupOperation](./AdGroupOperation)|Ad group operation which represents the ad group to create.
 
 ## <a name="withbiddingstrategy~string-biddingstrategy~"></a>withBiddingStrategy(String biddingStrategy)
 Sets the ad group's bidding strategy.
