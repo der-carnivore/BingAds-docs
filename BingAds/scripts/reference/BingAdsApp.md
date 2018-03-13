@@ -51,7 +51,7 @@ Returns a selector of all negative keyword lists in this account.
 Returns a new negative keyword list builder for this account. 
 
 
-The new negative keyword list is created when builder.build() is called.
+
 ### Returns:
 |Type|Description|
 |-|-
