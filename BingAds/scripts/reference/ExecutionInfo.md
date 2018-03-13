@@ -1,6 +1,7 @@
 # ExecutionInfo
 Provides information about the environment in which the current script is executing.
 
+
 Example usage:
 ```javascript
 var executionInfo = BingAdsApp.getExecutionInfo();

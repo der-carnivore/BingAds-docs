@@ -1,6 +1,7 @@
 # ExpandedTextAdBuilder
 Provides methods to define an expanded text ad.
 
+
 Example usage:
 ```javascript
  var adGroup = BingAdsApp.adGroups().get().next();

@@ -1,5 +1,5 @@
 # CampaignSelector
-Provides methods for selecting campaigns.
+Provides methods for selecting campaigns. For more information about Selectors, see [Selectors](../concepts/selectors).
 
 Example usage:
 ```javascript

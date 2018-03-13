@@ -1,6 +1,7 @@
 # AdBuilderSpace
 Provides a method to create an ad in an ad group.
 
+
 Example usage:
 ```javascript
  var adOperation = adGroup.newAd().expandedTextAdBuilder()

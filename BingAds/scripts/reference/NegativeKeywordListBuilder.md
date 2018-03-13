@@ -1,6 +1,7 @@
 # NegativeKeywordListBuilder
 Provides methods for defining and building a negative keyword list.
 
+
 Example usage:
 ```javascript
  var negativeKeywordListBuilder = BingAdsApp.newNegativeKeywordListBuilder()

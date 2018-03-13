@@ -1,6 +1,7 @@
 # Stats
 Provides statistics related to the different entity types.
 
+
 Example usage:
 ```javascript
  var campaign = BingAdsApp.campaigns().get().next();

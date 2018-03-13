@@ -1,6 +1,7 @@
 # AdGroupBuilder
 Provides methods which are used to define and build an ad group.
 
+
 Example usage:
 ```javascript
 var campaignSelector = BingAdsApp.campaigns();
