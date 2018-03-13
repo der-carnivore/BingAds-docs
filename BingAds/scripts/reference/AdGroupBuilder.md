@@ -22,7 +22,7 @@ while(campaignIterator.hasNext()) {
 |-|-|-
 [build](#build)|[AdGroupOperation](./AdGroupOperation)|Returns an ad group operation which represents the ad group to create.<br />
 [withBiddingStrategy(String biddingStrategy)](#withbiddingstrategy~string-biddingstrategy~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the ad group's bidding strategy.<br />
-[withCpc(double cpc)](#withcpc~double-cpc~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the maximum CPC bid to be used for this new ad group.<br />
+[withCpc(double cpc)](#withcpc~double-cpc~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the maximum CPC bid to use for this new ad group.<br />
 [withCustomParameters(Object customParams)](#withcustomparameters~object-customparams~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the custom parameters for the new ad group.
 [withName(String name)](#withname~string-name~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the name of this ad group. <br />
 [withStatus(String status)](#withstatus~string-status~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the status of this ad group.<br />
@@ -53,7 +53,7 @@ biddingStrategy|String|Bidding strategy of the ad group. Possible values are: MA
 [AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the bidding strategy applied.
 
 ## <a name="withcpc~double-cpc~"></a>withCpc(double cpc)
-Sets the maximum CPC bid to be used for this new ad group.
+Sets the maximum CPC bid to use for this new ad group.
 
 
 
