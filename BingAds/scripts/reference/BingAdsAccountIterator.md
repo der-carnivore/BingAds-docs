@@ -8,16 +8,16 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[hasNext](#hasnext)|boolean|Returns a boolean value that determines if this iterator has more bing ads account elements.
+[hasNext](#hasnext)|Boolean|Returns a Boolean value that determines if this iterator has more bing ads account elements.
 [next](#next)|[BingAdsAccount](./BingAdsAccount)|Advances to the next Bing Ads account in this iterator and returns it.<br />
 [totalNumEntities](#totalnumentities)|int|Returns the total number of bing ads accounts indexed by this iterator.
 
 ## <a name="hasnext"></a>hasNext
-Returns a boolean value that determines if this iterator has more bing ads account elements.
+Returns a Boolean value that determines if this iterator has more bing ads account elements.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if this iterator has more Bing Ads account elements.
+Boolean|Boolean value that determines if this iterator has more Bing Ads account elements.
 
 ## <a name="next"></a>next
 Advances to the next Bing Ads account in this iterator and returns it.

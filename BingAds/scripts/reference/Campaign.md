@@ -11,8 +11,8 @@ Represents a campaign. For more informatin, see [Campaign](/bingads/guides/entit
 [getEntityType](#getentitytype)|String|Returns the entity type of this campaign, which is "Campaign".<br />
 [getId](#getid)|long|Returns the ID of this campaign.<br />
 [getName](#getname)|String|Returns the name of this campaign.<br />
-[isPaused](#ispaused)|boolean|Returns a boolean value that determines if this campaign is paused.
-[isRemoved](#isremoved)|boolean|Returns a boolean value that determines if this campaign is removed.
+[isPaused](#ispaused)|Boolean|Returns a Boolean value that determines if this campaign is paused.
+[isRemoved](#isremoved)|Boolean|Returns a Boolean value that determines if this campaign is removed.
 [pause](#pause)|void|Pauses this campaign.<br />
 [remove](#remove)|void|Removes this campaign.
 [setName(String name)](#setname~string-name~)|void|Sets the name of this campaign.<br />
@@ -89,18 +89,18 @@ Returns the name of this campaign.
 String|Name of this campaign.
 
 ## <a name="ispaused"></a>isPaused
-Returns a boolean value that determines if this campaign is paused.
+Returns a Boolean value that determines if this campaign is paused.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if this campaign is paused.
+Boolean|Boolean value that determines if this campaign is paused.
 
 ## <a name="isremoved"></a>isRemoved
-Returns a boolean value that determines if this campaign is removed.
+Returns a Boolean value that determines if this campaign is removed.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if this campaign is removed.
+Boolean|Boolean value that determines if this campaign is removed.
 
 ## <a name="pause"></a>pause
 Pauses this campaign.

@@ -14,12 +14,12 @@ if(executionInfo.isPreview()) {
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[isPreview](#ispreview)|boolean|Returns a boolean value that determines if this script is executing in preview mode.
+[isPreview](#ispreview)|Boolean|Returns a Boolean value that determines if this script is executing in preview mode.
 
 ## <a name="ispreview"></a>isPreview
-Returns a boolean value that determines if this script is executing in preview mode.
+Returns a Boolean value that determines if this script is executing in preview mode.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if this script is executing in preview mode.
+Boolean|Boolean value that determines if this script is executing in preview mode.
 
