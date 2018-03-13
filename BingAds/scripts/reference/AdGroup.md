@@ -11,7 +11,7 @@ Represents an ad group.  For more information, see [Ad Group](/bingads/guides/en
 [isPaused](#ispaused)|Boolean|Returns a Boolean value that determines if this ad group is paused.
 [pause](#pause)|void|Pauses this ad group.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.<br />
-[urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns this ad group's urls.
+[urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns this ad group's URLs.
 [newKeywordBuilder](#newkeywordbuilder)|[KeywordBuilder](./KeywordBuilder)|Returns a new keyword builder associated with this ad group that is used to construct a new keyword.<br />
 [newAd](#newad)|[AdBuilderSpace](./AdBuilderSpace)|Returns a new ad builder space associated with this ad group, which can be used to construct the new ad.<br />
 
@@ -82,7 +82,7 @@ name|String|Name for the ad group. Can contain a maximum of 256 characters, and 
 void|Returns nothing.
 
 ## <a name="urls"></a>urls
-Returns this ad group's urls.
+Returns this ad group's URLs.
 ### Returns:
 |Type|Description|
 |-|-
