@@ -4,7 +4,7 @@ Represents an ad group.  For more information, see [Ad Group](/bingads/guides/en
 |Method Name|Return Type|Description|
 |-|-|-
 [enable](#enable)|void|Enables this ad group.<br />
-[getEntityType](#getentitytype)|String|Returns the entity type of this ad group, which is "AdGroup".<br />
+[getEntityType](#getentitytype)|String|Returns the entity type of this ad group.
 [getId](#getid)|long|Returns the ID of this ad group.<br />
 [getName](#getname)|String|Returns the name of this ad group.<br />
 [isEnabled](#isenabled)|Boolean|Returns a Boolean value that determines if this ad group is enabled.
@@ -24,12 +24,11 @@ Enables this ad group.
 void|Returns nothing.
 
 ## <a name="getentitytype"></a>getEntityType
-Returns the entity type of this ad group, which is "AdGroup".
-
+Returns the entity type of this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-String|Type of this entity.
+String|Entity type of this ad group, which is "AdGroup".
 
 ## <a name="getid"></a>getId
 Returns the ID of this ad group.

@@ -11,7 +11,7 @@ Represents an expanded text ad in Bing Ads. For more information, see [Ad Extens
 [getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this ad.<br />
 [getDescription](#getdescription)|String|Returns the description of this ad.<br />
 [getDisapprovalReasons](#getdisapprovalreasons)|String[]|Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array will be empty.<br />
-[getEntityType](#getentitytype)|String|Returns the type of entity of this ad, which is “Ad”.<br />
+[getEntityType](#getentitytype)|String|Returns the entity type of this expanded text ad.
 [getHeadlinePart1](#getheadlinepart1)|String|Returns the first part of the headline (title) of this ad. <br />
 [getHeadlinePart2](#getheadlinepart2)|String|Returns the second part of the headline (title) of this ad. <br />
 [getId](#getid)|long|Returns the ID of this ad. In order to specify a unique ID for an ad, both its ad group ID and this ID need to be specified. <br />
@@ -87,12 +87,11 @@ Returns an array containing the reasons for which this ad was disapproved. If it
 String[]|
 
 ## <a name="getentitytype"></a>getEntityType
-Returns the type of entity of this ad, which is “Ad”.
-
+Returns the entity type of this expanded text ad.
 ### Returns:
 |Type|Description|
 |-|-
-String|Type of this entity: "Ad".
+String|Entity type of this expanded text ad, which is "ExpandedTextAd".
 
 ## <a name="getheadlinepart1"></a>getHeadlinePart1
 Returns the first part of the headline (title) of this ad. 

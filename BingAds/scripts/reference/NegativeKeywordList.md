@@ -5,7 +5,7 @@ Represents a negative keyword list. For more information, see [Negative Keyword]
 |-|-|-
 [addNegativeKeyword(String keywordText)](#addnegativekeyword~string-keywordtext~)|void|Adds a keyword to the negative keyword list.
 [addNegativeKeywords(String keywordText)](#addnegativekeywords~string-keywordtext~)|void|Adds a list of keywords to the negative keyword list.
-[getEntityType](#getentitytype)|String|Returns the entity type of this negative keyword list, which is "NegativeKeywordList".<br />
+[getEntityType](#getentitytype)|String|Returns the entity type of this negative keyword list.
 [getId](#getid)|long|Returns the ID of this negative keyword list.<br />
 [getName](#getname)|String|Returns the name of this negative keyword list.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this negative keyword list.<br />
@@ -48,8 +48,7 @@ keywordTexts|String[]|Array of keyword strings.
 void|Returns nothing.
 
 ## <a name="getentitytype"></a>getEntityType
-Returns the entity type of this negative keyword list, which is "NegativeKeywordList".
-
+Returns the entity type of this negative keyword list.
 
 
 ### Returns:
