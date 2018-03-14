@@ -1,12 +1,12 @@
 
-You may specify the date parameters using strings or objects. To use strings, specify the date in the form, YYYYMMDD. If you use objects, create a JSON object with the following fields:  
+You may specify the date parameters using strings or objects. To use strings, specify the date in the form, YYYYMMDD. If you use objects, create a JSON object with the following fields:<br />
 
-- year
-- month
-- day
+<ul>
+    <li>year</li>
+    <li>month</li>
+    <li>day</li>
+</ul>
+<br />
+For example, `'{ "year": 2016, "month": 5, "day": 13}'`.<br />
 
-For example, `'{ "year": 2016, "month": 5, "day": 13}'`.
-
-The date range is inclusive.
-
-If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  Only the last date range specified is used.
+The date range is inclusive. If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  Only the last date range specified is used if multiple date ranges are specified.
