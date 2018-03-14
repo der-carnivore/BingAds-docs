@@ -1,5 +1,5 @@
 # KeywordBidding
-Provides methods to get information about a keyword&#x27;s bidding fields.
+Provides methods to get information about a keyword's bidding fields.
 
 # Methods
 |Method Name|Return Type|Description|
