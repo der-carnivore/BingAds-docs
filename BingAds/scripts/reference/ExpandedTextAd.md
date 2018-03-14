@@ -14,7 +14,7 @@ Represents an expanded text ad in Bing Ads. For information, see [Ad Extensions]
 [getEntityType](#getentitytype)|String|Returns the entity type.
 [getHeadlinePart1](#getheadlinepart1)|String|Returns the first part of the headline (title) of this ad.
 [getHeadlinePart2](#getheadlinepart2)|String|Returns the second part of the headline (title) of this ad.
-[getId](#getid)|long|Returns the ID of this ad. In order to specify a unique ID for an ad, both its ad group ID and this ID need to be specified.
+[getId](#getid)|long|Returns the ID of this ad.
 [getPath1](#getpath1)|String|Returns the first path that appears with this ad's display URL.
 [getPath2](#getpath2)|String|Returns the second path that appears with this ad's display URL.
 [getStatsFor(Object dateFrom, Object dateTo)](#getstatsfor~object-datefrom_-object-dateto~)|[Stats](./Stats)|Returns an object which provides statistics for the specified date range.
@@ -111,12 +111,12 @@ Returns the second part of the headline (title) of this ad.
 String|Second part of the ad's headline.
 
 ## <a name="getid"></a>getId
-Returns the ID of this ad. In order to specify a unique ID for an ad, both its ad group ID and this ID need to be specified.
+Returns the ID of this ad.
 
 ### Returns:
 |Type|Description|
 |-|-
-long|ID of the ad.
+long|ID of this ad.
 
 ## <a name="getpath1"></a>getPath1
 Returns the first path that appears with this ad's display URL.
