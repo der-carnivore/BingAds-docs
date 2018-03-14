@@ -3,13 +3,13 @@ Represents a budget. For more information, see [Budget](/bingads/guides/entity-h
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[getAmount](#getamount)|double|Returns the amount of this budget, in the currency of the current account.
+[getAmount](#getamount)|double|Returns the budget's amount in the account's currency.
 [getDeliveryMethod](#getdeliverymethod)|String|Returns the delivery method for this budget.
 [setAmount(double amount)](#setamount~double-amount~)|void|Sets the amount of this budget to the specified value, in the currency of the current account.
 [setDeliveryMethod(String method)](#setdeliverymethod~string-method~)|void|Set the delivery method for this budget.
 
 ## <a name="getamount"></a>getAmount
-Returns the amount of this budget, in the currency of the current account.
+Returns the budget's amount in the account's currency.
 
 ### Returns:
 |Type|Description|
