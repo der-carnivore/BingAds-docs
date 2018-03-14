@@ -107,8 +107,8 @@ BounceRate|double|`withCondition("BounceRate < 0.5")`|
 ClickConversionRate|double|`withCondition("ClickConversionRate > 0.1")`|Conv. Rate
 Clicks|long|`withCondition("Clicks >= 21")`|Clicks
 ConvertedClicks|long|`withCondition("ConvertedClicks <= 4")`|Conv.
-Cost|double|`withCondition("Cost > 4.48")`. The value is in the currency of the account.|Spend
-Ctr|double|`withCondition("Ctr > 0.01")`. Ctr is returned in 0..1 range, so 5% Ctr is represented as 0.05.|CTR
+Cost|double|`withCondition("Cost > 4.48")`<br /> The value is in the currency of the account.|Spend
+Ctr|double|`withCondition("Ctr > 0.01")`<br /> Ctr is returned in 0..1 range, so 5% Ctr is represented as 0.05.|CTR
 Impressions|long|`withCondition("Impressions != 0")`|Impr.
 &nbsp;|&nbsp;|&nbsp;|&nbsp;
 <strong>Campaign attributes</strong>|
