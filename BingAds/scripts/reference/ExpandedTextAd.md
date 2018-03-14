@@ -12,8 +12,8 @@ Represents an expanded text ad in Bing Ads. For information, see [Ad Extensions]
 [getDescription](#getdescription)|String|Returns the description of this ad.
 [getDisapprovalReasons](#getdisapprovalreasons)|String[]|Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array is empty.
 [getEntityType](#getentitytype)|String|Returns the entity type.
-[getHeadlinePart1](#getheadlinepart1)|String|Returns the first part of the headline (title) of this ad.
-[getHeadlinePart2](#getheadlinepart2)|String|Returns the second part of the headline (title) of this ad.
+[getHeadlinePart1](#getheadlinepart1)|String|Returns the first part of the ad's headline (title).
+[getHeadlinePart2](#getheadlinepart2)|String|Returns the second part of the ad's headline (title).
 [getId](#getid)|long|Returns the ID of this ad.
 [getPath1](#getpath1)|String|Returns the first path that appears with this ad's display URL.
 [getPath2](#getpath2)|String|Returns the second path that appears with this ad's display URL.
@@ -95,15 +95,15 @@ Returns the entity type.
 String|Type of this entity: "ExpandedTextAd".
 
 ## <a name="getheadlinepart1"></a>getHeadlinePart1
-Returns the first part of the headline (title) of this ad.
+Returns the first part of the ad's headline (title).
 
 ### Returns:
 |Type|Description|
 |-|-
-String|First part of the ad's headline.
+String|First part of the ad's headline (title).
 
 ## <a name="getheadlinepart2"></a>getHeadlinePart2
-Returns the second part of the headline (title) of this ad.
+Returns the second part of the ad's headline (title).
 
 ### Returns:
 |Type|Description|
