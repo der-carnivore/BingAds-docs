@@ -1,5 +1,5 @@
 # NegativeKeywordListSelector
-Provides methods for selecting negative keyword lists. For more information about Selectors, see [Selectors](../concepts/selectors).
+Provides methods for selecting negative keyword lists. For information about Selectors, see [Selectors](../concepts/selectors).
 
 Example usage:
 ```javascript

@@ -1,5 +1,5 @@
 # KeywordSelector
-Provides methods for selecting keywords. For more information about Selectors, see [Selectors](../concepts/selectors).
+Provides methods for selecting keywords. For information about Selectors, see [Selectors](../concepts/selectors).
 See also:
 
 - [KeywordIterator](./KeywordIterator)

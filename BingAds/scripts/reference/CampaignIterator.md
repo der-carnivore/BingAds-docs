@@ -1,5 +1,5 @@
 # CampaignIterator
-Provides methods to iterate through a list of campaigns. For more information about Iterators, see [Iterators](../concepts/iterators).
+Provides methods to iterate through a list of campaigns. For information about Iterators, see [Iterators](../concepts/iterators).
 
 Example usage:
 ```javascript

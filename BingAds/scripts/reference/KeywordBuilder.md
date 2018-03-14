@@ -1,5 +1,5 @@
 # KeywordBuilder
-Provides methods which are used to define and build a keyword. For more information about Builders, see [Builders](../concepts/builders).
+Provides methods which are used to define and build a keyword. For information about Builders, see [Builders](../concepts/builders).
 
 Example usage:
 ```javascript

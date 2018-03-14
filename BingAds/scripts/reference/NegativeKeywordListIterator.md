@@ -1,5 +1,5 @@
 # NegativeKeywordListIterator
-Provides methods to iterate through a list of negative keyword lists. For more information about Iterators, see [Iterators](../concepts/iterators).
+Provides methods to iterate through a list of negative keyword lists. For information about Iterators, see [Iterators](../concepts/iterators).
 
 Example usage:
 ```javascript

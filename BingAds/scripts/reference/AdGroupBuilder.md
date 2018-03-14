@@ -1,5 +1,5 @@
 # AdGroupBuilder
-Provides methods which are used to define and build an ad group. For more information about Builders, see [Builders](../concepts/builders).
+Provides methods which are used to define and build an ad group. For information about Builders, see [Builders](../concepts/builders).
 
 Example usage:
 ```javascript

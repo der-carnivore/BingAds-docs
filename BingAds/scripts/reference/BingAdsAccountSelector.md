@@ -1,5 +1,5 @@
 # BingAdsAccountSelector
-Provides methods for selecting accounts. For more information about Selectors, see [Selectors](../concepts/selectors).
+Provides methods for selecting accounts. For information about Selectors, see [Selectors](../concepts/selectors).
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-

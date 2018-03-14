@@ -1,5 +1,5 @@
 # AdGroupSelector
-Provides methods for selecting ad groups. For more information about Selectors, see [Selectors](../concepts/selectors).
+Provides methods for selecting ad groups. For information about Selectors, see [Selectors](../concepts/selectors).
 
 Example usage:
 ```javascript

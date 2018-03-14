@@ -1,5 +1,5 @@
 # AdGroupIterator
-Provides methods to iterate through a list of ad groups. For more information about Iterators, see [Iterators](../concepts/iterators).
+Provides methods to iterate through a list of ad groups. For information about Iterators, see [Iterators](../concepts/iterators).
 
 Example usage:
 ```javascript
