@@ -5,7 +5,7 @@ Represents a budget. For more information, see [Budget](/bingads/guides/entity-h
 |-|-|-
 [getAmount](#getamount)|double|Returns the budget's amount in the account's currency.
 [getDeliveryMethod](#getdeliverymethod)|String|Returns the delivery method for this budget.
-[setAmount(double amount)](#setamount~double-amount~)|void|Sets the amount of this budget to the specified value, in the currency of the current account.
+[setAmount(double amount)](#setamount~double-amount~)|void|Sets the budget's amount (in the account's currency) to the specified value.
 [setDeliveryMethod(String method)](#setdeliverymethod~string-method~)|void|Set the delivery method for this budget.
 
 ## <a name="getamount"></a>getAmount
@@ -29,7 +29,7 @@ Returns the delivery method for this budget.  Possible return values are:
 String|Delivery method of the budget.
 
 ## <a name="setamount~double-amount~"></a>setAmount(double amount)
-Sets the amount of this budget to the specified value, in the currency of the current account.
+Sets the budget's amount (in the account's currency) to the specified value.
 
 ### Arguments:
 |Name|Type|Description|
