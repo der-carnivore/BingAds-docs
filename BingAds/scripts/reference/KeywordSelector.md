@@ -9,7 +9,7 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified start and end dates.
+[forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the start and end dates applied.
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[KeywordSelector](./KeywordSelector)|Returns a selector using the specified predefined date range.
 [get](#get)|[KeywordIterator](./KeywordIterator)|Returns an iterator that you use to get the keywords based on the selector's selection criteria.
 [orderBy(String orderBy)](#orderby~string-orderby~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified ordering applied.
@@ -18,7 +18,7 @@ See also:
 [withLimit(int limit)](#withlimit~int-limit~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the number of keywords it returns to the top n keywords that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
-Returns a selector with the specified start and end dates. [!INCLUDE[date-range-objects](../includes/date-range-objects.md)]
+Returns a selector with the start and end dates applied. [!INCLUDE[date-range-objects](../includes/date-range-objects.md)]
 
 ### Arguments:
 |Name|Type|Description|
