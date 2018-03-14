@@ -19,7 +19,7 @@ Example usage:
 |Method Name|Return Type|Description|
 |-|-|-
 [build](#build)|[AdOperation](./AdOperation)|Returns an ad operation which represents the ad to create.
-[withCustomParameters(String customParameters)](#withcustomparameters~string-customparameters~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the custom parameters for the new expanded text ad.
+[withCustomParameters(Object customParameters)](#withcustomparameters~object-customparameters~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the ad's custom parameters.
 [withDescription(String description)](#withdescription~string-description~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the description of this new expanded text ad.
 [withFinalUrl(String finalUrl)](#withfinalurl~string-finalurl~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the final URL of this new expanded text to the specified value.
 [withHeadlinePart1(String headlinePart1)](#withheadlinepart1~string-headlinepart1~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the first part of the headline of this new expanded text ad to the specified value.
@@ -37,8 +37,8 @@ Returns an ad operation which represents the ad to create.
 |-|-
 [AdOperation](./AdOperation)|Ad operation which represents the ad to create.
 
-## <a name="withcustomparameters~string-customparameters~"></a>withCustomParameters(String customParameters)
-Sets the custom parameters for the new expanded text ad.  [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
+## <a name="withcustomparameters~object-customparameters~"></a>withCustomParameters(Object customParameters)
+Sets the ad's custom parameters. [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 
 ### Arguments:
 |Name|Type|Description|
@@ -47,7 +47,7 @@ customParameters|Object|Custom parameters of the ad as a map of the<br />       
 ### Returns:
 |Type|Description|
 |-|-
-[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Ad builder with the specified custom parameters.
+[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Expanded text ad builder with the customer parameters applied.
 
 ## <a name="withdescription~string-description~"></a>withDescription(String description)
 Sets the description of this new expanded text ad.

@@ -23,7 +23,7 @@ while(campaignIterator.hasNext()) {
 [build](#build)|[AdGroupOperation](./AdGroupOperation)|Returns an ad group operation which represents the ad group to create.
 [withBiddingStrategy(String biddingStrategy)](#withbiddingstrategy~string-biddingstrategy~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the ad group's bidding strategy.
 [withCpc(double cpc)](#withcpc~double-cpc~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the maximum CPC bid to use for this new ad group.
-[withCustomParameters(Object customParams)](#withcustomparameters~object-customparams~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the custom parameters for the new ad group.
+[withCustomParameters(Object customParameters)](#withcustomparameters~object-customparameters~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the ad group's custom parameters.
 [withName(String name)](#withname~string-name~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the name of this ad group.
 [withStatus(String status)](#withstatus~string-status~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the status of this ad group.
 [withTrackingTemplate(String trackingTemplate)](#withtrackingtemplate~string-trackingtemplate~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the tracking template of this ad group.
@@ -60,8 +60,8 @@ cpc|double|Max CPC bid of the ad group. If no CPC is specified, the default of 0
 |-|-
 [AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the specified max CPC.
 
-## <a name="withcustomparameters~object-customparams~"></a>withCustomParameters(Object customParams)
-Sets the custom parameters for the new ad group. [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
+## <a name="withcustomparameters~object-customparameters~"></a>withCustomParameters(Object customParameters)
+Sets the ad group's custom parameters. [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 
 ### Arguments:
 |Name|Type|Description|
