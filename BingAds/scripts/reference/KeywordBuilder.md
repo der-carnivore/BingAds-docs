@@ -16,7 +16,7 @@ Example usage:
 |-|-|-
 [build](#build)|[KeywordOperation](./KeywordOperation)|Returns a keyword operation which represents the keyword to create.
 [withCpc(double cpc)](#withcpc~double-cpc~)|[KeywordBuilder](./KeywordBuilder)|Returns a keyword builder with the CPC property set to the specified value.
-[withCustomParameters(Object customParameters)](#withcustomparameters~object-customparameters~)|[KeywordBuilder](./KeywordBuilder)|Keyword builder with the customer parameters applied.
+[withCustomParameters(Object customParameters)](#withcustomparameters~object-customparameters~)|[KeywordBuilder](./KeywordBuilder)|Sets the keyword's custom parameters.
 [withFinalUrl(String finalUrl)](#withfinalurl~string-finalurl~)|[KeywordBuilder](./KeywordBuilder)|Returns a keyword builder with the final URL set to the specified value.
 [withMobileFinalUrl(String mobileFinalUrl)](#withmobilefinalurl~string-mobilefinalurl~)|[KeywordBuilder](./KeywordBuilder)|Returns a keyword builder with the mobile final URL set to the specified value.
 [withText(String text)](#withtext~string-text~)|[KeywordBuilder](./KeywordBuilder)|Returns a keyword builder with the text set to the specified value.
@@ -43,7 +43,7 @@ cpc|double|Max CPC bid of the keyword.
 [KeywordBuilder](./KeywordBuilder)|Keyword builder with the specified max CPC.
 
 ## <a name="withcustomparameters~object-customparameters~"></a>withCustomParameters(Object customParameters)
-Keyword builder with the customer parameters applied. [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
+Sets the keyword's custom parameters. [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 
 ### Arguments:
 |Name|Type|Description|
@@ -52,7 +52,7 @@ customParameters|Object|Custom parameters of the keyword as a map of the<br />  
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordBuilder](./KeywordBuilder)|Keyword builder with the specified custom parameters.
+[KeywordBuilder](./KeywordBuilder)|Keyword builder with the custom parameters applied.
 
 ## <a name="withfinalurl~string-finalurl~"></a>withFinalUrl(String finalUrl)
 Returns a keyword builder with the final URL set to the specified value. The final URL represents the actual landing page for your ad. The final URL must be the URL of the page that the user ends up on after clicking on your ad, once all the redirects have taken place.

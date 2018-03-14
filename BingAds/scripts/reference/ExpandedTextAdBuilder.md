@@ -47,7 +47,7 @@ customParameters|Object|Custom parameters of the ad as a map of the<br />       
 ### Returns:
 |Type|Description|
 |-|-
-[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Expanded text ad builder with the customer parameters applied.
+[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Expanded text ad builder with the custom parameters applied.
 
 ## <a name="withdescription~string-description~"></a>withDescription(String description)
 Sets the description of this new expanded text ad.
@@ -62,7 +62,7 @@ description|String|Ad description.
 [ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Ad builder with the specified description.
 
 ## <a name="withfinalurl~string-finalurl~"></a>withFinalUrl(String finalUrl)
-Sets the final URL of this new expanded text to the specified value. The final URL represents the actual landing page for your ad. The final URL must be the URL of the page that the user ends up on after clicking on your ad, once all the redirects have taken place.
+Sets the final URL of this new expanded text to the specified value. The final URL represents the actual landing page for your ad. The final URL must be the URL of the page that the user ends up on after all the redirects have taken place.
 
 Final URLs follow the same override rules as destination URLs. For example, a final URL at the keyword level overrides a final URL at an ad level.
 
@@ -111,7 +111,7 @@ mobileFinalUrl|String|Mobile final URL for the ad.
 ### Returns:
 |Type|Description|
 |-|-
-[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Ad builder with the specified final URL.
+[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Ad builder with the specified mobile final URL.
 
 ## <a name="withpath1~string-path1~"></a>withPath1(String path1)
 Sets the first path of the display URL of this new expanded text ad to the specified value.

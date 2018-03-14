@@ -70,7 +70,7 @@ customParameters|Object|Custom parameters of the ad group in the form:<br /><br 
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the customer parameters applied.
+[AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the custom parameters applied.
 
 ## <a name="withname~string-name~"></a>withName(String name)
 Sets the name of this ad group.
