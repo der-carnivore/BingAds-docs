@@ -1,5 +1,5 @@
 # Campaign
-Represents a campaign. For more informatin, see [Campaign](/bingads/guides/entity-hierarchy-limits#campaign).
+Represents a campaign. For more information, see [Campaign](/bingads/guides/entity-hierarchy-limits#campaign).
 
 # Methods
 |Method Name|Return Type|Description|
