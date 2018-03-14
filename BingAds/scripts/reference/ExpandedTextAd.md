@@ -25,7 +25,7 @@ Represents an expanded text ad in Bing Ads. For information, see [Ad Extensions]
 [isType](#istype)|[AdTypeSpace](./AdTypeSpace)|Returns an object which provides more information about the type of this ad.
 [pause](#pause)|void|Pauses this ad.
 [remove](#remove)|void|Removes this ad.
-[urls](#urls)|[AdUrls](./AdUrls)|Returns an AdUrls object which provides access to the URL fields of this
+[urls](#urls)|[AdUrls](./AdUrls)|Returns the ad's URLs.
 
 ## <a name="astype"></a>asType
 Returns properties specific to the type of this ad.
@@ -213,10 +213,10 @@ Removes this ad.
 void|Returns nothing.
 
 ## <a name="urls"></a>urls
-Returns an AdUrls object which provides access to the URL fields of this
+Returns the ad's URLs.
 
 ### Returns:
 |Type|Description|
 |-|-
-[AdUrls](./AdUrls)|Access to this ad's URL fields.
+[AdUrls](./AdUrls)|Ad's URLs.
 
