@@ -23,8 +23,7 @@ var adGroupSelector = BingAdsApp.adGroups();
 [setTrackingTemplate(String trackingTemplate)](#settrackingtemplate~string-trackingtemplate~)|void|Sets the tracking template of this ad group.
 
 ## <a name="cleartrackingtemplate"></a>clearTrackingTemplate
-Clears the tracking template of this ad group. [!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
-
+Clears the tracking template of this ad group. 
 Calling this method removes the tracking template from this ad group. Because tracking templates are inheritable from the parent entity, if the ad group's parent campaign specifies a tracking template, the template also applies to this ad group and its children. If your goal is to not apply the ad group's template to its children (keywords and ads), you must also remove the template from the ad group's parent campaign.
 
 
