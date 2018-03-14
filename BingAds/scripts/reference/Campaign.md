@@ -6,7 +6,7 @@ Represents a campaign. For more information, see [Campaign](/bingads/guides/enti
 |-|-|-
 [addNegativeKeywordList(NegativeKeywordList negativeKeywordList)](#addnegativekeywordlist~negativekeywordlist-negativekeywordlist~)|void|Adds a negative keyword list to this campaign.
 [enable](#enable)|void|Enables this campaign.
-[getBiddingStrategyType](#getbiddingstrategytype)|String|Returns the type of this campaign's bidding strategy.
+[getBiddingStrategyType](#getbiddingstrategytype)|String|Returns the campaign's bidding strategy.
 [getBudget](#getbudget)|[Budget](./Budget)|Returns the budget for this campaign.
 [getEntityType](#getentitytype)|String|Returns the entity type of this campaign.
 [getId](#getid)|long|Returns the ID of this campaign.
@@ -39,7 +39,7 @@ Enables this campaign.
 void|Returns nothing.
 
 ## <a name="getbiddingstrategytype"></a>getBiddingStrategyType
-Returns the type of this campaign's bidding strategy. Possible return values are:
+Returns the campaign's bidding strategy. Possible return values are:
 
 - MANUAL_CPC
 - MANUAL_CPM
