@@ -15,7 +15,7 @@ See also:
 [enable](#enable)|void|Enables this keyword.
 [getAdGroup](#getadgroup)|[AdGroup](AdGroup)|Returns the parent ad group of this keyword.
 [getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this keyword.
-[getEntityType](#getentitytype)|String|Returns the entity type of this keyword.
+[getEntityType](#getentitytype)|String|Returns the entity type.
 [getId](#getid)|long|Returns the ID of this keyword.
 [getMatchType](#getmatchtype)|String|Returns the match type of this keyword.
 [getStats](#getstats)|[Stats](./Stats)|Returns statistics for this keyword.
@@ -68,7 +68,7 @@ Returns the parent campaign of this keyword.
 [Campaign](./Campaign)|Parent campaign of this keyword.
 
 ## <a name="getentitytype"></a>getEntityType
-Returns the entity type of this keyword.
+Returns the entity type.
 
 ### Returns:
 |Type|Description|

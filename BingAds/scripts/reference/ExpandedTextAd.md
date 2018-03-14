@@ -11,7 +11,7 @@ Represents an expanded text ad in Bing Ads. For more information, see [Ad Extens
 [getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this ad.
 [getDescription](#getdescription)|String|Returns the description of this ad.
 [getDisapprovalReasons](#getdisapprovalreasons)|String[]|Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array will be empty.
-[getEntityType](#getentitytype)|String|Returns the entity type of this expanded text ad.
+[getEntityType](#getentitytype)|String|Returns the entity type.
 [getHeadlinePart1](#getheadlinepart1)|String|Returns the first part of the headline (title) of this ad.
 [getHeadlinePart2](#getheadlinepart2)|String|Returns the second part of the headline (title) of this ad.
 [getId](#getid)|long|Returns the ID of this ad. In order to specify a unique ID for an ad, both its ad group ID and this ID need to be specified.
@@ -87,7 +87,7 @@ Returns an array containing the reasons for which this ad was disapproved. If it
 String[]|
 
 ## <a name="getentitytype"></a>getEntityType
-Returns the entity type of this expanded text ad.
+Returns the entity type.
 
 ### Returns:
 |Type|Description|

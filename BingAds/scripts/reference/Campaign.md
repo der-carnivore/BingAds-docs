@@ -8,7 +8,7 @@ Represents a campaign. For more information, see [Campaign](/bingads/guides/enti
 [enable](#enable)|void|Enables this campaign.
 [getBiddingStrategyType](#getbiddingstrategytype)|String|Returns the campaign's bidding strategy.
 [getBudget](#getbudget)|[Budget](./Budget)|Returns the budget for this campaign.
-[getEntityType](#getentitytype)|String|Returns the entity type of this campaign.
+[getEntityType](#getentitytype)|String|Returns the entity type.
 [getId](#getid)|long|Returns the ID of this campaign.
 [getName](#getname)|String|Returns the name of this campaign.
 [isPaused](#ispaused)|Boolean|Returns a Boolean value that determines if this campaign is paused.
@@ -62,7 +62,7 @@ Returns the budget for this campaign.
 [Budget](./Budget)|Budget for this campaign.
 
 ## <a name="getentitytype"></a>getEntityType
-Returns the entity type of this campaign.
+Returns the entity type.
 
 ### Returns:
 |Type|Description|
