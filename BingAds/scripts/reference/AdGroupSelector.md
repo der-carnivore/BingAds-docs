@@ -98,28 +98,28 @@ Returns a selector that limits the ad groups it returns to those that match the 
 ### Supported Columns
 Supported columns for ad group filtering. 
 
-|Column|Type|Example|Bing Web UI filter|
-|-|-|-|-
+|Column|Type|Example|
+|-|-|-
 <strong>Stats</strong>|
-AverageCpc|double|`withCondition("AverageCpc < 1.45")`|Avg. CPC
-AverageCpm|double|`withCondition("AverageCpm > 0.48")`|Avg. CPM
-AveragePageviews|double|`withCondition("AveragePageviews > 0")`|
-AveragePosition|double|`withCondition("AveragePosition > 7.5")`|Avg. pos.
-BounceRate|double|`withCondition("BounceRate < 0.5")`|
-ClickConversionRate|double|`withCondition("ClickConversionRate > 0.1")`|Conv. Rate
-Clicks|long|`withCondition("Clicks >= 21")`|Clicks
-ConvertedClicks|long|`withCondition("ConvertedClicks <= 4")`|Conv.
-Cost|double|`withCondition("Cost > 4.48")`<br /> The value is in the currency of the account.|Spend
-Ctr|double|`withCondition("Ctr > 0.01")`<br /> Note that the Ctr is in the range 0..1, so a 5% Ctr is represented as 0.05.|CTR
-Impressions|long|`withCondition("Impressions != 0")`|Impr.
-&nbsp;|&nbsp;|&nbsp;|&nbsp;
+AverageCpc|double|`withCondition("AverageCpc < 1.45")`
+AverageCpm|double|`withCondition("AverageCpm > 0.48")`
+AveragePageviews|double|`withCondition("AveragePageviews > 0")`
+AveragePosition|double|`withCondition("AveragePosition > 7.5")`
+BounceRate|double|`withCondition("BounceRate < 0.5")`
+ClickConversionRate|double|`withCondition("ClickConversionRate > 0.1")`
+Clicks|long|`withCondition("Clicks >= 21")`
+ConvertedClicks|long|`withCondition("ConvertedClicks <= 4")`
+Cost|double|`withCondition("Cost > 4.48")`<br /> The value is in the currency of the account.
+Ctr|double|`withCondition("Ctr > 0.01")`<br /> Note that the Ctr is in the range 0..1, so a 5% Ctr is represented as 0.05.
+Impressions|long|`withCondition("Impressions != 0")`
+&nbsp;|&nbsp;|&nbsp;
 <strong>Ad group attributes</strong>|
-Status|Enumeration:<br />&nbsp;`ENABLED`<br />&nbsp;`PAUSED`<br />&nbsp;`REMOVED`|`withCondition("Status = PAUSED")`|
-Name|String|`withCondition("Name CONTAINS_IGNORE_CASE 'shoes'")`|Ad group name
-CampaignName|String|`withCondition("CampaignName CONTAINS_IGNORE_CASE 'promotion'")`|Campaign name
-KeywordMaxCpc|double|`withCondition("KeywordMaxCpc > 10.0")`<br /> The value is in the currency of the account.|
-CampaignStatus|Enumeration:<br />&nbsp;`ENABLED`<br />&nbsp;`PAUSED`<br />&nbsp;`REMOVED`|`withCondition("CampaignStatus = ENABLED")`<br /> Use to return ad groups from only ENABLED campaigns.|
-&nbsp;|&nbsp;|&nbsp;|&nbsp;
+Status|Enumeration:<br />&nbsp;`ENABLED`<br />&nbsp;`PAUSED`<br />&nbsp;`REMOVED`|`withCondition("Status = PAUSED")`
+Name|String|`withCondition("Name CONTAINS_IGNORE_CASE 'shoes'")`
+CampaignName|String|`withCondition("CampaignName CONTAINS_IGNORE_CASE 'promotion'")`
+KeywordMaxCpc|double|`withCondition("KeywordMaxCpc > 10.0")`<br /> The value is in the currency of the account.
+CampaignStatus|Enumeration:<br />&nbsp;`ENABLED`<br />&nbsp;`PAUSED`<br />&nbsp;`REMOVED`|`withCondition("CampaignStatus = ENABLED")`<br /> Use to return ad groups from only ENABLED campaigns.
+&nbsp;|&nbsp;|&nbsp;
 
 ### Arguments:
 |Name|Type|Description|

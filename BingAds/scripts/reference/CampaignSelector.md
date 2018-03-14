@@ -96,29 +96,29 @@ Returns a selector that limits the campaigns it returns to those that match the 
 <a name="supported-campaign-columns"></a>
 Supported columns for campaign filtering. 
 
-|Column|Type|Example|Bing Web UI filter|
-|-|-|-|-
+|Column|Type|Example|
+|-|-|-
 <strong>Stats</strong>|
-AverageCpc|double|`withCondition("AverageCpc < 1.45")`|Avg. CPC
-AverageCpm|double|`withCondition("AverageCpm > 0.48")`|Avg. CPM
-AveragePageviews|double|`withCondition("AveragePageviews > 0")`|
-AveragePosition|double|`withCondition("AveragePosition > 7.5")`|Avg. pos.
-BounceRate|double|`withCondition("BounceRate < 0.5")`|
-ClickConversionRate|double|`withCondition("ClickConversionRate > 0.1")`|Conv. Rate
-Clicks|long|`withCondition("Clicks >= 21")`|Clicks
-ConvertedClicks|long|`withCondition("ConvertedClicks <= 4")`|Conv.
+AverageCpc|double|`withCondition("AverageCpc < 1.45")`
+AverageCpm|double|`withCondition("AverageCpm > 0.48")`
+AveragePageviews|double|`withCondition("AveragePageviews > 0")`
+AveragePosition|double|`withCondition("AveragePosition > 7.5")`
+BounceRate|double|`withCondition("BounceRate < 0.5")`
+ClickConversionRate|double|`withCondition("ClickConversionRate > 0.1")`
+Clicks|long|`withCondition("Clicks >= 21")`
+ConvertedClicks|long|`withCondition("ConvertedClicks <= 4")`
 Cost|double|`withCondition("Cost > 4.48")`<br /> The value is in the currency of the account.|Spend
 Ctr|double|`withCondition("Ctr > 0.01")`<br /> Ctr is returned in 0..1 range, so 5% Ctr is represented as 0.05.|CTR
-Impressions|long|`withCondition("Impressions != 0")`|Impr.
-&nbsp;|&nbsp;|&nbsp;|&nbsp;
+Impressions|long|`withCondition("Impressions != 0")`
+&nbsp;|&nbsp;|&nbsp;
 <strong>Campaign attributes</strong>|
-Status|Enumeration:<br />&nbsp;ENABLED<br />&nbsp;PAUSED<br />&nbsp;REMOVED<br />&nbsp;BUDGET_PAUSED<br />&nbsp;BUDGET_AND_USER_PAUSED|`withCondition("Status = PAUSED")`|Campaign status
-Name|String|`withCondition("Name CONTAINS_IGNORE_CASE 'promotion'")`|Campaign name
-Budget|double|`withCondition("Budget > 10.0")`|Budget
-Type|Enumeration:<br />&nbsp;SEARCH_AND_CONTENT<br />&nbsp;SHOPPING<br />&nbsp;DYNAMIC_SEARCH_ADS|`withCondition("Type = 'SEARCH_AND_CONTENT'")`|Bing-specific filter
-BudgetType|Enumeration:<br />&nbsp;STANDARD<br />&nbsp;ACCELERATED|`withCondition("BudgetType = 'ACCELERATED'")`|Bing-specific filter
-DeliveryStatus|Enumeration:<br />&nbsp;ELIGIBLE<br />&nbsp;LIMITED_BY_BUDGET<br />&nbsp;HOLD<br />&nbsp;CAMPAIGN_OUT_OF_BUDGET<br />&nbsp;CAMPAIGN_SUSPENDED<br />&nbsp;CAMPAIGN_PAUSED|`withCondition("DeliveryStatus NOT IN ['LIMITED_BY_BUDGET', 'HOLD', 'CAMPAIGN_OUT_OF_BUDGET']")`|Bing-specific filter
-&nbsp;|&nbsp;|&nbsp;|&nbsp;
+Status|Enumeration:<br />&nbsp;ENABLED<br />&nbsp;PAUSED<br />&nbsp;REMOVED<br />&nbsp;BUDGET_PAUSED<br />&nbsp;BUDGET_AND_USER_PAUSED|`withCondition("Status = PAUSED")`
+Name|String|`withCondition("Name CONTAINS_IGNORE_CASE 'promotion'")`
+Budget|double|`withCondition("Budget > 10.0")`
+Type|Enumeration:<br />&nbsp;SEARCH_AND_CONTENT<br />&nbsp;SHOPPING<br />&nbsp;DYNAMIC_SEARCH_ADS|`withCondition("Type = 'SEARCH_AND_CONTENT'")`
+BudgetType|Enumeration:<br />&nbsp;STANDARD<br />&nbsp;ACCELERATED|`withCondition("BudgetType = 'ACCELERATED'")`
+DeliveryStatus|Enumeration:<br />&nbsp;ELIGIBLE<br />&nbsp;LIMITED_BY_BUDGET<br />&nbsp;HOLD<br />&nbsp;CAMPAIGN_OUT_OF_BUDGET<br />&nbsp;CAMPAIGN_SUSPENDED<br />&nbsp;CAMPAIGN_PAUSED|`withCondition("DeliveryStatus NOT IN ['LIMITED_BY_BUDGET', 'HOLD', 'CAMPAIGN_OUT_OF_BUDGET']")`
+&nbsp;|&nbsp;|&nbsp;
 
 
 ### Arguments:
