@@ -135,7 +135,7 @@ Returns the second path that appears with this ad's display URL.
 String|Second path that appears with the ad's displayed URL.
 
 ## <a name="getstatsfor~object-datefrom_-object-dateto~"></a>getStatsFor(Object dateFrom, Object dateTo)
-Returns an object which provides statistics for the specified date range. [!INCLUDE[date-range-objects](../includes/data-range-objects.md)]
+Returns an object which provides statistics for the specified date range. [!INCLUDE[date-range-objects](../includes/date-range-objects.md)]
 
 ### Arguments:
 |Name|Type|Description|
