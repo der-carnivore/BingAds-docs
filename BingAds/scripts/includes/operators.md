@@ -1,5 +1,5 @@
 ### Operators
-The operator that can be used in a condition depends on the type of column. 
+The operator that is used in a condition depends on the type of column. 
 For Integer and Long columns: 
 
 ```
