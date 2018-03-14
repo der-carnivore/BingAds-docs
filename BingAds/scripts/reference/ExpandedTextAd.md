@@ -92,7 +92,7 @@ Returns the entity type.
 ### Returns:
 |Type|Description|
 |-|-
-String|Entity type of this expanded text ad, which is "ExpandedTextAd".
+String|Type of this entity: "ExpandedTextAd".
 
 ## <a name="getheadlinepart1"></a>getHeadlinePart1
 Returns the first part of the headline (title) of this ad.

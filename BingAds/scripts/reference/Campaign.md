@@ -67,7 +67,7 @@ Returns the entity type.
 ### Returns:
 |Type|Description|
 |-|-
-String|Entity type of this campaign, which is "Campaign".
+String|Type of this entity: "Campaign".
 
 ## <a name="getid"></a>getId
 Returns the ID of this campaign.

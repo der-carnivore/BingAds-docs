@@ -29,7 +29,7 @@ Returns the entity type.
 ### Returns:
 |Type|Description|
 |-|-
-String|Entity type of this ad group, which is "AdGroup".
+String|Type of this entity: "AdGroup".
 
 ## <a name="getid"></a>getId
 Returns the ID of this ad group.

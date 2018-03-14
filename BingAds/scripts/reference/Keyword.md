@@ -73,7 +73,7 @@ Returns the entity type.
 ### Returns:
 |Type|Description|
 |-|-
-String|Entity type of this keyword, which is "Keyword".
+String|Type of this entity: "Keyword".
 
 ## <a name="getid"></a>getId
 Returns the ID of this keyword.

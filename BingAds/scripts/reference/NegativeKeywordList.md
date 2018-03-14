@@ -51,7 +51,7 @@ Returns the entity type.
 ### Returns:
 |Type|Description|
 |-|-
-String|Entity type of this negative keyword list, which is "NegativeKeywordList".
+String|Type of this entity: "NegativeKeywordList".
 
 ## <a name="getid"></a>getId
 Returns the ID of this negative keyword list.

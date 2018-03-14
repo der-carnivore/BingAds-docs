@@ -22,7 +22,7 @@ Returns the entity type.
 ### Returns:
 |Type|Description|
 |-|-
-String|Entity type of this bing ads account, which is "BingAdsAccount".
+String|Type of this entity: "BingAdsAccount".
 
 ## <a name="getname"></a>getName
 Returns the name of this account.
