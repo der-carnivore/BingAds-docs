@@ -16,16 +16,16 @@ It is only necessary to call [NegativeKeywordListOperation.getResult](./Negative
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[build](#build)|[NegativeKeywordListOperation](./NegativeKeywordListOperation)|Returns an operation object with the defined properties which can later be used to construct the keyword.
+[build](#build)|[NegativeKeywordListOperation](./NegativeKeywordListOperation)|Returns a negative keyword list operation which represents the negative keyword list to create.
 [withName(String name)](#withname~string-name~)|[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|Returns a negative keyword list builder with the name set to the specified value.
 
 ## <a name="build"></a>build
-Returns an operation object with the defined properties which can later be used to construct the keyword.
+Returns a negative keyword list operation which represents the negative keyword list to create.
 
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListOperation](./NegativeKeywordListOperation)|Operation object with the defined properties which can later be used to construct the keyword.
+[NegativeKeywordListOperation](./NegativeKeywordListOperation)|Negative keyword list operation which represents the negative keyword list to create.
 
 ## <a name="withname~string-name~"></a>withName(String name)
 Returns a negative keyword list builder with the name set to the specified value.

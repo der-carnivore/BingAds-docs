@@ -14,7 +14,7 @@ Example usage:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[build](#build)|[KeywordOperation](./KeywordOperation)|Returns a keyword operation with the defined properties which can later be used to construct the keyword.
+[build](#build)|[KeywordOperation](./KeywordOperation)|Returns a keyword operation which represents the keyword to create.
 [withCpc(double cpc)](#withcpc~double-cpc~)|[KeywordBuilder](./KeywordBuilder)|Returns a keyword builder with the CPC property set to the specified value.
 [withCustomParameters( String customParameters)](#withcustomparameters~-string-customparameters~)|[KeywordBuilder](./KeywordBuilder)|Returns a keyword builder with the custom parameters set to the specified value.
 [withFinalUrl(String finalUrl)](#withfinalurl~string-finalurl~)|[KeywordBuilder](./KeywordBuilder)|Returns a keyword builder with the final URL set to the specified value.
@@ -23,12 +23,12 @@ Example usage:
 [withTrackingTemplate( String trackingTemplate)](#withtrackingtemplate~-string-trackingtemplate~)|[KeywordBuilder](./KeywordBuilder)|Returns a keyword builder with the tracking template set to the specified value.
 
 ## <a name="build"></a>build
-Returns a keyword operation with the defined properties which can later be used to construct the keyword.
+Returns a keyword operation which represents the keyword to create.
 
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordOperation](./KeywordOperation)|Associated keyword operation.
+[KeywordOperation](./KeywordOperation)|Keyword operation which represents the keyword to create.
 
 ## <a name="withcpc~double-cpc~"></a>withCpc(double cpc)
 Returns a keyword builder with the CPC property set to the specified value.

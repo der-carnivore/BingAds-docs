@@ -18,7 +18,7 @@ Example usage:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[build](#build)|[AdOperation](./AdOperation)|Creates and returns an ad operation that can later be used to construct the new expanded text ad in the system.
+[build](#build)|[AdOperation](./AdOperation)|Returns an expanded text ad operation which represents the expanded text ad to create.
 [withCustomParameters(String customParameters)](#withcustomparameters~string-customparameters~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the custom parameters for the new expanded text ad.
 [withDescription(String description)](#withdescription~string-description~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the description of this new expanded text ad.
 [withFinalUrl(String finalUrl)](#withfinalurl~string-finalurl~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the final URL of this new expanded text to the specified value.
@@ -30,12 +30,12 @@ Example usage:
 [withTrackingTemplate(String trackingTemplate)](#withtrackingtemplate~string-trackingtemplate~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the tracking template of this new expanded text ad to the specified value.
 
 ## <a name="build"></a>build
-Creates and returns an ad operation that can later be used to construct the new expanded text ad in the system.
+Returns an expanded text ad operation which represents the expanded text ad to create.
 
 ### Returns:
 |Type|Description|
 |-|-
-[AdOperation](./AdOperation)|Associated ad operation.
+[AdOperation](./AdOperation)|Expanded text ad operation which represents the expanded text ad to create.
 
 ## <a name="withcustomparameters~string-customparameters~"></a>withCustomParameters(String customParameters)
 Sets the custom parameters for the new expanded text ad.  [!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
