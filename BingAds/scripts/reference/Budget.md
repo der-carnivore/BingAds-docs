@@ -41,7 +41,11 @@ amount|double|Amount of the budget.
 void|Returns nothing.
 
 ## <a name="setdeliverymethod~string-method~"></a>setDeliveryMethod(String method)
-Set the delivery method for this budget. 
+Set the delivery method for this budget. Supported values are:
+
+- STANDARD
+- ACCELERATED
+
 
 ### Arguments:
 |Name|Type|Description|
