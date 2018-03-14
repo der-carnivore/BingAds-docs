@@ -33,7 +33,7 @@ Returns properties specific to the type of this ad.
 ### Returns:
 |Type|Description|
 |-|-
-[AdViewSpace](./AdViewSpace)|Starting point for viewing type-specific ad information.
+[AdViewSpace](./AdViewSpace)|Properties specific to the type of this ad.
 
 ## <a name="enable"></a>enable
 Enables the ad.
