@@ -53,7 +53,7 @@ Sets the custom parameters of this ad group. [!INCLUDE[custom-parameters](../inc
 
 This method replaces any existing custom parameters.
 
-To clear the custom parameters of the ad group pass an empty object, for example `setCustomParameters({})`.  
+To clear the custom parameters of the ad group pass an empty object (for example, `setCustomParameters({})`).
 
 ### Arguments:
 |Name|Type|Description|
