@@ -1,5 +1,5 @@
 # ExpandedTextAd
-Represents an expanded text ad in Bing Ads. For more information, see [Ad Extensions](/bingads/guides/entity-hierarchy-limits#adextensions).
+Represents an expanded text ad in Bing Ads. For information, see [Ad Extensions](/bingads/guides/entity-hierarchy-limits#adextensions).
 
 # Methods
 |Method Name|Return Type|Description|
@@ -7,7 +7,7 @@ Represents an expanded text ad in Bing Ads. For more information, see [Ad Extens
 [asType](#astype)|[AdViewSpace](./AdViewSpace)|Returns properties specific to the type of this ad.
 [enable](#enable)|void|Enables the ad.
 [getAdGroup](#getadgroup)|[AdGroup](./AdGroup)|Returns the parent ad group of this ad.
-[getApprovalStatus](#getapprovalstatus)|String|Returns the approval status of the ExpandedTextAD.
+[getApprovalStatus](#getapprovalstatus)|String|Returns the approval status of this ad.
 [getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this ad.
 [getDescription](#getdescription)|String|Returns the description of this ad.
 [getDisapprovalReasons](#getdisapprovalreasons)|String[]|Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array will be empty.
@@ -52,7 +52,7 @@ Returns the parent ad group of this ad.
 [AdGroup](./AdGroup)|Ad group to which this ad belongs.
 
 ## <a name="getapprovalstatus"></a>getApprovalStatus
-Returns the approval status of the ExpandedTextAD. Possible values:
+Returns the approval status of this ad. Possible values:
 
 - APPROVED
 - DISAPPROVED
@@ -60,7 +60,7 @@ Returns the approval status of the ExpandedTextAD. Possible values:
 ### Returns:
 |Type|Description|
 |-|-
-String|
+String|Approval status of this ad.
 
 ## <a name="getcampaign"></a>getCampaign
 Returns the parent campaign of this ad.
