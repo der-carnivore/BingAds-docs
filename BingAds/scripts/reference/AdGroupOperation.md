@@ -4,17 +4,17 @@ Represents the definition of an ad group constructed via [AdGroupBuilder](./AdGr
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[getErrors](#geterrors)|String[]|Returns an empty array if the ad group was successfully created, otherwise returns the errors encountered during the execution of this operation.
+[getErrors](#geterrors)|String[]|Returns an empty array if the ad group is successfully created; otherwise, it contains the list of errors.
 [getResult](#getresult)|[AdGroup](./AdGroup)|Returns the newly created ad group, otherwise returns null if this operation failed to execute.
 [isSuccessful](#issuccessful)|Boolean|Returns a Boolean value that determines if this operation was successful.
 
 ## <a name="geterrors"></a>getErrors
-Returns an empty array if the ad group was successfully created, otherwise returns the errors encountered during the execution of this operation.
+Returns an empty array if the ad group is successfully created; otherwise, it contains the list of errors.
 
 ### Returns:
 |Type|Description|
 |-|-
-String[]|Errors that occurred during the AdGroupOperation.
+String[]|Errors that occurred while creating the ad group.
 
 ## <a name="getresult"></a>getResult
 Returns the newly created ad group, otherwise returns null if this operation failed to execute.
