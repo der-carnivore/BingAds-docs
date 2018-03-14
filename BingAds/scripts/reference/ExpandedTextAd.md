@@ -7,10 +7,10 @@ Represents an expanded text ad in Bing Ads. For information, see [Ad Extensions]
 [asType](#astype)|[AdViewSpace](./AdViewSpace)|Returns properties specific to the type of this ad.
 [enable](#enable)|void|Enables the ad.
 [getAdGroup](#getadgroup)|[AdGroup](./AdGroup)|Returns the parent ad group of this ad.
-[getApprovalStatus](#getapprovalstatus)|String|Returns the approval status of this ad.
+[getApprovalStatus](#getapprovalstatus)|String|Returns the ad's approval status.
 [getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this ad.
 [getDescription](#getdescription)|String|Returns the description of this ad.
-[getDisapprovalReasons](#getdisapprovalreasons)|String[]|Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array will be empty.
+[getDisapprovalReasons](#getdisapprovalreasons)|String[]|Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array is empty.
 [getEntityType](#getentitytype)|String|Returns the entity type.
 [getHeadlinePart1](#getheadlinepart1)|String|Returns the first part of the headline (title) of this ad.
 [getHeadlinePart2](#getheadlinepart2)|String|Returns the second part of the headline (title) of this ad.
@@ -52,7 +52,7 @@ Returns the parent ad group of this ad.
 [AdGroup](./AdGroup)|Ad group to which this ad belongs.
 
 ## <a name="getapprovalstatus"></a>getApprovalStatus
-Returns the approval status of this ad. Possible values:
+Returns the ad's approval status. Possible values:
 
 - APPROVED
 - DISAPPROVED
@@ -60,7 +60,7 @@ Returns the approval status of this ad. Possible values:
 ### Returns:
 |Type|Description|
 |-|-
-String|Approval status of this ad.
+String|Ad's approval status.
 
 ## <a name="getcampaign"></a>getCampaign
 Returns the parent campaign of this ad.
@@ -79,7 +79,7 @@ Returns the description of this ad.
 String|Description of the ad.
 
 ## <a name="getdisapprovalreasons"></a>getDisapprovalReasons
-Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array will be empty.
+Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array is empty.
 
 ### Returns:
 |Type|Description|
