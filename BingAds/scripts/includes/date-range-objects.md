@@ -9,4 +9,4 @@ You may specify the date parameters using strings or objects. To use strings, sp
 
 For example, `{year: 2016, month: 5, day: 13}`.<br />
 <br />
-The date range is inclusive. If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  Only the last date range specified is used if multiple date ranges are specified.
+The date range is inclusive. If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  If multiple date ranges are specified, only the last date range is used.
