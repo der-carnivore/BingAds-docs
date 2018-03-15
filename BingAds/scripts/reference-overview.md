@@ -5,7 +5,7 @@
 Bing Ads Scripts enables programmatic control of your Bing Ads data using JavaScript in Bing Ads' browser-based [script editor](./get-started).
 This section provides information about the JavaScript objects that you use in your scripts.
 
-For more information about Bing Ads entities, see [Entity Hierarchy and Limits](/bingads/guides/entity-hierarchy-limits).
+For information about Bing Ads entities, see [Entity Hierarchy and Limits](/bingads/guides/entity-hierarchy-limits).
 
 The following are the top-level objects that you use to access your Bing Ads entities.
 
