@@ -50,9 +50,8 @@ Sets the custom parameters of this keyword. [!INCLUDE[custom-parameters](../incl
 
 This method will replace any existing custom parameters.
 
-To clear the custom parameters of the keyword, pass an empty object. For example, setCustomParamters({}).  
+To clear the keyword's custom parameters, pass an empty object. For example, setCustomParamters({}).  
 
-For more information, see [Custom Parameters](/bingads/guides/url-tracking-upgraded-urls#customparametersvalidation).
 
 ### Arguments:
 |Name|Type|Description|
