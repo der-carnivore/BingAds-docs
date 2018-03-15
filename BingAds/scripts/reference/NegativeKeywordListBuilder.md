@@ -33,7 +33,7 @@ Returns a negative keyword list builder with the name set to the specified value
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|Name of the new negative keyword list.
+name|String|Name of the negative keyword list.
 ### Returns:
 |Type|Description|
 |-|-
