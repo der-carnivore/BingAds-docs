@@ -10,7 +10,7 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[bidding](#bidding)|[KeywordBidding](./KeywordBidding)|Provides methods to access information about the keywords bidding.
+[bidding](#bidding)|[KeywordBidding](./KeywordBidding)|Provides methods to access keyword bidding details.
 [clearDestinationUrl](#cleardestinationurl)|void|Clears the destination URL of this keyword.
 [enable](#enable)|void|Enables this keyword.
 [getAdGroup](#getadgroup)|[AdGroup](AdGroup)|Returns the parent ad group of this keyword.
@@ -28,7 +28,7 @@ See also:
 [getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides statistics for the specified predefined date range.
 
 ## <a name="bidding"></a>bidding
-Provides methods to access information about the keywords bidding. 
+Provides methods to access keyword bidding details. 
 
 ### Returns:
 |Type|Description|
