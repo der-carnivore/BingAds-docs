@@ -50,7 +50,7 @@ Returns a selector with the predefined date range applied. [!INCLUDE[date-range-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-dateRange|String|Date range to set onto the selector.
+dateRange|String|Date range to apply to the selector.
 ### Returns:
 |Type|Description|
 |-|-
