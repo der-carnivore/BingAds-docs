@@ -11,7 +11,7 @@ Example usage:
  var negativeKeywordList = negativeKeywordListOperation.getResult();
 ```
 
-It is only necessary to call [NegativeKeywordListOperation.getResult](./NegativeKeywordListOperation#getresult) if you need to access the actual negative keyword list. Calling the build method on the negative keyword list builder is enough to create the negative keyword list.
+
 
 # Methods
 |Method Name|Return Type|Description|
