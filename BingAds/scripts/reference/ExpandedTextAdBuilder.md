@@ -62,9 +62,7 @@ description|String|Ad description.
 [ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Ad builder with the specified description.
 
 ## <a name="withfinalurl~string-finalurl~"></a>withFinalUrl(String finalUrl)
-Sets the final URL of this new expanded text to the specified value. The final URL represents the actual landing page for your ad. The final URL must be the URL of the page that the user ends up on after all the redirects have taken place.
-
-Final URLs follow the same override rules as destination URLs. For example, a final URL at the keyword level overrides a final URL at an ad level.
+Sets the final URL of this new expanded text to the specified value. The final URL represents the actual landing page for your ad. [!INCLUDE[final-url](../includes/final-url.md)]
 
 ### Arguments:
 |Name|Type|Description|

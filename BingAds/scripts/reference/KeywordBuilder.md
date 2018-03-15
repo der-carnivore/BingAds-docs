@@ -55,9 +55,7 @@ customParameters|Object|Custom parameters of the keyword as a map of the<br />  
 [KeywordBuilder](./KeywordBuilder)|Keyword builder with the custom parameters applied.
 
 ## <a name="withfinalurl~string-finalurl~"></a>withFinalUrl(String finalUrl)
-Returns a keyword builder with the final URL set to the specified value. The final URL represents the actual landing page for your ad. The final URL is the URL of the page that the user ends up on after all the redirects have taken place.
-
-Final URLs follow the same override rules as destination URLs. For example, a final URL at the keyword level overrides a final URL at an ad level.
+Returns a keyword builder with the final URL set to the specified value. The final URL represents the actual landing page for your ad. [!INCLUDE[final-url](../includes/final-url.md)]
 
 ### Arguments:
 |Name|Type|Description|
