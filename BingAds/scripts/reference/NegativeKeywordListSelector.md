@@ -73,7 +73,7 @@ Returns a selector that limits the negative keyword lists it returns to those th
 MemberCount|int|`withCondition("MemberCount > 5")`
 Name|String|`withCondition("Name = 'negative keyword list'")`
 ReferenceCount|int|`withCondition("ReferenceCount > 5")`
-SharedSetId|double|`withCondition("SahredSetId > 5")`
+SharedSetId|double|`withCondition("SharedSetId > 5")`
 Status|Enumeration:<br />&nbsp;`ACTIVE`<br />&nbsp;`DELETED`<br />|`withCondition("Status = ACTIVE")`
 &nbsp;|&nbsp;|&nbsp;|&nbsp;
 
