@@ -6,7 +6,7 @@ This is the root object of Bing Ads Scripts API. It provides methods to access d
 [adGroups](#adgroups)|[AdGroupSelector](./AdGroupSelector)|Returns a selector of all ad groups in this account.
 [campaigns](#campaigns)|[CampaignSelector](./CampaignSelector)|Returns a selector of all campaigns in this account.
 [keywords](#keywords)|[KeywordSelector](./KeywordSelector)|Returns a selector of all keywords in this account.
-[negativeKeywordList](#negativekeywordlist)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector of all negative keyword lists in this account.
+[negativeKeywordLists](#negativekeywordlists)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector of all negative keyword lists in this account.
 [newNegativeKeywordListBuilder](#newnegativekeywordlistbuilder)|[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|Returns a new negative keyword list builder for this account.
 [getExecutionInfo](#getexecutioninfo)|[ExecutionInfo](./ExecutionInfo)|Returns information about the environment in which the script is currently executing.
 
@@ -34,7 +34,7 @@ Returns a selector of all keywords in this account.
 |-|-
 [KeywordSelector](./KeywordSelector)|Selector of all keywords in the current account.
 
-## <a name="negativekeywordlist"></a>negativeKeywordList
+## <a name="negativekeywordlists"></a>negativeKeywordLists
 Returns a selector of all negative keyword lists in this account. 
 
 ### Returns:

@@ -3,9 +3,11 @@ Provides methods to iterate through a list of negative keyword lists. For inform
 
 Example usage:
 ```javascript
+var negativeKeywordListSelector = BingAdsApp.negativeKeywordLists();
+var negativeKeywordListIterator = negativeKeywordListSelector.get();
 while (negativeKeywordListIterator.hasNext()) {
-   var negativeKeywordList = negativeKeywordListIterator.next();
- }
+  var negativeKeywordList = negativeKeywordListIterator.next();
+}
 ```
 
 See also:
