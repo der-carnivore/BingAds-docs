@@ -105,11 +105,11 @@ Returns statistics for this keyword.
 [Stats](./Stats)|Statistics for the keyword.
 
 ## <a name="gettext"></a>getText
-Returns the text of this keyword. The text will be returned in one of the following formats based on the match type:
+Returns the text of this keyword. The text is returned in one of the following formats based on the keyword's match type:
 
-- `books` - broad match
-- `"books"` - phrase match
-- `[hardcover books]` - exact match
+- books - broad match
+- "books" - phrase match
+- [hardcover books] - exact match
 
 
 ### Returns:
