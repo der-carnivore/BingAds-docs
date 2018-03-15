@@ -120,8 +120,15 @@ condition|String|Condition to add to the selector.
 [KeywordSelector](./KeywordSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that returns only keywords with the specified IDs. [!INCLUDE[with-ids-chaining](../includes/with-ids-chaining.md)]
+Returns a selector that returns only keywords with the specified IDs. [!INCLUDE[with-ids-chaining](../includes/with-ids-chaining.md)] For example, the following call selects only keyword 33333.
 
+```javascript
+BingAdsApp.keywords()
+    .withIds([11111, 22222, 33333])
+    .withIds([33333, 44444, 55555])
+```
+
+[!INCLUDE[maximum-number-of-ids](../includes/maximum-number-of-ids.md)] 
 
 ### Arguments:
 |Name|Type|Description|
