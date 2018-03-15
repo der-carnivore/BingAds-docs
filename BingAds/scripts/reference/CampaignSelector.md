@@ -157,7 +157,7 @@ Returns a selector that limits the number of campaigns it returns to the top n c
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-limit|int|Number of entities to return.
+limit|int|Number of results to return.
 ### Returns:
 |Type|Description|
 |-|-

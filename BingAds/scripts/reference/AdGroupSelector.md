@@ -157,7 +157,7 @@ Returns a selector that limits the number of ad groups it returns to the top *n*
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-limit|int|Number of entities to return.
+limit|int|Number of results to return.
 ### Returns:
 |Type|Description|
 |-|-

@@ -100,7 +100,7 @@ Returns a selector that limits the number of negative keyword lists it returns t
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-limit|int|How many entities to return.
+limit|int|Number of results to return.
 ### Returns:
 |Type|Description|
 |-|-

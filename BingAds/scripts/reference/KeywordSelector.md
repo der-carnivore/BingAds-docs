@@ -145,7 +145,7 @@ Returns a selector that limits the number of keywords it returns to the top n ke
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-limit|int|How many entities to return.
+limit|int|Number of results to return.
 ### Returns:
 |Type|Description|
 |-|-
