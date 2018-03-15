@@ -10,22 +10,22 @@ Follow these instructions to create your first Bing Ads script.
 4. Click **Create script**.
 5. Copy and paste the following code into the code editor. This script will find 10 keywords with most impressions yesterday, but won't make any changes to your campaigns.
 
-```javascript
-function main() {
-    var keywords = BingAdsApp.keywords()
-        .orderBy("Impressions DESC")
-        .forDateRange("YESTERDAY")
-        .withLimit(10)
-        .get();
-
-    Logger.log("10 keywords with most impressions yesterday");
-    while (keywords.hasNext()) {
-        var keyword = keywords.next();
-        Logger.log(keyword.getText() + ": " +
-            keyword.getStatsFor("YESTERDAY").getImpressions());
+    ```javascript
+    function main() {
+        var keywords = BingAdsApp.keywords()
+            .orderBy("Impressions DESC")
+            .forDateRange("YESTERDAY")
+            .withLimit(10)
+            .get();
+    
+        Logger.log("10 keywords with most impressions yesterday");
+        while (keywords.hasNext()) {
+            var keyword = keywords.next();
+            Logger.log(keyword.getText() + ": " +
+                keyword.getStatsFor("YESTERDAY").getImpressions());
+        }
     }
-}
-main();
-```
+    main();
+    ```
 
 6. To execute the script in [preview mode](./concepts/preview-mode), click **Preview**.
