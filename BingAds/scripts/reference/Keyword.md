@@ -25,7 +25,7 @@ See also:
 [pause](#pause)|void|Pauses this keyword.
 [remove](#remove)|void|Removes this keyword.
 [urls](#urls)|[KeywordUrls](./KeywordUrls)|Returns the URL fields of this keyword.
-[getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides statistics for the specified predefined date range.
+[getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides performance metrics for the predefined date range.
 
 ## <a name="bidding"></a>bidding
 Provides methods to access keyword bidding details. 
@@ -158,7 +158,7 @@ Returns the URL fields of this keyword.
 [KeywordUrls](./KeywordUrls)|URL fields of this keyword.
 
 ## <a name="getstatsfor~string-daterange~"></a>getStatsFor(String dateRange)
-Returns an object which provides statistics for the specified predefined date range. [!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
+Returns an object which provides performance metrics for the predefined date range. [!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
 
 
 ### Arguments:
@@ -168,5 +168,5 @@ dateRange|String|Date range for which the stats are requested.
 ### Returns:
 |Type|Description|
 |-|-
-[Stats](./Stats)|Stats for the specified date range.
+[Stats](./Stats)|Performance metrics for the specified date range.
 
