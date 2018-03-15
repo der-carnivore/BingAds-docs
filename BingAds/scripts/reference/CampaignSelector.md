@@ -45,7 +45,7 @@ dateTo|Object|End date of the date range.
 [CampaignSelector](CampaignSelector)|Selector with date range applied.
 
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
-Returns a selector with the predefined date range applied. [!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
+Returns a selector with the predefined date range applied. [!INCLUDE[date-range-constants](../includes/date-range-constants.md)] [!INCLUDE[date-range-conditions-message](../includes/date-range-conditions-message.md)]
 
 ### Arguments:
 |Name|Type|Description|

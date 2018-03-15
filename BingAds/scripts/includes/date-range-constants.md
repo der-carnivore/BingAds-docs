@@ -12,5 +12,3 @@ Supported date range values:<br />
     <li>LAST_MONTH</li>
     <li>ALL_TIME</li>
 </ul>
-
-If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  If multiple date ranges are specified, only the last date range is used.
