@@ -12,7 +12,7 @@ Provides access to the URLs for this keyword. See [URL Tracking with Upgraded UR
 [setTrackingTemplate(String trackingTemplate)](#settrackingtemplate~string-trackingtemplate~)|void|Sets the tracking template of this keyword.
 
 ## <a name="cleartrackingtemplate"></a>clearTrackingTemplate
-Clears the tracking template of this keyword. For more information, see [Tracking Templates](/bingads/guides/url-tracking-upgraded-urls#trackingtemplatevalidation).
+Clears the tracking template of this keyword. For information about tracking templates, see [Tracking Templates](/bingads/guides/url-tracking-upgraded-urls#trackingtemplatevalidation).
 
 ### Returns:
 |Type|Description|

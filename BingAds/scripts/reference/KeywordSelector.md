@@ -56,11 +56,11 @@ Returns a selector with the specified ordering applied. Specify the orderBy para
 - columnName is a supported column, see [Supported Columns](#supported-keyword-columns).
 - orderDirection is the direction to order the results in. Set to ASC to order the results in ascending order or DESC to order the results in descending order. The default is ASC.
 
-For example, the following call returns results in ascending order by MaxCpc.
+For example, the following call returns results in ascending order by AverageCpc.
 
-<code>agSelector = agSelector.orderBy("MaxCpc");</code>
+<code>keywordSelector = keywordSelector.orderBy("AverageCpc");</code>
 
-Only one orderBy column is supported.
+[!INCLUDE[order-by-limit](../includes/order-by-limit.md)]
 
 ### Arguments:
 |Name|Type|Description|
