@@ -3,7 +3,6 @@
 - name: Get Started
   href: /bingads/scripts/get-started
 - name: Concepts
-  href: /bingads/scripts/concepts/
   items:
     - name: Authorization
       href: /bingads/scripts/concepts/authorization

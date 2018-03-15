@@ -29,3 +29,8 @@ Follow these instructions to create your first Bing Ads script.
     ```
 
 6. To execute the script in [preview mode](./concepts/preview-mode), click **Preview**.
+
+### Next Steps
+
+> [!div class="nextstepaction"]
+> [Learn about selectors](./concepts/selectors.md)
