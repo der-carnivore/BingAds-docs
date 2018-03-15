@@ -13,8 +13,8 @@ See also:
 [bidding](#bidding)|[KeywordBidding](./KeywordBidding)|Provides methods to access keyword bidding details.
 [clearDestinationUrl](#cleardestinationurl)|void|Clears the destination URL of this keyword.
 [enable](#enable)|void|Enables this keyword.
-[getAdGroup](#getadgroup)|[AdGroup](AdGroup)|Returns the parent ad group of this keyword.
-[getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this keyword.
+[getAdGroup](#getadgroup)|[AdGroup](AdGroup)|Returns the ad group this keyword belongs to.
+[getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the campaign this keyword belongs to.
 [getEntityType](#getentitytype)|String|Returns the entity type.
 [getId](#getid)|long|Returns the ID of this keyword.
 [getMatchType](#getmatchtype)|String|Returns the match type of this keyword.
@@ -52,20 +52,20 @@ Enables this keyword.
 void|Returns nothing.
 
 ## <a name="getadgroup"></a>getAdGroup
-Returns the parent ad group of this keyword.
+Returns the ad group this keyword belongs to.
 
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroup](AdGroup)|Parent ad group of this keyword.
+[AdGroup](AdGroup)|Ad group this keyword belongs to.
 
 ## <a name="getcampaign"></a>getCampaign
-Returns the parent campaign of this keyword.
+Returns the campaign this keyword belongs to.
 
 ### Returns:
 |Type|Description|
 |-|-
-[Campaign](./Campaign)|Parent campaign of this keyword.
+[Campaign](./Campaign)|Campaign this keyword belongs to.
 
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type.

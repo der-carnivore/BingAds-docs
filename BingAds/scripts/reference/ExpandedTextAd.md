@@ -6,9 +6,9 @@ Represents an expanded text ad in Bing Ads. For information, see [Ad Extensions]
 |-|-|-
 [asType](#astype)|[AdViewSpace](./AdViewSpace)|Returns properties specific to the type of this ad.
 [enable](#enable)|void|Enables the ad.
-[getAdGroup](#getadgroup)|[AdGroup](./AdGroup)|Returns the parent ad group of this ad.
+[getAdGroup](#getadgroup)|[AdGroup](./AdGroup)|Returns the ad group this ad belongs to.
 [getApprovalStatus](#getapprovalstatus)|String|Returns the ad's approval status.
-[getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the parent campaign of this ad.
+[getCampaign](#getcampaign)|[Campaign](./Campaign)|Returns the campaign this ad belongs to.
 [getDescription](#getdescription)|String|Returns the description of this ad.
 [getDisapprovalReasons](#getdisapprovalreasons)|String[]|Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array is empty.
 [getEntityType](#getentitytype)|String|Returns the entity type.
@@ -44,12 +44,12 @@ Enables the ad.
 void|Returns nothing.
 
 ## <a name="getadgroup"></a>getAdGroup
-Returns the parent ad group of this ad.
+Returns the ad group this ad belongs to.
 
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroup](./AdGroup)|Ad group to which this ad belongs.
+[AdGroup](./AdGroup)|Ad group this ad belongs to.
 
 ## <a name="getapprovalstatus"></a>getApprovalStatus
 Returns the ad's approval status. Possible values:
@@ -63,12 +63,12 @@ Returns the ad's approval status. Possible values:
 String|Ad's approval status.
 
 ## <a name="getcampaign"></a>getCampaign
-Returns the parent campaign of this ad.
+Returns the campaign this ad belongs to.
 
 ### Returns:
 |Type|Description|
 |-|-
-[Campaign](./Campaign)|Campaign to which this ad belongs.
+[Campaign](./Campaign)|Campaign this ad belongs to.
 
 ## <a name="getdescription"></a>getDescription
 Returns the description of this ad.
