@@ -3,7 +3,13 @@ Provides methods for selecting negative keyword lists. For information about Sel
 
 Example usage:
 ```javascript
-while (negativeKeywordListIterator.hasNext()) {
+var negativeKeywordListSelector = BingAdsApp
+     .negativeKeywordLists()
+     .withCondition("MemberCount > 5")
+     .orderBy("Name");
+
+ var negativeKeywordListIterator = negativeKeywordListSelector.get();
+ while (negativeKeywordListIterator.hasNext()) {
    var negativeKeywordList = negativeKeywordListIterator.next();
  }
 ```
