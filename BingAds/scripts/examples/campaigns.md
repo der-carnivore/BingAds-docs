@@ -18,40 +18,27 @@ function getAllCampaigns() {
 
 ## Get a campaign by name
 ```javascript
-function getCampaignsByName() {
+function getCampaignsByName(campaignName) {
   var campaignIterator = BingAdsApp.campaigns()
-      .withCondition('Name = "<CAMPAIGN_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + campaignName + '"')
       .get();
   if (campaignIterator.hasNext()) {
     var campaign = campaignIterator.next();
     Logger.log('Campaign Name: ' + campaign.getName());
     Logger.log('Enabled: ' + campaign.isEnabled());
     Logger.log('Bidding strategy: ' + campaign.getBiddingStrategyType());
-    Logger.log('Ad rotation: ' + campaign.getAdRotationType());
-    Logger.log('Start date: ' + formatDate(campaign.getStartDate()));
-    Logger.log('End date: ' + formatDate(campaign.getEndDate()));
   }
-}
-
-function formatDate(date) {
-  function zeroPad(number) { 
-    return Utilities.formatString('%02d', number); 
-  }
-
-  return (date == null) ? 'None' : zeroPad(date.year) + zeroPad(date.month) + zeroPad(date.day);
 }
 ```
 
 ## Get a campaign's stats
 ```javascript
-function getCampaignStats() {
+function getCampaignStats(campaignName) {
   var campaignIterator = BingAdsApp.campaigns()
-      .withCondition('Name = "<CAMPAIGN_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + campaignName + '"')
       .get();
   if (campaignIterator.hasNext()) {
     var campaign = campaignIterator.next();
-    // You can also request reports for pre-defined date ranges. See
-    // https://docs.microsoft.com/bingads/scripts/reference/campaign?#getstatsfor~string-daterange~.
     var stats = campaign.getStatsFor('LAST_MONTH');
     Logger.log(campaign.getName() + ', ' + stats.getClicks() + 'clicks, ' +
         stats.getImpressions() + ' impressions');
@@ -61,9 +48,9 @@ function getCampaignStats() {
 
 ## Pause a campaign
 ```javascript
-function pauseCampaign() {
+function pauseCampaign(campaignName) {
   var campaignIterator = BingAdsApp.campaigns()
-      .withCondition('Name = "<CAMPAIGN_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + campaignName + '"')
       .get();
   if (campaignIterator.hasNext()) {
     var campaign = campaignIterator.next();
@@ -74,9 +61,9 @@ function pauseCampaign() {
 
 ## Get a campaign's device bid modifiers
 ```javascript
-function getCampaignBidModifiers() {
+function getCampaignBidModifiers(campaignName) {
   var campaignIterator = BingAdsApp.campaigns()
-      .withCondition('Name = "<CAMPAIGN_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + campaignName + '"')
       .get();
   if (campaignIterator.hasNext()) {
     var campaign = campaignIterator.next();
