@@ -24,7 +24,7 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[AdSelector](./AdSelector)|Returns a selector with the specified start and end dates.
+[forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[AdSelector](./AdSelector)|Returns a selector with the start and end dates applied.
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[AdSelector](./AdSelector)|Returns a selector using the specified predefined date range.
 [get](#get)|[AdIterator](./AdIterator)|Returns an iterator indexing the ads in this selector.<br />
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdSelector](./AdSelector)|Returns a selector with the specified ordering.
@@ -33,7 +33,7 @@ See also:
 [withLimit(int limit)](#withlimit~int-limit~)|[AdSelector](./AdSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
-Returns a selector with the specified start and end dates. You may specify the date parameters using strings or objects. To use strings, specify the date in the form, YYYYMMDD. If you use objects, create a JSON object with the following fields:  
+Returns a selector with the start and end dates applied. You may specify the date parameters using strings or objects. To use strings, specify the date in the form, YYYYMMDD. If you use objects, create a JSON object with the following fields:  
 
 - year
 - month
@@ -54,7 +54,7 @@ dateFrom|Object|Start date of the date range.
 ### Returns:
 |Type|Description|
 |-|-
-[AdSelector](./AdSelector)|The selector with date range applied.
+[AdSelector](./AdSelector)|Selector with date range applied.
 
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
 Returns a selector using the specified predefined date range. Supported date range values:
