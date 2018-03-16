@@ -33,3 +33,8 @@ var keywords = adGroup.keywords().get();
 // This will log "true" during real execution.
 Logger.log("Does the ad group have keywords? " + keywords.hasNext());
 ```
+
+### Next Steps
+
+> [!div class="nextstepaction"]
+> [Learn how authorization works](./authorization.md)

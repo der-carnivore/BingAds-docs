@@ -42,6 +42,6 @@ See also:
 - [KeywordSelector](./KeywordSelector)
 
 ### Next Steps
-Proceed to the next section to learn how to use iterators to enumerate the results of a selector.
+
 > [!div class="nextstepaction"]
-> [Iterators](./selectors.md)
+> [Learn about iterators](./selectors.md)
