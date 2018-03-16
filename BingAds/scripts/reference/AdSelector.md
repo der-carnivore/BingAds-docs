@@ -25,7 +25,7 @@ See also:
 |Method Name|Return Type|Description|
 |-|-|-
 [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[AdSelector](./AdSelector)|Returns a selector with the start and end dates applied.
-[forDateRange(String dateRange)](#fordaterange~string-daterange~)|[AdSelector](./AdSelector)|Returns a selector using the specified predefined date range.
+[forDateRange(String dateRange)](#fordaterange~string-daterange~)|[AdSelector](./AdSelector)|Returns a selector with the predefined date range applied.
 [get](#get)|[AdIterator](./AdIterator)|Returns an iterator indexing the ads in this selector.<br />
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdSelector](./AdSelector)|Returns a selector with the specified ordering.
 [withCondition(String condition)](#withcondition~string-condition~)|[AdSelector](./AdSelector)|Returns a selector with the specified filtering conditions.
@@ -57,7 +57,7 @@ dateFrom|Object|Start date of the date range.
 [AdSelector](./AdSelector)|Selector with date range applied.
 
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
-Returns a selector using the specified predefined date range. Supported date range values:
+Returns a selector with the predefined date range applied. Supported date range values:
 
 - TODAY
 - YESTERDAY
@@ -85,7 +85,7 @@ dateRange|String|Date range to set onto the selector.
 ### Returns:
 |Type|Description|
 |-|-
-[AdSelector](./AdSelector)|The selector with date range applied.
+[AdSelector](./AdSelector)|Selector with date range applied.
 
 ## <a name="get"></a>get
 Returns an iterator indexing the ads in this selector.
