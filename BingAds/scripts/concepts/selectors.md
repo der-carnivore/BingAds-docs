@@ -44,4 +44,4 @@ See also:
 ### Next Steps
 
 > [!div class="nextstepaction"]
-> [Learn about iterators](./selectors.md)
+> [Learn about iterators](./iterators.md)
