@@ -21,7 +21,7 @@ Example usage:
 [build](#build)|[AdOperation](./AdOperation)|Returns an ad operation which represents the ad to create.
 [withCustomParameters(Object customParameters)](#withcustomparameters~object-customparameters~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the ad's custom parameters.
 [withDescription(String description)](#withdescription~string-description~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the description of this new expanded text ad.
-[withFinalUrl(String finalUrl)](#withfinalurl~string-finalurl~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the final URL of this new expanded text to the specified value.
+[withFinalUrl(String finalUrl)](#withfinalurl~string-finalurl~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Returns an expanded text ad builder with the final URL set to the specified value.
 [withHeadlinePart1(String headlinePart1)](#withheadlinepart1~string-headlinepart1~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the first part of the headline of this new expanded text ad to the specified value.
 [withHeadlinePart2(String headlinePart2)](#withheadlinepart2~string-headlinepart2~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the second part of the headline of this new expanded text ad to the specified value.
 [withMobileFinalUrl(String mobileFinalUrl)](#withmobilefinalurl~string-mobilefinalurl~)|[ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Sets the mobile final URL of this new expanded text ad to the specified value.
@@ -62,7 +62,7 @@ description|String|Ad description.
 [ExpandedTextAdBuilder](./ExpandedTextAdBuilder)|Ad builder with the specified description.
 
 ## <a name="withfinalurl~string-finalurl~"></a>withFinalUrl(String finalUrl)
-Sets the final URL of this new expanded text to the specified value. The final URL represents the actual landing page for your ad. [!INCLUDE[final-url](../includes/final-url.md)]
+Returns an expanded text ad builder with the final URL set to the specified value. The final URL represents the actual landing page for your ad. [!INCLUDE[final-url](../includes/final-url.md)]
 
 ### Arguments:
 |Name|Type|Description|
