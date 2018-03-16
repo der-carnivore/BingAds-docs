@@ -4,12 +4,12 @@ This is the root object of Bing Ads Scripts API. It provides methods to access d
 |Method Name|Return Type|Description|
 |-|-|-
 [adGroups](#adgroups)|[AdGroupSelector](./AdGroupSelector)|Returns a selector of all ad groups in this account.
+[ads](#ads)|[AdSelector](./AdSelector)|Returns a selector of all ads in this account.<br />
 [campaigns](#campaigns)|[CampaignSelector](./CampaignSelector)|Returns a selector of all campaigns in this account.
+[getExecutionInfo](#getexecutioninfo)|[ExecutionInfo](./ExecutionInfo)|Returns information about the environment in which the script is currently executing.
 [keywords](#keywords)|[KeywordSelector](./KeywordSelector)|Returns a selector of all keywords in this account.
 [negativeKeywordLists](#negativekeywordlists)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector of all negative keyword lists in this account.
 [newNegativeKeywordListBuilder](#newnegativekeywordlistbuilder)|[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|Returns a new negative keyword list builder for this account.
-[getExecutionInfo](#getexecutioninfo)|[ExecutionInfo](./ExecutionInfo)|Returns information about the environment in which the script is currently executing.
-[ads](#ads)|[AdSelector](./AdSelector)|Returns a selector of all ads in this account.<br />
 
 ## <a name="adgroups"></a>adGroups
 Returns a selector of all ad groups in this account. 
@@ -19,6 +19,15 @@ Returns a selector of all ad groups in this account.
 |-|-
 [AdGroupSelector](./AdGroupSelector)|Selector of all ad groups in the current account.
 
+## <a name="ads"></a>ads
+Returns a selector of all ads in this account.
+
+
+### Returns:
+|Type|Description|
+|-|-
+[AdSelector](./AdSelector)|Selector of all ads in this account.
+
 ## <a name="campaigns"></a>campaigns
 Returns a selector of all campaigns in this account. 
 
@@ -26,6 +35,14 @@ Returns a selector of all campaigns in this account.
 |Type|Description|
 |-|-
 [CampaignSelector](./CampaignSelector)|Selector of all campaigns in this account.
+
+## <a name="getexecutioninfo"></a>getExecutionInfo
+Returns information about the environment in which the script is currently executing.
+
+### Returns:
+|Type|Description|
+|-|-
+[ExecutionInfo](./ExecutionInfo)|Information about the environment in which the script is currently executing.
 
 ## <a name="keywords"></a>keywords
 Returns a selector of all keywords in this account.
@@ -50,21 +67,4 @@ Returns a new negative keyword list builder for this account.
 |Type|Description|
 |-|-
 [NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|New negative keyword list builder for the current account.
-
-## <a name="getexecutioninfo"></a>getExecutionInfo
-Returns information about the environment in which the script is currently executing.
-
-### Returns:
-|Type|Description|
-|-|-
-[ExecutionInfo](./ExecutionInfo)|Information about the environment in which the script is currently executing.
-
-## <a name="ads"></a>ads
-Returns a selector of all ads in this account.
-
-
-### Returns:
-|Type|Description|
-|-|-
-[AdSelector](./AdSelector)|Selector of all ads in this account.
 

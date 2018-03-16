@@ -9,11 +9,11 @@ Represents an ad group.  For more information, see [Ad Group](/bingads/guides/en
 [getName](#getname)|String|Returns the name of this ad group.
 [isEnabled](#isenabled)|Boolean|Returns a Boolean value that determines if this ad group is enabled.
 [isPaused](#ispaused)|Boolean|Returns a Boolean value that determines if this ad group is paused.
+[newAd](#newad)|[AdBuilderSpace](./AdBuilderSpace)|Returns a new ad builder space associated with this ad group, which is used to construct a new ad.
+[newKeywordBuilder](#newkeywordbuilder)|[KeywordBuilder](./KeywordBuilder)|Returns a new keyword builder associated with this ad group that is used to construct a new keyword.
 [pause](#pause)|void|Pauses this ad group.
 [setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.
 [urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns this ad group's URLs.
-[newKeywordBuilder](#newkeywordbuilder)|[KeywordBuilder](./KeywordBuilder)|Returns a new keyword builder associated with this ad group that is used to construct a new keyword.
-[newAd](#newad)|[AdBuilderSpace](./AdBuilderSpace)|Returns a new ad builder space associated with this ad group, which is used to construct a new ad.
 
 ## <a name="enable"></a>enable
 Enables this ad group.
@@ -63,6 +63,22 @@ Returns a Boolean value that determines if this ad group is paused.
 |-|-
 Boolean|Boolean value that determines if this ad group is paused.
 
+## <a name="newad"></a>newAd
+Returns a new ad builder space associated with this ad group, which is used to construct a new ad.
+
+### Returns:
+|Type|Description|
+|-|-
+[AdBuilderSpace](./AdBuilderSpace)|A new ad builder space associated with this ad group.
+
+## <a name="newkeywordbuilder"></a>newKeywordBuilder
+Returns a new keyword builder associated with this ad group that is used to construct a new keyword.
+
+### Returns:
+|Type|Description|
+|-|-
+[KeywordBuilder](./KeywordBuilder)|New keyword builder associated with this ad group that is used to construct a new keyword.
+
 ## <a name="pause"></a>pause
 Pauses this ad group.
 
@@ -90,20 +106,4 @@ Returns this ad group's URLs.
 |Type|Description|
 |-|-
 [AdGroupUrls](./AdGroupUrls)|This ad group's urls.
-
-## <a name="newkeywordbuilder"></a>newKeywordBuilder
-Returns a new keyword builder associated with this ad group that is used to construct a new keyword.
-
-### Returns:
-|Type|Description|
-|-|-
-[KeywordBuilder](./KeywordBuilder)|New keyword builder associated with this ad group that is used to construct a new keyword.
-
-## <a name="newad"></a>newAd
-Returns a new ad builder space associated with this ad group, which is used to construct a new ad.
-
-### Returns:
-|Type|Description|
-|-|-
-[AdBuilderSpace](./AdBuilderSpace)|A new ad builder space associated with this ad group.
 

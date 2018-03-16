@@ -19,13 +19,13 @@ See also:
 [getId](#getid)|long|Returns the ID of this keyword.
 [getMatchType](#getmatchtype)|String|Returns the match type of this keyword.
 [getStats](#getstats)|[Stats](./Stats)|Returns statistics for this keyword.
+[getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides performance metrics for the predefined date range.
 [getText](#gettext)|String|Returns the text of this keyword.
 [isEnabled](#isenabled)|Boolean|Returns a Boolean value that determines if this keyword is enabled.
 [isPaused](#ispaused)|Boolean|Returns a Boolean value that determines if this keyword is paused.
 [pause](#pause)|void|Pauses this keyword.
 [remove](#remove)|void|Removes this keyword.
 [urls](#urls)|[KeywordUrls](./KeywordUrls)|Returns the URL fields of this keyword.
-[getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides performance metrics for the predefined date range.
 
 ## <a name="bidding"></a>bidding
 Provides methods to access keyword bidding details. 
@@ -104,6 +104,19 @@ Returns statistics for this keyword.
 |-|-
 [Stats](./Stats)|Statistics for the keyword.
 
+## <a name="getstatsfor~string-daterange~"></a>getStatsFor(String dateRange)
+Returns an object which provides performance metrics for the predefined date range. [!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
+
+
+### Arguments:
+|Name|Type|Description|
+|-|-|-
+dateRange|String|Date range for which the stats are requested.
+### Returns:
+|Type|Description|
+|-|-
+[Stats](./Stats)|Performance metrics for the specified date range.
+
 ## <a name="gettext"></a>getText
 Returns the text of this keyword. The text is returned in one of the following formats based on the keyword's match type:
 
@@ -156,17 +169,4 @@ Returns the URL fields of this keyword.
 |Type|Description|
 |-|-
 [KeywordUrls](./KeywordUrls)|URL fields of this keyword.
-
-## <a name="getstatsfor~string-daterange~"></a>getStatsFor(String dateRange)
-Returns an object which provides performance metrics for the predefined date range. [!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
-
-
-### Arguments:
-|Name|Type|Description|
-|-|-|-
-dateRange|String|Date range for which the stats are requested.
-### Returns:
-|Type|Description|
-|-|-
-[Stats](./Stats)|Performance metrics for the specified date range.
 
