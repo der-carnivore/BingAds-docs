@@ -43,6 +43,10 @@
           href: ./reference/AdGroupSelector
         - name: AdGroupUrls
           href: ./reference/AdGroupUrls
+        - name: AdOperation
+          href: ./reference/AdOperation
+        - name: AdSelector
+          href: ./reference/AdSelector
         - name: BingAdsApp
           href: ./reference/BingAdsApp
         - name: Budget
