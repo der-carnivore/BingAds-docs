@@ -2,23 +2,24 @@
 
 ## Add an ad group
 ```javascript
-function addAdGroup() {
+function addAdGroup(campaignName, adGroupName) {
   var campaignIterator = BingAdsApp.campaigns()
-      .withCondition('Name = "<CAMPAIGN_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + campaignName + '"')
       .get();
   if (campaignIterator.hasNext()) {
     var campaign = campaignIterator.next();
     var adGroupOperation = campaign.newAdGroupBuilder()
-        .withName('<ADGROUP_NAME_GOES_HERE>')
+        .withName(adGroupName)
         .withCpc(1.2)
         .build();
+    var adGroup = adGroupOperation.getResult();
   }
 }
 ```
 
 ## Get all ad groups
 ```javascript
-function getAlladGroups() {
+function getAllAdGroups() {
   var adGroupIterator = BingAdsApp.adGroups().get();
   Logger.log('Total adGroups found : ' + adGroupIterator.totalNumEntities());
   while (adGroupIterator.hasNext()) {
@@ -30,9 +31,9 @@ function getAlladGroups() {
 
 ## Get an ad group by name
 ```javascript
-function getAdGroupByName() {
+function getAdGroupByName(adGroupName) {
   var adGroupIterator = BingAdsApp.adGroups()
-      .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + adGroupName + '"')
       .get();
   if (adGroupIterator.hasNext()) {
     var adGroup = adGroupIterator.next();
@@ -44,9 +45,9 @@ function getAdGroupByName() {
 
 ## Get an ad group's stats
 ```javascript
-function getadGroupstats() {
+function getAdGroupStats(adGroupName) {
   var adGroupIterator = BingAdsApp.adGroups()
-      .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + adGroupName + '"')
       .get();
   if (adGroupIterator.hasNext()) {
     var adGroup = adGroupIterator.next();
@@ -59,9 +60,9 @@ function getadGroupstats() {
 
 ## Pause an ad group
 ```javascript
-function pauseAdGroup() {
+function pauseAdGroup(adGroupName) {
   var adGroupIterator = BingAdsApp.adGroups()
-      .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + adGroupName + '"')
       .get();
   if (adGroupIterator.hasNext()) {
     var adGroup = adGroupIterator.next();
@@ -74,32 +75,13 @@ function pauseAdGroup() {
 
 ## Enable an ad group
 ```javascript
-function updateAdGroup() {
+function enableAdGroup(adGroupName) {
   var adGroupIterator = BingAdsApp.adGroups()
-      .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + adGroupName + '"')
       .get();
   if (adGroupIterator.hasNext()) {
     var adGroup = adGroupIterator.next();
     adGroup.enable();
-  }
-}
-```
-
-## Get an ad group's device bid modifiers
-```javascript
-function getAdGroupBidModifiers() {
-  var adGroupIterator = BingAdsApp.adGroups()
-      .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
-      .get();
-  if (adGroupIterator.hasNext()) {
-    var adGroup = adGroupIterator.next();
-    Logger.log('AdGroup name: ' + adGroup.getName());
-    Logger.log('Mobile bid modifier: ' +
-        adGroup.devices().getMobileBidModifier());
-    Logger.log('Tablet bid modifier: ' +
-        adGroup.devices().getTabletBidModifier());
-    Logger.log('Desktop bid modifier: ' +
-        adGroup.devices().getDesktopBidModifier());
   }
 }
 ```
