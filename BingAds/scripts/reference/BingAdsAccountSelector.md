@@ -5,11 +5,11 @@ Provides methods for selecting accounts. For information about Selectors, see [S
 |-|-|-
 [executeInParallel(String functionName, String optionalCallbackFunctionName)](#executeinparallel~string-functionname_-string-optionalcallbackfunctionname~)|void|Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName.
 [executeInParallel(String functionName, String optionalCallbackFunctionName, String optionalInput)](#executeinparallel~string-functionname_-string-optionalcallbackfunctionname_-string-optionalinput~)|void|Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. The optional optionalInput argument will be used in the parallel function execution, if specified.
-[get](#get)|[BingAdsAccountIterator](./BingAdsAccountIterator)|Returns an iterator that you use to get the accounts based on the selector's selection criteria.
+[get](#get)|[BingAdsAccountIterator](./BingAdsAccountIterator)|Returns an iterator that you use to get accounts based on the selector's selection criteria.
 [withAccountNumbers(String[] accountNumbers)](#withaccountnumbers~string-accountnumbers~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only bing ads accounts with the specified account numbers.
 [withCondition(String condition)](#withcondition~string-condition~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that limits the accounts it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that returns only accounts with the specified IDs.
-[withLimit(int limit)](#withlimit~int-limit~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that limits the number of accounts it returns to the top n accounts that match the selection criteria.
+[withLimit(int limit)](#withlimit~int-limit~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that limits the number of accounts it returns to the top *n* accounts that match the selection criteria.
 
 ## <a name="executeinparallel~string-functionname_-string-optionalcallbackfunctionname~"></a>executeInParallel(String functionName, String optionalCallbackFunctionName)
 Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName.
@@ -28,12 +28,12 @@ Executes the function indicated by functionName on each BingAdsAccount matched b
 void|Returns nothing.
 
 ## <a name="get"></a>get
-Returns an iterator that you use to get the accounts based on the selector's selection criteria.
+Returns an iterator that you use to get accounts based on the selector's selection criteria.
 
 ### Returns:
 |Type|Description|
 |-|-
-[BingAdsAccountIterator](./BingAdsAccountIterator)|Iterator used to traverse Bing Ads accounts selected by this selector.
+[BingAdsAccountIterator](./BingAdsAccountIterator)|Iterator that you use to get accounts based on the selector's selection criteria.
 
 ## <a name="withaccountnumbers~string-accountnumbers~"></a>withAccountNumbers(String[] accountNumbers)
 Returns a selector that will return only bing ads accounts with the specified account numbers. 
@@ -149,7 +149,7 @@ ids|long[]|Array of customer IDs.<br />
 [BingAdsAccountSelector](./BingAdsAccountSelector)|Selector restricted to the specified IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
-Returns a selector that limits the number of accounts it returns to the top n accounts that match the selection criteria.
+Returns a selector that limits the number of accounts it returns to the top *n* accounts that match the selection criteria.
 
 ### Arguments:
 |Name|Type|Description|

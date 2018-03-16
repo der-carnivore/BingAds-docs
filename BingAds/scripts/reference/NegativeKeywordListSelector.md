@@ -21,19 +21,19 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[get](#get)|[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Returns an iterator that you use to get the negative keyword lists based on the selector's selection criteria.
+[get](#get)|[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Returns an iterator that you use to get negative keywords lists based on the selector's selection criteria.
 [orderBy(String orderBy)](#orderby~string-orderby~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the negative keyword lists it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that returns only negative keyword lists with the specified IDs.
-[withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the number of negative keyword lists it returns to the top n negative keyword lists that match the selection criteria.
+[withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the number of negative keyword lists it returns to the top *n* negative keyword lists that match the selection criteria.
 
 ## <a name="get"></a>get
-Returns an iterator that you use to get the negative keyword lists based on the selector's selection criteria.
+Returns an iterator that you use to get negative keywords lists based on the selector's selection criteria.
 
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Iterator used to get the negative keywords for this selector.
+[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Iterator that you use to get negative keywords lists based on the selector's selection criteria.
 
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
 Returns a selector with the specified ordering applied. Specify the orderBy parameter in the form, "columnName orderDirection" where:
@@ -110,7 +110,7 @@ ids|long[]|Array of ad group IDs.
 [NegativeKeywordListSelector](./NegativeKeywordListSelector)|Selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
-Returns a selector that limits the number of negative keyword lists it returns to the top n negative keyword lists that match the selection criteria.
+Returns a selector that limits the number of negative keyword lists it returns to the top *n* negative keyword lists that match the selection criteria.
 
 ### Arguments:
 |Name|Type|Description|

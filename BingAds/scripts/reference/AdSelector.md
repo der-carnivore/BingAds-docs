@@ -26,11 +26,11 @@ See also:
 |-|-|-
 [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[AdSelector](./AdSelector)|Returns a selector with the start and end dates applied.
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[AdSelector](./AdSelector)|Returns a selector with the predefined date range applied.
-[get](#get)|[AdIterator](./AdIterator)|Returns an iterator indexing the ads in this selector.<br />
-[orderBy(String orderBy)](#orderby~string-orderby~)|[AdSelector](./AdSelector)|Returns a selector with the specified ordering.
-[withCondition(String condition)](#withcondition~string-condition~)|[AdSelector](./AdSelector)|Returns a selector with the specified filtering conditions.
-[withIds(long[] ids)](#withids~long-ids~)|[AdSelector](./AdSelector)|Returns a selector that will return only ads with the specified IDs.
-[withLimit(int limit)](#withlimit~int-limit~)|[AdSelector](./AdSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
+[get](#get)|[AdIterator](./AdIterator)|Returns an iterator that you use to get ads based on the selector's selection criteria.
+[orderBy(String orderBy)](#orderby~string-orderby~)|[AdSelector](./AdSelector)|Returns a selector with the specified ordering applied.
+[withCondition(String condition)](#withcondition~string-condition~)|[AdSelector](./AdSelector)|Returns a selector that limits the ads it returns to those that match the filter criteria.
+[withIds(long[] ids)](#withids~long-ids~)|[AdSelector](./AdSelector)|Returns a selector that returns only ads with the specified IDs.
+[withLimit(int limit)](#withlimit~int-limit~)|[AdSelector](./AdSelector)|Returns a selector that limits the number of ads it returns to the top *n* ads that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
 Returns a selector with the start and end dates applied. You may specify the date parameters using strings or objects. To use strings, specify the date in the form, YYYYMMDD. If you use objects, create a JSON object with the following fields:  
@@ -88,16 +88,15 @@ dateRange|String|Date range to set onto the selector.
 [AdSelector](./AdSelector)|Selector with date range applied.
 
 ## <a name="get"></a>get
-Returns an iterator indexing the ads in this selector.
-
+Returns an iterator that you use to get ads based on the selector's selection criteria.
 
 ### Returns:
 |Type|Description|
 |-|-
-[AdIterator](./AdIterator)|Iterator of the requested ads.
+[AdIterator](./AdIterator)|Iterator that you use to get ads based on the selector's selection criteria.
 
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
-Returns a selector with the specified ordering. Specify the orderBy parameter in the form, "columnName orderDirection" where:
+Returns a selector with the specified ordering applied. Specify the orderBy parameter in the form, "columnName orderDirection" where:
 
 - columnName can only be one column which is supported by the withCondition method.
 - orderDirection is the direction to order the results in. Set to ASC to order the results in ascending order or DESC to order the results in descending order. The default is ASC.
@@ -114,10 +113,10 @@ orderBy|String|Ordering to apply.
 ### Returns:
 |Type|Description|
 |-|-
-[AdSelector](./AdSelector)|The selector with ordering applied.
+[AdSelector](./AdSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
-Returns a selector with the specified filtering conditions. Specify the condition parameter in the form, "columnName operator value" where: 
+Returns a selector that limits the ads it returns to those that match the filter criteria. Specify the condition parameter in the form, "columnName operator value" where: 
 
 - columnName is the name of a performance metric to order the results by. For a list of possible values, see [Supported Columns](#supported-ad-columns).  If you set columName to a performance metric column name, you must also specify a date range using [forDateRange(String dateRange)](#fordaterange~string-daterange~) or [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~).
 - operator is one of the supported [operators](#operators).
@@ -191,7 +190,7 @@ condition|String|Condition to add to the selector.
 [AdSelector](./AdSelector)|The selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that will return only ads with the specified IDs. 
+Returns a selector that returns only ads with the specified IDs. 
 The resulting selector can be further filtered by applying additional conditions to it.  All conditions will be 'AND' concatenated including any other ID based conditions.  For example:
 
 ```javascript
@@ -214,7 +213,7 @@ ids|long[][]|Array of ad IDs.
 [AdSelector](./AdSelector)|The selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
-Returns a selector that will return only the specified number of results from the beginning of the result set.
+Returns a selector that limits the number of ads it returns to the top *n* ads that match the selection criteria.
 
 ### Arguments:
 |Name|Type|Description|

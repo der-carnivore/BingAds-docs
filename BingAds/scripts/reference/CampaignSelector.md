@@ -25,11 +25,11 @@ See also:
 |-|-|-
 [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[CampaignSelector](CampaignSelector)|Returns a selector with the start and end dates applied.
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[CampaignSelector](./CampaignSelector)|Returns a selector with the predefined date range applied.
-[get](#get)|[CampaignIterator](./CampaignIterator)|Returns an iterator that you use to get the campaigns based on the selector's selection criteria.
+[get](#get)|[CampaignIterator](./CampaignIterator)|Returns an iterator that you use to get campaigns based on the selector's selection criteria.
 [orderBy(String orderBy)](#orderby~string-orderby~)|[CampaignSelector](./CampaignSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the campaigns it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[CampaignSelector](./CampaignSelector)|Returns a selector that returns only campaigns with the specified IDs.
-[withLimit(int limit)](#withlimit~int-limit~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the number of campaigns it returns to the top n campaigns that match the selection criteria.
+[withLimit(int limit)](#withlimit~int-limit~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the number of campaigns it returns to the top *n* campaigns that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
 Returns a selector with the start and end dates applied. [!INCLUDE[date-range-objects](../includes/date-range-objects.md)]
@@ -57,12 +57,12 @@ dateRange|String|Date range to apply to the selector.
 [CampaignSelector](./CampaignSelector)|Selector with date range applied.
 
 ## <a name="get"></a>get
-Returns an iterator that you use to get the campaigns based on the selector's selection criteria.
+Returns an iterator that you use to get campaigns based on the selector's selection criteria.
 
 ### Returns:
 |Type|Description|
 |-|-
-[CampaignIterator](./CampaignIterator)|Iterator of the requested campaigns.
+[CampaignIterator](./CampaignIterator)|Iterator that you use to get campaigns based on the selector's selection criteria.
 
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
 Returns a selector with the specified ordering applied. Specify the orderBy parameter in the form, "columnName orderDirection" where:
@@ -152,7 +152,7 @@ ids|long[]|Array of campaign IDs.
 [CampaignSelector](./CampaignSelector)|Selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
-Returns a selector that limits the number of campaigns it returns to the top n campaigns that match the selection criteria.
+Returns a selector that limits the number of campaigns it returns to the top *n* campaigns that match the selection criteria.
 
 ### Arguments:
 |Name|Type|Description|

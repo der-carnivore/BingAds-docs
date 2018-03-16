@@ -61,7 +61,7 @@ Returns an iterator that you use to get ad groups based on the selector's select
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupIterator](./AdGroupIterator)|Iterator used to get the ad groups in this selector.
+[AdGroupIterator](./AdGroupIterator)|Iterator that you use to get ad groups based on the selector's selection criteria.
 
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
 Returns a selector with the specified ordering applied. Specify the orderBy parameter in the form, "columnName orderDirection" where:
