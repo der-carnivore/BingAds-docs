@@ -2,16 +2,9 @@
 
 ## Add a keyword to an existing ad group
 ```javascript
-function addKeyword() {
-  // If you have multiple adGroups with the same name, this snippet will
-  // pick an arbitrary matching ad group each time. In such cases, just
-  // filter on the campaign name as well:
-  //
-  // BingAdsApp.adGroups()
-  //     .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
-  //     .withCondition('CampaignName = "<CAMPAIGN_NAME_GOES_HERE>"')
+function addKeyword(adGroupName) {
   var adGroupIterator = BingAdsApp.adGroups()
-      .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + adGroupName + '"')
       .get();
   if (adGroupIterator.hasNext()) {
     var adGroup = adGroupIterator.next();
@@ -21,23 +14,20 @@ function addKeyword() {
         .withCpc(1.25)                          // Optional
         .withFinalUrl('http://www.contoso.com') // Optional
         .build();
-
-    // KeywordBuilder has a number of other options. For more details see
-    // https://docs.microsoft.com/bingads/scripts/reference/keywordbuilder
   }
 }
 ```
 
 ## Pause an existing keyword in an ad group
 ```javascript
-function pauseKeywordInAdGroup() {
+function pauseKeywordInAdGroup(adGroupName, keywords) {
   var adGroupIterator = BingAdsApp.adGroups()
-      .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + adGroupName + '"')
       .get();
   if (adGroupIterator.hasNext()) {
     var adGroup = adGroupIterator.next();
     var keywordIterator = adGroup.keywords()
-        .withCondition('Text="<KEYWORDS_GO_HERE>"').get();
+        .withCondition('Text="' + keywords + '"').get();
     while (keywordIterator.hasNext()) {
       var keyword = keywordIterator.next();
       keyword.pause();
@@ -48,15 +38,13 @@ function pauseKeywordInAdGroup() {
 
 ## Get all keywords in an ad group
 ```javascript
-function getKeywordsInAdGroup() {
+function getKeywordsInAdGroup(adGroupName) {
   var keywordIterator = BingAdsApp.keywords()
-      .withCondition('AdGroupName = "<ADGROUP_NAME_GOES_HERE>"')
+      .withCondition('AdGroupName = "' + adGroupName + '"')
       .get();
-  if (keywordIterator.hasNext()) {
-    while (keywordIterator.hasNext()) {
-      var keyword = keywordIterator.next();
-      Logger.log(formatKeyword(keyword));
-    }
+  while (keywordIterator.hasNext()) {
+    var keyword = keywordIterator.next();
+    Logger.log(formatKeyword(keyword));
   }
 }
 
@@ -73,9 +61,9 @@ function formatKeyword(keyword) {
 ## Get stats for all keywords in an ad group
 ```javascript
 
-function getKeywordStats() {
+function getKeywordStats(adGroupName) {
   var adGroupIterator = BingAdsApp.adGroups()
-      .withCondition('Name = "<ADGROUP_NAME_GOES_HERE>"')
+      .withCondition('Name = "' + adGroupName + '"')
       .get();
   if (adGroupIterator.hasNext()) {
     var adGroup = adGroupIterator.next();
