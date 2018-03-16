@@ -17,17 +17,17 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[hasNext](#hasnext)|Boolean|Returns a Boolean value that determines if this iterator has more campaign elements.
+[hasNext](#hasnext)|Boolean|Returns a Boolean value that determines if this iterator has more elements.
 [next](#next)|[Campaign](./Campaign)|Advances to the next campaign in this iterator and returns it.
-[totalNumEntities](#totalnumentities)|int|Returns the total number of campaigns indexed by this iterator.
+[totalNumEntities](#totalnumentities)|int|Returns the number of campaigns matched by the selector which generated this iterator.
 
 ## <a name="hasnext"></a>hasNext
-Returns a Boolean value that determines if this iterator has more campaign elements.
+Returns a Boolean value that determines if this iterator has more elements.
 
 ### Returns:
 |Type|Description|
 |-|-
-Boolean|Boolean value that determines if this iterator has more campaign elements.
+Boolean|Boolean value that determines if this iterator has more elements.
 
 ## <a name="next"></a>next
 Advances to the next campaign in this iterator and returns it.
@@ -38,7 +38,7 @@ Advances to the next campaign in this iterator and returns it.
 [Campaign](./Campaign)|Next campaign in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the total number of campaigns indexed by this iterator. 
+Returns the number of campaigns matched by the selector which generated this iterator. 
 
 ### Returns:
 |Type|Description|

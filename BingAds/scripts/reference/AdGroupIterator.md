@@ -18,8 +18,8 @@ See also:
 |Method Name|Return Type|Description|
 |-|-|-
 [hasNext](#hasnext)|Boolean|Returns a Boolean value that determines if this iterator has more elements.
-[next](#next)|[AdGroup](./AdGroup)|Advances to the next ad group in the iterator and returns it.
-[totalNumEntities](#totalnumentities)|int|Returns the total number of ad groups indexed by the iterator.
+[next](#next)|[AdGroup](./AdGroup)|Advances to the next ad group in this iterator and returns it.
+[totalNumEntities](#totalnumentities)|int|Returns the number of ad groups matched by the selector which generated this iterator.
 
 ## <a name="hasnext"></a>hasNext
 Returns a Boolean value that determines if this iterator has more elements.
@@ -30,7 +30,7 @@ Returns a Boolean value that determines if this iterator has more elements.
 Boolean|Boolean value that determines if this iterator has more elements.
 
 ## <a name="next"></a>next
-Advances to the next ad group in the iterator and returns it.
+Advances to the next ad group in this iterator and returns it.
 
 ### Returns:
 |Type|Description|
@@ -38,10 +38,10 @@ Advances to the next ad group in the iterator and returns it.
 [AdGroup](./AdGroup)|Next ad group in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the total number of ad groups indexed by the iterator. 
+Returns the number of ad groups matched by the selector which generated this iterator. 
 
 ### Returns:
 |Type|Description|
 |-|-
-int|Number of ad groups matched by the selector that generated the iterator.
+int|Number of ad groups matched by the selector which generated this iterator.
 

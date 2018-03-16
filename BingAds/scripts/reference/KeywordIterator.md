@@ -19,17 +19,17 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[hasNext](#hasnext)|Boolean|Returns a Boolean value that determines if this iterator has more keyword elements.
+[hasNext](#hasnext)|Boolean|Returns a Boolean value that determines if this iterator has more elements.
 [next](#next)|[Keyword](./Keyword)|Advances to the next keyword in this iterator and returns it.
-[totalNumEntities](#totalnumentities)|int|Returns the total number of keywords indexed by this iterator.
+[totalNumEntities](#totalnumentities)|int|Returns the number of keywords matched by the selector which generated this iterator.
 
 ## <a name="hasnext"></a>hasNext
-Returns a Boolean value that determines if this iterator has more keyword elements.
+Returns a Boolean value that determines if this iterator has more elements.
 
 ### Returns:
 |Type|Description|
 |-|-
-Boolean|Boolean value that determines if this iterator has more keyword elements.
+Boolean|Boolean value that determines if this iterator has more elements.
 
 ## <a name="next"></a>next
 Advances to the next keyword in this iterator and returns it.
@@ -40,7 +40,7 @@ Advances to the next keyword in this iterator and returns it.
 [Keyword](./Keyword)|Next keyword in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the total number of keywords indexed by this iterator. 
+Returns the number of keywords matched by the selector which generated this iterator. 
 
 ### Returns:
 |Type|Description|
