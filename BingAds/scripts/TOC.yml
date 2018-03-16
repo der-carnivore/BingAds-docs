@@ -8,12 +8,12 @@
       href: /bingads/scripts/concepts/authorization
     - name: Preview Mode
       href: /bingads/scripts/concepts/preview-mode
-    - name: Builders
-      href: /bingads/scripts/concepts/builders
     - name: Selectors
       href: /bingads/scripts/concepts/selectors      
     - name: Iterators
       href: /bingads/scripts/concepts/iterators
+    - name: Builders
+      href: /bingads/scripts/concepts/builders       
 - name: Examples
   href: /bingads/scripts/examples/
   items:
