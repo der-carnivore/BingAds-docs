@@ -31,10 +31,11 @@ while (campaignIterator.hasNext()) {
 ```
 
 See also:
-- [AdGroupIterator](./AdGroupIterator)
-- [CampaignIterator](./CampaignIterator)
-- [KeywordIterator](./KeywordIterator)
-- 
+- [AdGroupIterator](../reference/AdGroupIterator)
+- [CampaignIterator](../reference/CampaignIterator)
+- [KeywordIterator](../reference/KeywordIterator)
+- [NegativeKeywordListIterator](../reference/NegativeKeywordListIterator)
+
 ### Next Steps
 
 > [!div class="nextstepaction"]

@@ -37,9 +37,10 @@ var campaignSelector = BingAdsApp.campaigns()
 To improve script performance, use specific filter conditions to ensure that you retrieve only the entities you want. After getting the selector, call the `get` method to retrieve an iterator that you use to iterate through the list of entities.
 
 See also:
-- [AdGroupSelector](./AdGroupSelector)
-- [CampaignSelector](./CampaignSelector)
-- [KeywordSelector](./KeywordSelector)
+- [AdGroupSelector](../reference/AdGroupSelector)
+- [CampaignSelector](../reference/CampaignSelector)
+- [KeywordSelector](../reference/KeywordSelector)
+- [NegativeKeywordListSelector](../reference/NegativeKeywordListSelector)
 
 ### Next Steps
 
