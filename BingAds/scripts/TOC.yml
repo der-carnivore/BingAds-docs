@@ -67,6 +67,8 @@
           href: ./reference/KeywordBuilder
         - name: KeywordIterator
           href: ./reference/KeywordIterator
+        - name: KeywordOperation
+          href: ./reference/KeywordOperation
         - name: KeywordSelector
           href: ./reference/KeywordSelector
         - name: KeywordUrls
