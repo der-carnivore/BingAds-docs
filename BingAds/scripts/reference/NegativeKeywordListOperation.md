@@ -3,25 +3,25 @@ Represents the definition of a negative keywords list constructed via [NegativeK
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[getErrors](#geterrors)|String[]|Returns an empty array if the negative keyword list is successfully created; otherwise, it contains the list of errors.
-[getResult](#getresult)|[NegativeKeywordList](./NegativeKeywordList)|Returns the newly created NegativeKeywordList, otherwise returns null if the operation failed.
+[getErrors](#geterrors)|String[]|Returns an empty array if the negative keywords list is successfully created; otherwise, it contains the list of errors.
+[getResult](#getresult)|[NegativeKeywordList](./NegativeKeywordList)|Returns the newly created negative keywords list, otherwise returns null if this operation failed to execute.
 [isSuccessful](#issuccessful)|Boolean|Returns a Boolean value that determines if this operation was successful.
 
 ## <a name="geterrors"></a>getErrors
-Returns an empty array if the negative keyword list is successfully created; otherwise, it contains the list of errors.
+Returns an empty array if the negative keywords list is successfully created; otherwise, it contains the list of errors.
 
 ### Returns:
 |Type|Description|
 |-|-
-String[]|Errors that occurred while creating the negative keyword list.
+String[]|An empty array if the negative keywords list is successfully created; otherwise, it contains the list of errors.
 
 ## <a name="getresult"></a>getResult
-Returns the newly created NegativeKeywordList, otherwise returns null if the operation failed.
+Returns the newly created negative keywords list, otherwise returns null if this operation failed to execute.
 
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordList](./NegativeKeywordList)|NegativeKeywordList created by the NegativeKeywordListOperation.
+[NegativeKeywordList](./NegativeKeywordList)|Newly created negative keywords list, otherwise returns null if this operation failed to execute.
 
 ## <a name="issuccessful"></a>isSuccessful
 Returns a Boolean value that determines if this operation was successful.
