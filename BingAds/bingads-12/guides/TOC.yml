@@ -487,24 +487,34 @@
         items: 
         - name: Account
           href: ../bulk-service/account.md
+          displayName: BulkAccount
         - name: Account App Ad Extension
           href: ../bulk-service/account-app-ad-extension.md
+          displayName: BulkAccountAppAdExtension
         - name: Account Callout Ad Extension
           href: ../bulk-service/account-callout-ad-extension.md
+          displayName: BulkAccountCalloutAdExtension
         - name: Account Image Ad Extension
           href: ../bulk-service/account-image-ad-extension.md
+          displayName: BulkAccountImageAdExtension
         - name: Account Location Ad Extension
           href: ../bulk-service/account-location-ad-extension.md
+          displayName: BulkAccountLocationAdExtension
         - name: Account Price Ad Extension
           href: ../bulk-service/account-price-ad-extension.md
+          displayName: BulkAccountPriceAdExtension
         - name: Account Review Ad Extension
           href: ../bulk-service/account-review-ad-extension.md
+          displayName: BulkAccountReviewAdExtension
         - name: Account Sitelink Ad Extension
           href: ../bulk-service/account-sitelink-ad-extension.md
+          displayName: BulkAccountSitelinkAdExtension
         - name: Account Structured Snippet Ad Extension
           href: ../bulk-service/account-structured-snippet-ad-extension.md
+          displayName: BulkAccountStructuredSnippetAdExtension
         - name: Ad Group
           href: ../bulk-service/ad-group.md
+          displayName: BulkAdGroup
         - name: Ad Group Age Criterion
           href: ../bulk-service/ad-group-age-criterion.md
         - name: Ad Group App Ad Extension
@@ -637,14 +647,19 @@
           href: ../bulk-service/in-market-audience.md
         - name: Keyword
           href: ../bulk-service/keyword.md
+          displayName: BulkKeyword
         - name: Keyword Best Position Bid
           href: ../bulk-service/keyword-best-position-bid.md
+          displayName: BulkKeyword
         - name: Keyword First Page Bid
           href: ../bulk-service/keyword-first-page-bid.md
+          displayName: BulkKeyword
         - name: Keyword Label
           href: ../bulk-service/keyword-label.md
+          displayName: BulkKeyword
         - name: Keyword Main Line Bid
           href: ../bulk-service/keyword-main-line-bid.md
+          displayName: BulkKeyword
         - name: Label
           href: ../bulk-service/label.md
         - name: Location Ad Extension
