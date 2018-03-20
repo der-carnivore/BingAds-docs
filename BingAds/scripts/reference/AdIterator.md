@@ -1,6 +1,5 @@
 # AdIterator
-Provides methods to iterate through ads.
-
+Provides methods to iterate through a list of ads. For information about Iterators, see [Iterators](../concepts/iterators).
 
 Example usage:
 ```javascript
