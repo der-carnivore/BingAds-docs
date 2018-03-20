@@ -36,9 +36,7 @@ Advances to the next ad in this iterator and returns it.
 [Ad](./Ad)|Next ad in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the number of ads matched by the selector which generated this iterator. The returned number disregards limits, and the iterator is not guaranteed to have this many elements.
-
-hasNext will start to return false and next will start to throw exceptions when the limit for entity reads has been reached, even if the selector matched more entities.
+Returns the number of ads matched by the selector which generated this iterator. [!INCLUDE[reads-limit](./includes/reads-limit.md)]
 
 ### Returns:
 |Type|Description|

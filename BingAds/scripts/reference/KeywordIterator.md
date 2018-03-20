@@ -40,7 +40,7 @@ Advances to the next keyword in this iterator and returns it.
 [Keyword](./Keyword)|Next keyword in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the number of keywords matched by the selector which generated this iterator. 
+Returns the number of keywords matched by the selector which generated this iterator. [!INCLUDE[reads-limit](./includes/reads-limit.md)]
 
 ### Returns:
 |Type|Description|
