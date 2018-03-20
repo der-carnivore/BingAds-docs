@@ -42,7 +42,16 @@ Sets the ad group's bidding strategy.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-biddingStrategy|String|Bidding strategy of the ad group. For more information, see [Bid Strategy Types](/bingads/guides/budget-bid-strategies#bidstrategytypes).<br />
+biddingStrategy|String|Bidding strategy of the ad group. Possible values are:<br />
+<ul>
+  <li>ManualCpc</li>
+  <li>MaxClicks</li>
+  <li>MaxConversions</li>
+  <li>EnhancedCpc</li>
+  <li>TargetCpa</li>
+</ul>
+
+For more information, see [Bid Strategy Types](/bingads/guides/budget-bid-strategies#bidstrategytypes).
 ### Returns:
 |Type|Description|
 |-|-
