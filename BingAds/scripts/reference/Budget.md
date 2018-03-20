@@ -22,6 +22,8 @@ Returns the delivery method for this budget.  Possible return values are:
 - STANDARD
 - ACCELERATED
 
+For more information, see [What are my budget options?](https://help.bingads.microsoft.com/#apex/3/en/51006/1).
+
 
 ### Returns:
 |Type|Description|
@@ -45,6 +47,8 @@ Set the delivery method for this budget. Supported values are:
 
 - STANDARD
 - ACCELERATED
+
+For more information, see [What are my budget options?](https://help.bingads.microsoft.com/#apex/3/en/51006/1).
 
 
 ### Arguments:
