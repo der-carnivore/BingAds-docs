@@ -41,11 +41,15 @@ void|Returns nothing.
 ## <a name="getbiddingstrategytype"></a>getBiddingStrategyType
 Returns the campaign's bidding strategy. Possible return values are:
 
-- MANUAL_CPC
-- MANUAL_CPM
-- BUDGET_OPTIMIZER
-- CONVERSION_OPTIMIZER
-- PERCENT_CPA
+<ul>
+  <li>ManualCpc</li>
+  <li>MaxClicks</li>
+  <li>MaxConversions</li>
+  <li>EnhancedCpc</li>
+  <li>TargetCpa</li>
+</ul>
+
+For more information, see [Bid Strategy Types](/bingads/guides/budget-bid-strategies#bidstrategytypes).
 
 
 ### Returns:
