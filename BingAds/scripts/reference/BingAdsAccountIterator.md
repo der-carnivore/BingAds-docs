@@ -28,7 +28,7 @@ Advances to the next account in this iterator and returns it.
 [BingAdsAccount](./BingAdsAccount)|Next account in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the number of accounts matched by the selector which generated this iterator. [!INCLUDE[reads-limit](./includes/reads-limit.md)]
+Returns the number of accounts matched by the selector which generated this iterator. [!INCLUDE[reads-limit](../includes/reads-limit.md)]
 
 ### Returns:
 |Type|Description|

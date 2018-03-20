@@ -38,7 +38,7 @@ Advances to the next campaign in this iterator and returns it.
 [Campaign](./Campaign)|Next campaign in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the number of campaigns matched by the selector which generated this iterator. [!INCLUDE[reads-limit](./includes/reads-limit.md)]
+Returns the number of campaigns matched by the selector which generated this iterator. [!INCLUDE[reads-limit](../includes/reads-limit.md)]
 
 ### Returns:
 |Type|Description|

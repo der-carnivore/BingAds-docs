@@ -38,7 +38,7 @@ Advances to the next ad group in this iterator and returns it.
 [AdGroup](./AdGroup)|Next ad group in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the number of ad groups matched by the selector which generated this iterator. [!INCLUDE[reads-limit](./includes/reads-limit.md)]
+Returns the number of ad groups matched by the selector which generated this iterator. [!INCLUDE[reads-limit](../includes/reads-limit.md)]
 
 ### Returns:
 |Type|Description|

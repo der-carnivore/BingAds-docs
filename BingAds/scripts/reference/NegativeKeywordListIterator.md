@@ -38,7 +38,7 @@ Advances to the next negative keywords list in this iterator and returns it.
 [AdGroup](./AdGroup)|Next negative keywords list in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the number of negative keywords lists matched by the selector which generated this iterator. [!INCLUDE[reads-limit](./includes/reads-limit.md)]
+Returns the number of negative keywords lists matched by the selector which generated this iterator. [!INCLUDE[reads-limit](../includes/reads-limit.md)]
 
 ### Returns:
 |Type|Description|
