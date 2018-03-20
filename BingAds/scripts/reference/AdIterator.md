@@ -15,35 +15,33 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[hasNext](#hasnext)|boolean|Returns <br />
-[next](#next)|[Ad](./Ad)|Advances to the next ad in this iterator and returns it.<br />
-[totalNumEntities](#totalnumentities)|int|Returns the total number of ads indexed by this iterator.
+[hasNext](#hasnext)|boolean|Returns a Boolean value that determines if this iterator has more elements.
+[next](#next)|[Ad](./Ad)|Advances to the next ad in this iterator and returns it.
+[totalNumEntities](#totalnumentities)|int|Returns the number of ads matched by the selector which generated this iterator.
 
 ## <a name="hasnext"></a>hasNext
-Returns 
-
+Returns a Boolean value that determines if this iterator has more elements.
 
 ### Returns:
 |Type|Description|
 |-|-
-boolean|true if the iterator has more elements.
+boolean|Boolean value that determines if this iterator has more elements.
 
 ## <a name="next"></a>next
 Advances to the next ad in this iterator and returns it.
 
-
 ### Returns:
 |Type|Description|
 |-|-
-[Ad](./Ad)|The next ad in the iterator.
+[Ad](./Ad)|Next ad in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
-Returns the total number of ads indexed by this iterator. The returned number disregards limits, and the iterator is not guaranteed to have this many elements.
+Returns the number of ads matched by the selector which generated this iterator. The returned number disregards limits, and the iterator is not guaranteed to have this many elements.
 
 hasNext will start to return false and next will start to throw exceptions when the limit for entity reads has been reached, even if the selector matched more entities.
 
 ### Returns:
 |Type|Description|
 |-|-
-int|The number of ads matched by the selector which generated this iterator.
+int|Number of ads matched by the selector which generated this iterator.
 
