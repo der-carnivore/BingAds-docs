@@ -1,6 +1,6 @@
 ---
 title: "Bing Ads Scripts Preview Mode"
-description: "Describes how preview mode works in the Bing Ads Scripts system."
+description: "Describes how preview mode works in Bing Ads Scripts."
 author: "brapel"
 manager: ehansen
 

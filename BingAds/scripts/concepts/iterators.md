@@ -1,6 +1,6 @@
 ---
 title: "Bing Ads Scripts Iterators"
-description: "Describes how iterators work in the Bing Ads Scripts system."
+description: "Describes how iterators work in Bing Ads Scripts."
 author: "brapel"
 manager: ehansen
 

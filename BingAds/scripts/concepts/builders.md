@@ -1,6 +1,6 @@
 ---
 title: "Bing Ads Scripts Builders"
-description: "Describes how builders work in the Bing Ads Scripts system."
+description: "Describes how builders work in Bing Ads Scripts."
 author: "brapel"
 manager: ehansen
 

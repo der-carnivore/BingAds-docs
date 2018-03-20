@@ -1,6 +1,6 @@
 ---
 title: "Bing Ads Scripts Selectors"
-description: "Describes how selectors work in the Bing Ads Scripts system."
+description: "Describes how selectors work in Bing Ads Scripts."
 author: "brapel"
 manager: ehansen
 
