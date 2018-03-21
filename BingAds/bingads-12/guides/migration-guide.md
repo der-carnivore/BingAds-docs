@@ -123,7 +123,11 @@ Bulk download of performance data is no longer supported. The EntityPerformanceD
 #### <a name="bulk-audiencetargetingsetting"></a>Audience Targeting Setting
 The *Remarketing Targeting Setting* field of an [Ad Group](../bulk-service/ad-group.md) is removed.
 
-To determine whether the audience association is bid only or target and bid, use the *TargetSetting* field of an [Ad Group](../bulk-service/ad-group.md). The setting is applicable for all audiences associated with the ad group, including but not limited to remarketing lists. 
+To determine whether the audience association is bid only or target and bid, use the [Target Setting](../bulk-service/ad-group.md#targetsetting) field of an [Ad Group](../bulk-service/ad-group.md). The setting is applicable for all audiences associated with the ad group, including but not limited to remarketing lists. 
+
+In version 11 to set the "target and bid" option you would have set the *Remarketing Targeting Setting* field to *TargetAndBid*. To set the "target and bid" option in version 12, include the *Audience* value in the new [Target Setting](../bulk-service/ad-group.md#targetsetting) field. 
+
+In version 11 to set the "bid only" option you would have set the *Remarketing Targeting Setting* field to *BidOnly*. To set the "bid only" option in version 12, exclude the *Audience* value from the new [Target Setting](../bulk-service/ad-group.md#targetsetting) field. To update from "target and bid" to "bid only" you'll need to explicitly remove the "target and bid" option e.g., set the [Target Setting](../bulk-service/ad-group.md#targetsetting) field to "delete_value". For more details please see [Target Setting](../bulk-service/ad-group.md#targetsetting). 
 
 #### <a name="bulk-sunset-content"></a>Content Ad Distribution
 The Content ad distribution is no longer supported in Bing Ads, and the *Content Bid*, *Content Network*, and *Search Network* fields of an [Ad Group](../bulk-service/ad-group.md) are removed from version 12. The ad distribution is effectively determined by the campaign type e.g., Search or Audience campaigns. The *Search Bid* field of an [Ad Group](../bulk-service/ad-group.md) is renamed *Cpc Bid*.
