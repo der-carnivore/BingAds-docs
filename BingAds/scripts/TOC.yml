@@ -93,25 +93,24 @@
           href: ./reference/NegativeKeywordListSelector
         - name: Stats
           href: ./reference/Stats
-    - name: Multiple Accounts
-      href: ./reference/AccountsApp
-      items:
-        - name: AccountsApp
-          href: ./reference/AccountsApp
-        - name: BingAdsAccount
-          href: ./reference/BingAdsAccount
-        - name: BingAdsAccountIterator
-          href: ./reference/BingAdsAccountIterator
-        - name: BingAdsAccountSelector
-          href: ./reference/BingAdsAccountSelector
-    - name: Spreadsheets
-      href: ./reference/SpreadsheetApp
-      items:
-        - name: Range
-          href: ./reference/Range
-        - name: Sheet
-          href: ./reference/Sheet
-        - name: Spreadsheet
-          href: ./reference/Spreadsheet
-        - name: SpreadsheetApp
-          href: ./reference/SpreadsheetApp      
+#    - name: Multiple Accounts
+#      href: ./reference/AccountsApp
+#      items:
+#        - name: AccountsApp
+#          href: ./reference/AccountsApp
+#        - name: BingAdsAccount
+#        - name: BingAdsAccountIterator
+#          href: ./reference/BingAdsAccountIterator
+#        - name: BingAdsAccountSelector
+#          href: ./reference/BingAdsAccountSelector
+#    - name: Spreadsheets
+#      href: ./reference/SpreadsheetApp
+#      items:
+#        - name: Range
+#          href: ./reference/Range
+#        - name: Sheet
+#          href: ./reference/Sheet
+#        - name: Spreadsheet
+#          href: ./reference/Spreadsheet
+#        - name: SpreadsheetApp
+#          href: ./reference/SpreadsheetApp      
