@@ -25,7 +25,6 @@ Follow these instructions to create your first Bing Ads script.
                 keyword.getStatsFor("YESTERDAY").getImpressions());
         }
     }
-    main();
     ```
 
 6. To execute the script in [preview mode](./concepts/preview-mode), click **Preview**.
