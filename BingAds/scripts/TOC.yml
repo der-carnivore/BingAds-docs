@@ -43,7 +43,9 @@
           href: ./reference/AdGroupSelector
         - name: AdGroupUrls
           href: ./reference/AdGroupUrls
-        - name: AdOperation
+        - name: AdIterator
+          href: ./reference/AdIterator
+          - name: AdOperation
           href: ./reference/AdOperation
         - name: AdSelector
           href: ./reference/AdSelector
