@@ -12,5 +12,3 @@ The following are the top-level objects that you use to access your Bing Ads ent
 |Object|Description|
 |-|-
 [BingAdsApp](./reference/BingAdsApp)|Provides methods to access different entities such as campaigns and keywords for a single Bing Ads account.
-[AccountsApp](./reference/AccountsApp)|Provides methods to manage multiple Bing Ads accounts.
-[SpreadsheetApp](./reference/SpreadsheetApp)|Provides methods to open and create spreadsheets on OneDrive.
