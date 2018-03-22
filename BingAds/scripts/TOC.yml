@@ -7,13 +7,21 @@
     - name: Authorization
       href: /bingads/scripts/concepts/authorization
     - name: Preview Mode
-      href: /bingads/scripts/concepts/preview-mode
+      href: /bingads/scripts/concepts/preview-mode          
     - name: Selectors
       href: /bingads/scripts/concepts/selectors      
     - name: Iterators
       href: /bingads/scripts/concepts/iterators
     - name: Builders
-      href: /bingads/scripts/concepts/builders       
+      href: /bingads/scripts/concepts/builders
+- name: Guides
+  items:
+    - name: Main Function
+      href: /bingads/scripts/guides/main-function    
+    - name: Errors and Warnings
+      href: /bingads/scripts/guides/errors-and-warnings
+    - name: Changes and Text Logs
+      href: /bingads/scripts/guides/changes-and-text-logs
 - name: Examples
   href: /bingads/scripts/examples/
   items:
@@ -61,6 +69,8 @@
           href: ./reference/CampaignSelector
         - name: CampaignUrls
           href: ./reference/CampaignUrls
+        - name: ExecutionInfo
+          href: ./reference/ExecutionInfo
         - name: ExpandedTextAd
           href: ./reference/ExpandedTextAd
         - name: ExpandedTextAdBuilder
