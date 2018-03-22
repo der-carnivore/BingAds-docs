@@ -20,7 +20,7 @@ Defines a campaign.
     <xs:element minOccurs="0" name="BudgetType" nillable="true" type="tns:BudgetLimitType" />
     <xs:element minOccurs="0" name="DailyBudget" nillable="true" type="xs:double" />
     <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q6:ArrayOfKeyValuePairOfstringstring" xmlns:q6="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q4:ArrayOfKeyValuePairOfstringstring" xmlns:q4="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="NativeBidAdjustment" nillable="true" type="xs:int" />
@@ -28,11 +28,11 @@ Defines a campaign.
     <xs:element minOccurs="0" name="SubType" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="TimeZone" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="q7:CustomParameters" xmlns:q7="http://schemas.datacontract.org/2004/07/Microsoft.AdCenter.Advertiser.CampaignManagement.Api.DataContracts.V12" />
+    <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />
     <xs:element minOccurs="0" name="CampaignType" nillable="true" type="tns:CampaignType" />
     <xs:element minOccurs="0" name="Settings" nillable="true" type="tns:ArrayOfSetting" />
     <xs:element minOccurs="0" name="BudgetId" nillable="true" type="xs:long" />
-    <xs:element minOccurs="0" name="Languages" nillable="true" type="q8:ArrayOfstring" xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <xs:element minOccurs="0" name="Languages" nillable="true" type="q5:ArrayOfstring" xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   </xs:sequence>
 </xs:complexType>
 ```

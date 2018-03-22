@@ -20,7 +20,7 @@ Defines an ad group.
     <xs:element minOccurs="0" name="BiddingScheme" nillable="true" type="tns:BiddingScheme" />
     <xs:element minOccurs="0" name="CpcBid" nillable="true" type="tns:Bid" />
     <xs:element minOccurs="0" name="EndDate" nillable="true" type="tns:Date" />
-    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q17:ArrayOfKeyValuePairOfstringstring" xmlns:q17="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    <xs:element minOccurs="0" name="ForwardCompatibilityMap" nillable="true" type="q14:ArrayOfKeyValuePairOfstringstring" xmlns:q14="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
     <xs:element minOccurs="0" name="Id" nillable="true" type="xs:long" />
     <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
     <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -38,7 +38,7 @@ Defines an ad group.
     <xs:element minOccurs="0" name="StartDate" nillable="true" type="tns:Date" />
     <xs:element minOccurs="0" name="Status" nillable="true" type="tns:AdGroupStatus" />
     <xs:element minOccurs="0" name="TrackingUrlTemplate" nillable="true" type="xs:string" />
-    <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="q18:CustomParameters" xmlns:q18="http://schemas.datacontract.org/2004/07/Microsoft.AdCenter.Advertiser.CampaignManagement.Api.DataContracts.V12" />
+    <xs:element minOccurs="0" name="UrlCustomParameters" nillable="true" type="tns:CustomParameters" />
   </xs:sequence>
 </xs:complexType>
 ```
