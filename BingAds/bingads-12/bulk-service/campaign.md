@@ -47,7 +47,7 @@ For a *Campaign* record, the following attribute fields are available in the [Bu
 
 You can download all fields of the *Campaign* record by including the [DownloadEntity](downloadentity.md) value of *Campaigns* in the [DownloadCampaignsByAccountIds](downloadcampaignsbyaccountids.md) or [DownloadCampaignsByCampaignIds](downloadcampaignsbycampaignids.md) service request. Additionally the download request must include the [DataScope](datascope.md) value of *EntityData*. For more information, see [Bulk Download and Upload](../guides/bulk-download-upload.md).
 
-The following Bulk CSV example would add one campaign of each type i.e. Search and Content, Shopping, and Dynamic Search Ads campaign. 
+The following Bulk CSV example would add one campaign of each type i.e. Search, Shopping, and Dynamic Search Ads campaign. 
 
 ```csv
 Type,Status,Id,Parent Id,Campaign,Website,Client Id,Modified Time,Time Zone,Budget Id,Budget Name,Budget,Budget Type,Bid Adjustment,Name,Country Code,Store Id,Campaign Type,Priority,Tracking Template,Custom Parameter,Bid Strategy Type,Domain Language
@@ -320,7 +320,7 @@ The name of the campaign.
 ### <a name="campaigntype"></a>Campaign Type
 The type of the campaign.
 
-The campaign type determines whether the campaign is a Bing Shopping campaign, Dynamic Search Ads campaign, or Search &amp; Content campaign. Possible values include *Shopping*, *DynamicSearchAds*, and *Search*.
+The campaign type determines whether the campaign is a Bing Shopping campaign, Dynamic Search Ads campaign, or Search campaign. Possible values include *Shopping*, *DynamicSearchAds*, and *Search*.
 
 **Add:** Optional. If not specified, then default value of *Search* is used and you cannot set Bing Shopping or Dynamic Search Ads campaign settings.  If the campaign type is *Shopping* then you must also include the *Country Code*, *Priority*, and *Store Id* fields. If the campaign type is *DynamicSearchAds* then you must also include the *Domain Language* and *Website* fields.  
 **Update:** Read-only  
@@ -465,11 +465,13 @@ To get your store identifiers, call the [GetBMCStoresByCustomerId](../campaign-m
 ### <a name="subtype"></a>Sub Type
 The campaign sub type.
 
+This field is only applicable for campaigns of type *Shopping*, and will be empty for all other campaign types.
+
 We are introducing Cooperative campaigns during calendar year 2018 as a sub type of Bing Shopping campaigns. More details about Cooperative campaigns are coming soon, and whether or not you plan to adopt Cooperative campaigns, you might need to make code changes if your application supports any Bing Shopping campaigns.
 
-When you download campaigns and the *Campaign Type* field is set to *Shopping*, please check the *SubType* of each campaign. If the *SubType* is not set then it is a standard Bing Shopping campaign. If the value is set to *CoOp*, the campaign is a Cooperative campaign with different requirements.  
+When you download campaigns and the *Campaign Type* field is set to *Shopping*, please check the *SubType* of each campaign. If the *SubType* is not set then it is a standard Bing Shopping campaign. If the value is set to *ShoppingCoOperative*, the campaign is a Cooperative campaign with different requirements.  
 
-**Add:** Optional and not applicable for most campaign types. For Cooperative campaigns you must set the sub type to *CoOp*.  
+**Add:** Optional and not applicable for most campaign types. For Cooperative campaigns you must set the sub type to *ShoppingCoOperative*.  
 **Update:** Read-only  
 **Delete:** Read-only  
 
