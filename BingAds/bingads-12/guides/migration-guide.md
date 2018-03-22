@@ -166,6 +166,8 @@ The production endpoint is [https://campaign.api.bingads.microsoft.com/Api/Adver
 
 The sandbox endpoint is [https://campaign.api.sandbox.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v12/CampaignManagementService.svc](https://campaign.api.sandbox.bingads.microsoft.com/Api/Advertiser/CampaignManagement/v12/CampaignManagementService.svc).
 
+#### <a name="campaign-datacontractnamespace"></a>Data Contract Namespace
+The data contract namespace in version 11 referenced the AdCenter namespace. For clients who encode the SOAP envelope e.g. PHP clients who encode a `SoapVar` for [Webpage](../campaign-management-service/webpage.md), you'll need to update from `http://schemas.datacontract.org/2004/07/Microsoft.AdCenter.Advertiser.CampaignManagement.Api.DataContracts.V11` to the Campaign Management Version 12 target namespace i.e., `https://bingads.microsoft.com/CampaignManagement/v12`. 
 
 #### <a name="campaign-returnadditionalfields"></a>Return Additional Fields
 The *ReturnAdditionalFields* element is removed from the [GetAdGroupsByCampaignId](../campaign-management-service/getadgroupsbycampaignid.md),[GetAdGroupsByIds](../campaign-management-service/getadgroupsbyids.md), [GetAudiencesByIds](../campaign-management-service/getaudiencesbyids.md), [GetKeywordsByAdGroupId](../campaign-management-service/getkeywordsbyadgroupid.md), [GetKeywordsByEditorialStatus](../campaign-management-service/getkeywordsbyeditorialstatus.md), and [GetKeywordsByIds](../campaign-management-service/getkeywordsbyids.md) request messages, and the corresponding elements of each [AdGroup](../campaign-management-service/adgroup.md), [Audience](../campaign-management-service/audience.md), and [Keyword](../campaign-management-service/keyword.md) are returned by default.
