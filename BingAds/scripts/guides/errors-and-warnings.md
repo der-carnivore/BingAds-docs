@@ -11,7 +11,7 @@ ms.topic: "article"
 
 # Errors and Warnings
 
-Scripts in Bing Ads Scripts attempt to make changes to Bing Ads data, if certain operations fail, messages are logged to the changes log and execution continues. For example, the following code attempts to set a campaign's budget amount to an invalid value.
+Scripts in Bing Ads Scripts attempt to make changes to Bing Ads data, if certain operations fail, messages are logged to the [Changes Log](./changes-and-text-logs#changes-log) and execution continues. For example, the following code attempts to set a campaign's budget amount to an invalid value.
 
 ```javascript
 function main() {
@@ -24,7 +24,7 @@ function main() {
 }
 ```
 
-Other errors, such as runtime errors or entity retrieval failures will cause script execution to stop. When this happens the error message is output to the text logs. For example, the following code attempts to call a function that does not exist.
+Other errors, such as runtime errors or entity retrieval failures will cause script execution to stop. When this happens the error message is output to the [Text Log](./changes-and-text-logs#text-log). For example, the following code attempts to call a function that does not exist.
 
 ```javascript
 function main() {
